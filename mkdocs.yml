@@ -1,0 +1,117 @@
+site_name: Releases
+site_description: APIsec Release Notes
+copyright: Copyright &copy; APIsec Inc.
+
+
+# Configuration
+theme:
+  features:
+    - tabs
+  name: material
+
+
+  # 404 page
+  static_templates:
+    - 404.html
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: false
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  palette:
+    scheme: slate
+    primary: teal
+    extra_css:
+      - stylesheets/extra.css
+
+  font:
+    text: Nunito Sans
+    code: Roboto Mono
+  favicon: static/favicon.png
+  
+  icon:
+    admonition:
+      warning: octicons/shield-check-16
+
+  logo: assets/apisec-logo.svg
+
+# Plugins
+plugins:
+  - search
+
+# Google Analytics
+
+google_analytics:
+  - 306022893
+  - auto
+
+extra_javascript:
+  - javascripts/feedback.js
+
+# Customization
+extra:
+  analytics: 
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: https://apisec.ai
+  generator: false
+
+
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+# Page tree
+nav:
+    - index.md
+    - index2.md
+    - index3.md
