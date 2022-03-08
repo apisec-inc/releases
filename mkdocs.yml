@@ -4,7 +4,8 @@ copyright: Copyright &copy; APIsec Inc.
 
 # Repository
 repo_name: Apisec/Releases
-repo_url: https://github.com/apisec-inc/releases
+repo_url: https://apisec.ai
+# https://github.com/apisec-inc/releases
 edit_uri: ""
 
 
@@ -118,5 +119,5 @@ markdown_extensions:
 # Page tree
 nav:
     - index.md
-    - index2.md
-    - index3.md
+    - apisec-enterprise.md
+    - apisec-ethicalcheck.md
