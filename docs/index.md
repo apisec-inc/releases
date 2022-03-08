@@ -1,8 +1,15 @@
+
+
 # APIsec Cloud
+
+###### APIsec - API Security Platform - https://apisec.ai
+###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
+
+
 
 ## APIsec - Feb 23rd, 2022
 
-!!! success "Security"
+!!! danger "Security"
 
 	- Playbook sync issue with inactive user fixed.
 
@@ -14,7 +21,7 @@
 	- Faster Playbook Generation - 15% performance improvement 
 	- Propagate headers in activity list format are in badge style now. 
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Playbook sync issue with inactive user fixed.
 	- Propagate assertion message fixed.
@@ -38,39 +45,52 @@
 	- APIsec converter will now register the password protected spec urls.
 	e.g. https://<Username>:<Password>@<URL>
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Scan details page refresh button improved
 	- Available license validation improved on UI
 	- Notification icon hidden for non-admin users
 
 ## APIsec - Jan 20th, 2022
+!!! danger "Security"
+
+	- Basic test auth issue fixed.
+	- CVSS score null issue and test creds validation issue fixed.
+	- Sensitive data exposure L2 variable injection fix
+
+
 !!! tip "Features"
 
 	- Log4j category introduced: The Log4j vulnerability allows malicious attackers to execute code remotely on any targeted computer. 
 	- Skip Filing Vulnerability feature launched: This feature will allow you to skip the vulnerabilities for selected categories.
 	- Filter added for managed playbooks: This will allow users to filter the playbooks by bot or user. 
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Page break 404 error on payloads tab fixed.
 	- Page break 404 error on invite guest user fixed.
 	- Test and save all auth bugs fixed.
 	- Delete env button hidden for master environment, this is an improvement.
-	- CVSS score null issue and test creds validation issue fixed.
 	- Default values (status and active) removed for the new auth before saving.
-	- Basic test auth issue fixed.
 	- The High severity color changed to orange.
 	- Snack bar messages remodified for bulk auth and test all auth.
-	- Sensitive data exposure L2 variable injection fix
 
 ## APIsec - Jan 12th, 2022
+
+!!! danger "Security"
+	- Jira bug logging issue fixed.
+	- Reset password issue fix.
+	- Injection strings in post playbooks are fixed.
+	- Invalid Auth SQL Injection fix.
+ 	- Injections are fixed for Windows, Linux and XSS.
+
+
 !!! tip "Features"
 
 	- Notification feature launched: Track all the required product information (e.g. project credentials not working etc)
 	- Forgot password feature enhanced.
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Autocomplete off for environment auth fields.
 	- Issuetracker issue fix, the creds disappear when a new environment is selected.
@@ -91,7 +111,7 @@
 	- Error playbook count added to org dashboard.
 	- @EmptyValue added
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Error playbooks percentage upto 2 decimal values
 	- Jira IssueTracker null Issue ID in logs/wirelogs fix
@@ -118,13 +138,19 @@
 	- Replaced Coverage with Playbooks Count
 
 ## APIsec - Nov 30th, 2021
+
+!!! danger "Security"
+
+	- RBAC map error fix.
+
+
 !!! tip "Features"
 
 	- Payloads tab enhancement : Search by endpoint filter added on Default, injection and stored injection tab.
 	- Propagate payload : Propagating payload within the playbook will make changes in injection and stored injection categories and playbooks of respective categories will be regenerated automatically.
 	- Org-dashboard enhancement: Open vulnerabilities bar graph now showing monthly data.
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Corrected Log statement.
 	- Renamed org-name FXLabs to APIsec.
@@ -145,25 +171,29 @@
 	- Propagate payload message improved.
 	- Perf Metrics: Config Categories Module.
 	- Scan history New/Closed/Total Vulnerabilities count issue fix.
-	- RBAC map error fix.
 	- Added Non working playbooks count to Project.
 	- Error playbook percentage added on dashboard.
 
 ## APIsec - Nov 16th, 2021
-!!! tip "Features"
 
-	- CI/CD Jenkins :Added support for Email report after scan completion.
-	- Do
-	- Added custom angular modal window on Alerts.
+!!! danger "Security"
 
-!!! bug "Fixes"
-
-	- Details tab dialog window fix.
-	- Do not allow PWD authentication for OKTA enabled org users fix.
 	- Disabled new user feature for okta enabled org.
 	- Disabled the password reset for OKTA from the org-user page.
 	- Disabled the password reset for OKTA.
-	- Deactivating the playbook functionality  is deleting the playbook fix.
+	- Deactivating the playbook functionality is deleting the playbook fix.
+	- Password reset fix
+
+
+!!! tip "Features"
+
+	- CI/CD Jenkins :Added support for Email report after scan completion.
+	- Added custom angular modal window on Alerts.
+
+!!! success "Fixes"
+
+	- Details tab dialog window fix.
+	- Do not allow PWD authentication for OKTA enabled org users fix.
 	- After propagating headers, the activities log is displaying incorrect info fix.
 	- Project registration issue fix.
 	- ABAC 3 resource refresh fix.
@@ -184,11 +214,17 @@
 	- Added null checks.
 	- Raw file token ,file remain changes 
 	- Cronjob weekly once for new project
-	- Password reset fix
 	- Vulnerabilities details no longer accessible fix
 	- Updated readme 
 
 ## APIsec - Nov 8th, 2021
+
+!!! danger "security"
+
+	- Stored SQL injection type fix.
+	- SQL Injection category fix.
+
+
 !!! tip "Features"
 
 	- AI module integration : Implemented APIsec AI bot , It Intelligently detects severity and sorts type of vulnerability accordingly.
@@ -196,7 +232,7 @@
 	- Pagination added in the payloads tab.
 
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Loader added on signup page.
 	- Updated the title for RBAC vulnerabilities.
@@ -218,8 +254,6 @@
 	- Tooltip corrected.
 	- Payloads pagination fix.
 	- After propagating assertion & severity, we need to manually refresh the playbooks fix.
-	- Stored SQL injection type fix.
-	- SQL Injection category fix.
 	- Performance: Orgs-Users Module.
 	- Removed redundant object reference.
 	- ABAC3 Resource lock.
@@ -235,15 +269,20 @@
 	- CVSS score -- Fix.
 
 ## APIsec - Oct 26th, 2021
+
+!!! danger "Security"
+
+	- Page size decreased to 10 on the project dashboard.
+
+
 !!! tip "Features"
 
 	- Dialog enhancements: Browser dialog confirmation changed to custom angular material dialog.
 	- Propagate headers feature launched in the playbooks action items. Users should be able to propagate headers across the all the playbooks for the specific endpoint.
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Search security model accuracy fix.
-	- Page size decreased to 10 on the project dashboard.
 	- Serif converter updated in Github actions.
 	- Master env data on the dashboard remains after non-master env deleted fix.
 	- Shimmer effect added on default payloads page.
@@ -260,7 +299,7 @@
 	- New SQL & Stored SQL categories launched.
 	- Project search functionality added on the landing page.
 	
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Search activities by users are fixed.
 	- Playbook's deactivation issue fixed.
@@ -275,6 +314,14 @@
 	- Reports design refactor to support multiple file types.
 
 ## APIsec - Oct 13th, 2021
+
+!!! danger "Security"
+
+	- Invalid AuthSQL: get injection strings from security marketplace.
+	- Mark as unsecured error fix.
+	- Issue tracker pagination improvements.
+
+
 !!! tip "Features"
 
 	- WSO2 feature launched in API Gateway module - A next generation integration platform as a service for cloud native engineering.
@@ -285,7 +332,7 @@
 	- Scanner and date tile rearranged, moved it to the top.
 	- Expand collapse feature added in swagger editor page.
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Propagate severity and assertion issue fixed.
 	- False positives column removed from vulnerability table.
@@ -312,7 +359,6 @@
 	- Added logs in activities to show specs parse error.
 	- RBAC multi new line fix.
 	- Payloads search improvements.
-	- Invalid AuthSQL: get injection strings from security marketplace.
 	- Converter URLs moved to system settings.
 	- Edit action removed from activity log.
 	- Console error fix for system settings.
@@ -325,8 +371,6 @@
 	- Search improvement in security list.
 	- Added optional parameter tag in Scan API via script.
 	- Added project based search in activities.
-	- Issue tracker pagination improvements.
-	- Mark as unsecured error fix.
 	- Post execution delay added in the playbooks.
 	- Duplicate report names fix.
 	- Postman and RAML moved to new IP fix.
@@ -354,6 +398,12 @@
 
 
 ## APIsec - Sep 7th, 2021
+
+!!! danger "Security"
+
+	- Auth type certificate save action fix.
+
+
 !!! tip "Features"
 
 	- New feature "Download all project vulnerabilities" will now capture all open/closed vulnerabilities of the specific tenant.
@@ -365,13 +415,12 @@
 	- Register the API project without supplying the API, create your custom spec in OAS editor. API Documentation URL
 	- Delete/Cancel button added to bulk authentication.
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Scanner name changed from region to scanner name.
 	- The new environment stays on the same page instead of redirecting to master.
 	- Improvement fixes in RBAC and env auth test.
 	- Scan details page alignments fix.
-	- Auth type certificate save action fix.
 	- Bulk/Close archive vulnerabilities will now be redirected to the home page (fix).
 	- Check status model window fix.
 	- Custom category injection fix.
@@ -392,6 +441,12 @@
 	- Env name disappearing while deleting fixed.
 
 ## APIsec - Aug 23rd, 2021
+
+!!! danger "Security"
+
+	- Edit/Delete auth fix.
+	- Oracle stored sql injections fix.
+
 !!! tip "Features"
 	
 	- Consolidated action items in environment page.
@@ -403,17 +458,21 @@
 	Scanners name
 	OAS V1 editor launched in endpoints page.
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
-	- Edit/Delete auth fix.
 	- Add bulk auth enhancements.
 	- Sorting improvements in auth table.
 	- Request and Response logs added for XML support.
 	- False positive tile color changed to green in scan run details page.
 	- Status column removed from global dashboard.
-	- Oracle stored sql injections fix.
 
 ## APIsec - Aug 16th, 2021
+
+!!! danger "Security"
+	 - Private injection category fix.
+	 - Env Auths fixes.
+
+
 !!! tip "Features"
 
 	- APIs (Public, Mobile, IoT, Web) now changed to Secured APIs SecureAPIs
@@ -426,9 +485,8 @@
 	- Last scan badge removed and text muted in the project tiles. Last Scan
 	- Severity high & score color is now set to orange for ABAC categories in the vulnerabilities dashboard.
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
-	- Private injection category fix.
 	- Cosmetic column name changes in global scanner table.
 	- Uppercase applied for AWS in the scanners page.
 	- Columns rearranged in the project dashboard vuln table.
@@ -437,7 +495,7 @@
 	- Environments are editable now, edit option in the action menu.
 	- Ace color editor changed to single color in vulnerabilities details wirelog.
 	- Sorting added on env auth table.
-	- Env Auths fixes.
+	
 
 ## APIsec - Aug 9th, 2021
 !!! tip "Features"
@@ -446,7 +504,7 @@
 	- Vulnerability Report Download Enhancement: Vulns can be downloaded associated with the filters (Category & Severity).
 	- User Variable: User variable is now set to case sensitive
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Configuration tabs: Breadcrumb position sticky to make it visible while scrolling down.
 	- Category name alignment in scan history table.
@@ -472,7 +530,7 @@
 	- Project Dashboard: Project name trimmed and tooltip applied for a big text.
 	- Wirelogs: Color coding disabled to avoid confusion with red/green texts
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- GitBack sync: Individual and custom playbooks deletion fix.
 	- Close vulnerability count fix on dashboard.
@@ -481,15 +539,20 @@
 	- Free licenses removed from the product.
 
 ## APIsec - July 19th, 2021
+
+!!! danger "Security"
+
+	- Vault account fix.
+
+
 !!! tip "Features"
 	
 	- New style for project tabs: Project tabs moved to breadcrumb position. White background added & table size aligned.
 	- Dashboard enhancement: Dashboard changed to the project name with bold view.
 	- Org list: Created by column added into the org table and email notification.
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
-	- Vault account fix.
 	- Column alignments in ABAC categories.
 	- Clear the fields on change of account type - vault.
 	- User variable copy to clipboard fix.
@@ -513,7 +576,7 @@
 	- Test Credentials: Test credentials feature introduced for issue trackers.
 	- Non-OAS Spec: Introduced a page to view the original file loaded as OAS.
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Show less added in the advance section of project registration.
 	- Github data sync issue fixed.
@@ -522,6 +585,12 @@
 	- Typos fixed.
 
 ## APIsec - June 21st, 2021
+
+!!! danger "Security"
+
+	- Manage skip paths fix in Unsecured and AUTH categories.
+
+
 !!! tip "Features"
 
 	-	Categories pie chart: Categories pie chart made clickable, which takes you to the vuln management.
@@ -530,7 +599,7 @@
 	-	Payloads: Payloads tabs enhanced for easy access.
 	-	Snack bar: Playbook creation will now show the status on the snack bar.
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	-	Multiple headers are now supported for Auth.
 	-	New playbooks and activities page direction fixed.
@@ -544,9 +613,12 @@
 	-	Shimmer validation issue fixed under the details tab.
 	-	Date and owner name fix on project tile.
 	-	RBAC map open from dashboard fix.
-	-	Manage skip paths fix in Unsecured and AUTH categories.
 
 ## APIsec - June 15th, 2021
+
+!!! danger "Security"
+	- Injection fix in AuthNoSql category.
+	- Added content for a basic role in all the pages.
 !!! tip "Features"
 
 	- Activate/deactivate playbook: New action item introduced.
@@ -554,17 +626,21 @@
 	- License enhancements: License numbers enhanced for both free and paid.
 	- Angular version upgrade: Upgraded to version 12.
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- VC-Git consumer count increase to 10.
 	- Added basic role in the org user pages.
 	- Azure key encryption in the backend.
 	- URL page name changes.
-	- Injection fix in AuthNoSql category.
-	- Added content for a basic role in all the pages.
 	- Duplicate header content fix in the details tab.
 
 ## APIsec - June 7th, 2021
+
+!!! danger "Security"
+
+	- XSS Injection query param fix: Injection to be injected in query param strings.
+
+
 !!! tip "Features"
 
 	- Password validation: Confirm password field and strong password validation introduced on the free signup page.
@@ -574,15 +650,21 @@
 	- Beta tags: Beta tags removed from security marketplace and muted in issue trackers, ci/cd integrations, and categories.
 	- Bot: Large response truncated to 1 MB with notification text in wire logs.
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
-	- XSS Injection query param fix: Injection to be injected in query param strings.
 	- Duplicate outbound email footer fixed.
-	-	Alignment fixes in the free signup page.
-	-	Callout removed in payload and categories.
-	-	Orgs with billing fxlabs.io are deactivated.
+	- Alignment fixes in the free signup page.
+	- Callout removed in payload and categories.
+	- Orgs with billing fxlabs.io are deactivated.
 
 ## APIsec - June 1st, 2021
+
+!!! danger "Security"
+
+	- RBAC map fix: fixed form-data type.
+	- Access key expiration added for the playbook generation failure fix.
+
+
 !!! tip "Features"
 
 	- Free account introduced: The free user will be able to signup and run the security testing, but restricted to access the Integrations and - Reports tab.
@@ -592,18 +674,22 @@
 	- Email notification: Trigger notifications to super admins for new tenant creation.
 	- Beta tags: Beta tags removed from API gateways and reports. 
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	-	Report fixes.
-	-	RBAC map fix: fixed form-data type.
 	-	Advance project section error fixed.
-	-	Request Headers: Processing request headers in the body.
+	-	Request Headers: Processing request headers in the body
 	-	Jira: Wire logs are now showing in Jira.
-	-	Access key expiration added for the playbook generation failure fix.
 	-	Null value injection: Inject null when value not found to avoid resource not entitled error.
 	-	Propagate assertions from playbooks to categories.
 
 ## APIsec - May 24th, 2021
+
+!!! danger "Security"
+
+	- Url validations applied in environment pages.
+
+
 !!! tip "Features"
 
 	- Integrations tab: Introduced the new Integrations tab to accommodate Report storage, Issue tracker, Notifications, Git Backup, CI/CD in one place.
@@ -611,16 +697,21 @@
 	- Org page: Org tag added to identify customer or prospect.
 	- Huge Payloads Blocker: Blocker introduced for huge payloads or files.
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Jira issue tracker fixes.
 	- Jira issue tracker severity mapped to the APIsec severity.
-	- Url validations applied in environment pages.
 	- Redirect access page to login page.
 	- Modified FX to APIsec in the system settings page.
 	- Text help improvements in Integration inner tabs.
 
 ## APIsec - May 3rd, 2021
+	
+!!! danger "Security"
+
+	- Injections removed from date types from all the injection categories.
+
+
 !!! tip "Features"
 
 	- GCP storage integration: Connect your GCP storage account and receive API Penetration Testing reports automatically monthly.
@@ -636,7 +727,7 @@
 	- Remove user: Added remove user functionality for the guest users. Can be removed only by Admins.
 	- Category list view: "Last Modified By" column added to the table.
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Validations included for add authentication forms.
 	- Font-size adjustments in Gateways, Vault, Dashboard, Security Marketplace, Register API.
@@ -650,7 +741,6 @@
 	- Cosmetic fixes in the reports.
 	- Project health status fixes for invalid and not reachable values.
 	- Removed the last page from all the reports.
-	- Injections removed from date types from all the injection categories.
 	- Set SC 500 as false positive in all the categories.
 	- Set SC 400 as false negative in all the categories.
 	- Active flag added to the header customization category.
@@ -665,7 +755,7 @@
 	- Vulnerability details (Excel download): Wirelogs and Remediation columns added to the sheet.
 
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Space adjustments in tabs (scanner page).
 	- Left & right padding added globally.
@@ -689,6 +779,11 @@
 
 
 ## APIsec - April 5th, 2021
+
+!!! danger "Security"
+
+	- Query parameter fix for stored injections
+
 !!! tip "Features"
 
 	- Security improvements: Java-runtime upgrade from version 8 to version 13 across all APIsec micro services for improved security and performance
@@ -698,10 +793,9 @@
 	- Azure Storage Integration: Connect your Azure storage account and receive API Penetration Testing reports automatically monthly.
 
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- MuleSoft RAML fix
-	- Query parameter fix for stored injections
 	- Moved "Bulk Add" authentications link next to "Add Authentication" on environment page.
 	- Renamed "FX Issue Tracker" to "APIsec Issue Tracker"
 	- Removed options "Delete" and "Bulk Close/Archive" from Closed vulnerabilities action items
@@ -716,6 +810,14 @@
 	- The EULA page agreement button is always visible.
 
 ## APIsec - April 13th, 2021
+
+!!! danger "Security"
+
+	- Scan not found error fixed.
+	- Severity changes fix in the ABAC category.
+	- Org edit error fix.
+
+
 !!! tip "Features"
 
 	- Playbook Management: Playbook management name changed to (Bulk Create/Delete Playbooks).
@@ -724,24 +826,21 @@
 	- Release Notes: The release notes link added to the footer.
 	- Forgot password: Forgot password functionality added to the login page.
 
-!!! bug "Fixes"
+!!! success "Fixes"
 
 	- Header text added to the setting tabs.
 	- Filter applied for developers report omitting remediation's for non-critical categories.
 	- RBAC map view from the vulnerabilities detail page.
-	- Scan not found error fixed.
 	- Default scanner selection through advance section fixed.
 	- Stopped status on dashboard fix after canceling the scan.
 	- "My projects/All projects" selection is sticky.
 	- Update/Delete validation added to Azure & AWS storages.
 	- Tag added to SLA category in the scan window.
-	- Org edit error fix.
 	- Different screen size fix.
-	- Severity changes fix in the ABAC category.
 	- Activities tile aligned on the dashboard.
 
 ## APIsec - Jan 2018 - April 2021
 
 !!! example ""
 
-	+ Initial Release
+	+ Archived Releases
