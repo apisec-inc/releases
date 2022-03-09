@@ -1,6 +1,6 @@
 
 
-# APIsec Cloud
+# APIsec
 
 ###### APIsec - API Security Platform - https://apisec.ai
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
