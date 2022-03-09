@@ -1,4 +1,4 @@
-site_name: APIsec Releases
+site_name: Releases
 site_description: APIsec Release Notes
 copyright: Copyright &copy; APIsec Inc.
 
@@ -40,7 +40,7 @@ theme:
     admonition:
       warning: octicons/shield-check-16
 
-  logo: assets/APIsec-mark-white.png
+  logo: assets/APIsec-logo-light.png
 
 # Plugins
 plugins:
