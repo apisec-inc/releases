@@ -40,7 +40,7 @@ theme:
     admonition:
       warning: octicons/shield-check-16
 
-  logo: assets/APIsec-logo-light.png
+  logo: assets/APIsec-mark-white.png
 
 # Plugins
 plugins:
