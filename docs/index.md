@@ -17,7 +17,8 @@
 !!! tip "Features"
 
 	- Auto-Onboarding feature launched: The APIsec automatic onboarding was designed to detect weekly specs to onboard their projects. This initial version now supports detection of the open api specs to register in multiple projects in the same account through API gateways.![AutoOnboarding](https://user-images.githubusercontent.com/87167426/158768718-232fe3f3-e5b6-434d-bce7-2fd6aed641cb.png)
-	- Help text of Jira issue tracker introduced
+	- Help text of Jira issue tracker introduced.![JiraelpText](https://user-images.githubusercontent.com/87167471/158852789-f967c2f0-1b42-4038-ad00-5f30741fb124.png)
+
 	- Faster Playbook Generation - 15% performance improvement 
 	- Propagate headers in activity list format are in badge style now. 
 
