@@ -41,7 +41,8 @@
 ## APIsec - Feb 7th, 2022
 !!! tip "Features"
 
-	- Apigee SPEC type feature launched: Apigee Edge supports OpenAPI Specification 3.0, though a subset of features are not yet supported.
+	- Apigee SPEC type feature launched: Apigee Edge supports OpenAPI Specification 3.0, though a subset of features are not yet supported.![Spec type](https://user-images.githubusercontent.com/87167471/158939153-73d816b3-e4ea-4e40-ab9e-27ca9a001fbb.png)
+
 	- Pentest report re-launched (1.3 version): A new version of pentest report launched, which gives altogether a new UX look and feel which will be easy to read.
 	- APIsec converter will now register the password protected spec urls.
 	e.g. https://<Username>:<Password>@<URL>
