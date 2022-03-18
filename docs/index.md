@@ -94,7 +94,8 @@
 
 !!! tip "Features"
 
-	- Notification feature launched: Track all the required product information (e.g. project credentials not working etc).![notification](https://user-images.githubusercontent.com/87167471/158940604-51ea4f52-e057-4946-b262-4552dbecc064.png)
+	- Notification feature launched: Track all the required product information (e.g. project credentials not working etc).
+	![notification](https://user-images.githubusercontent.com/87167471/158940604-51ea4f52-e057-4946-b262-4552dbecc064.png)
 
 	- Forgot password feature enhanced.
 
