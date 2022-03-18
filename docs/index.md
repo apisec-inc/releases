@@ -43,8 +43,10 @@
 
 	- Apigee SPEC type feature launched: Apigee Edge supports OpenAPI Specification 3.0, though a subset of features are not yet supported.![Spec type](https://user-images.githubusercontent.com/87167471/158939153-73d816b3-e4ea-4e40-ab9e-27ca9a001fbb.png)
 
-	- Pentest report re-launched (1.3 version): A new version of pentest report launched, which gives altogether a new UX look and feel which will be easy to read.
-	- APIsec converter will now register the password protected spec urls.
+	- Pentest report re-launched (1.3 version): A new version of pentest report launched, which gives altogether a new UX look and feel which will be easy to read.![pentest](https://user-images.githubusercontent.com/87167471/158940142-7d546950-972c-482d-8443-7f5a48a93612.png)
+
+	- APIsec converter will now register the password protected spec urls.![Password PROETEX](https://user-images.githubusercontent.com/87167471/158940232-1b554809-8d67-4435-afb5-5899551cef90.png)
+
 	e.g. https://<Username>:<Password>@<URL>
 
 !!! success "Fixes"
@@ -63,9 +65,12 @@
 
 !!! tip "Features"
 
-	- Log4j category introduced: The Log4j vulnerability allows malicious attackers to execute code remotely on any targeted computer. 
-	- Skip Filing Vulnerability feature launched: This feature will allow you to skip the vulnerabilities for selected categories.
-	- Filter added for managed playbooks: This will allow users to filter the playbooks by bot or user. 
+	- Log4j category introduced: The Log4j vulnerability allows malicious attackers to execute code remotely on any targeted computer. ![log4j](https://user-images.githubusercontent.com/87167471/158940325-39b84534-396e-4dc0-811d-1c44e8b4814e.png)
+
+	- Skip Filing Vulnerability feature launched: This feature will allow you to skip the vulnerabilities for selected categories.![SkipFilingVuln](https://user-images.githubusercontent.com/87167471/158940390-b43c6df0-8626-4d33-b1ac-c66edc9fc4f9.png)
+
+	- Filter added for managed playbooks: This will allow users to filter the playbooks by bot or user. ![PBfilter](https://user-images.githubusercontent.com/87167471/158940455-1a539b28-19c0-49fb-b4b3-f9f4623d6b84.png)
+
 
 !!! success "Fixes"
 
@@ -89,7 +94,8 @@
 
 !!! tip "Features"
 
-	- Notification feature launched: Track all the required product information (e.g. project credentials not working etc)
+	- Notification feature launched: Track all the required product information (e.g. project credentials not working etc).![notification](https://user-images.githubusercontent.com/87167471/158940604-51ea4f52-e057-4946-b262-4552dbecc064.png)
+
 	- Forgot password feature enhanced.
 
 !!! success "Fixes"
