@@ -7,6 +7,44 @@
 
 
 
+## APIsec - Mar 22nd, 2022
+
+!!! info "Note"
+	
+	- This release has code changes in bot, please ensure to refresh the private scanners.
+
+!!! danger "Security"
+
+	- API Gateway - Region and session token added to AWS.
+	- Authentication - Digest authentication type introduced.
+
+!!! tip "Features"
+
+	- Monthly Org Reports will be shared with Org owners on the first of every month. This report provides test executions of the past month.![monthly org](https://user-images.githubusercontent.com/87167426/160037891-ce89b0cb-c849-43a4-ad57-994d09c2a073.jpg)
+	- Dashboard tiles revamp: It's all about new trends and making them simplify for our customers.![revamp](https://user-images.githubusercontent.com/87167426/160037982-141ccc07-2ef6-41a4-823e-23e4d738b57a.png)
+	- Release Notes: Check out the new release notes integrated into GitHub with security updates.![release notes](https://user-images.githubusercontent.com/87167426/160038054-b4669c67-ceca-44cf-bbf9-9837ecec8800.jpg)
+	
+!!! success "Fixes"
+
+	- Summary Report Page enhancements.
+	- Session timeout message improvement.
+	- Pentest Report Enhancements in intro and background.
+	- Performance Improved throughout the product.
+	- Save & Rewrite playbooks showing incorrect entity type in activities fix.
+	- When a full RBAC map is generated, the header checkbox should also be checked for the roles.
+	- Project activities entity type fix.
+	- Add invalid scenario in ABAC fix.
+	- Redirect from playbook to payload window in project activities fix.
+	- Playbook edit window size fix.
+	- Snackbar message improved in Scanner Deployment.
+	- Playbook name in activity wirelog window fix.
+	- Toggle button in playbooks page fix.
+	- Project activities page sync event user missing issue fix.
+	- Closing playbook window quickly after propagating button click.
+	- Added special character restriction to API project name under project details page.
+	- Request license url link in new project fixed.
+	- Upgrade dialog fix, if the user type is basic.
+
 ## APIsec - Feb 23rd, 2022
 
 !!! danger "Security"
@@ -18,7 +56,6 @@
 
 	- Auto-Onboarding feature launched: The APIsec automatic onboarding was designed to detect weekly specs to onboard their projects. This initial version now supports detection of the open api specs to register in multiple projects in the same account through API gateways.![AutoOnboarding](https://user-images.githubusercontent.com/87167426/158768718-232fe3f3-e5b6-434d-bce7-2fd6aed641cb.png)
 	- Help text of Jira issue tracker introduced.![JiraelpText](https://user-images.githubusercontent.com/87167471/158938463-f48ece03-907c-4ea6-ac94-68159621d3eb.png)
-
 	- Faster Playbook Generation - 15% performance improvement 
 	- Propagate headers in activity list format are in badge style now. 
 
