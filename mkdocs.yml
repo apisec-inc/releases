@@ -121,3 +121,4 @@ nav:
     - index.md
     - apisec-enterprise.md
     - apisec-ethicalcheck.md
+    - apisec-scanner AWS Fargate.md
