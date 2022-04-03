@@ -6,8 +6,14 @@
 
 ## APIsec AWS Fargate
 
-!!! example ""
+!!! example "Deployment of APIsec scanner in AWS Fargate"
 
-	+ Initial Release
-
-
+	- Login into AWS Account
+	- Select Amazon Elastic Container Service (ECS)
+	- Select Clusters
+	- Create a New Cluster
+	- Select "Networking Only" Option
+	- Give Unique Cluster Name
+	- Skip VPC and CloudWatch option,Click on create 
+	- Select View Cluster
+	
