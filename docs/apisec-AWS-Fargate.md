@@ -1,7 +1,7 @@
 # APIsec AWS Fargate
 
 
-###### AWS Fargate<sup>TM</sup> - Some Text - 
+###### AWS Fargate<sup>TM</sup> - Amazon Elastic Container Service (ECS) - 
 
 
 ## APIsec AWS Fargate
@@ -22,8 +22,8 @@
 	- Select View Cluster.
 	![Cluster Created](https://user-images.githubusercontent.com/87167426/162345354-aaa3f2ed-82e5-4f6e-bcac-58edf558f862.png)
 
-				 Task Definitions
-				 ![Task Def](https://user-images.githubusercontent.com/87167426/162345408-54b0bc0a-a0b3-433a-b64e-317c24ac6cd7.png)
+	- Task Definitions.
+	![Task Def](https://user-images.githubusercontent.com/87167426/162345408-54b0bc0a-a0b3-433a-b64e-317c24ac6cd7.png)
 
 	- Create a New Task Definition
 	- Select 'FARGATE' Option.![Task Config](https://user-images.githubusercontent.com/87167426/162345462-dcd22115-9141-4725-9869-47433e35fdd5.png)
@@ -45,7 +45,7 @@
 	- Redirect to home page, then Click on Newly Created Cluster.
 	![Cluster Created1](https://user-images.githubusercontent.com/87167426/162346031-af4c2521-7e20-41ef-999c-e7b859e2c250.png)
 
-	 			CREATE A NEW RUN TASK
+	- CREATE A NEW RUN TASK
 	- Click on Task and then click on RUN NEW TASK.
 	![Run Task](https://user-images.githubusercontent.com/87167426/162346258-67231593-2357-4243-a623-b50b2f6feaa9.png)
 
@@ -55,9 +55,10 @@
 	Note : If above Auto-assign public IP is selected as disable, the container will be in stop state.
 
 	- On Container Override Expand to see Cluster with Env created and then click on RUN TASK, wait for 2minutes.![Task created](https://user-images.githubusercontent.com/87167426/162346663-d6903b70-df73-4099-a3cb-10afcc8e8ace.png)
-
-	![Task 1](https://user-images.githubusercontent.com/87167426/162346764-c10f3c74-901b-442c-aa6a-16dc0e175568.png)- Click on Task to see information and its resources
-	- Click on "Check Status" on the Created Scanner in Scanner page of APIsec product.![Status](https://user-images.githubusercontent.com/87167426/162346854-820d821c-3695-44df-8b02-8f864311c015.png)
+	- Click on Task to see information and its resources.
+	![Task 1](https://user-images.githubusercontent.com/87167426/162346764-c10f3c74-901b-442c-aa6a-16dc0e175568.png)
+	- Click on "Check Status" on the Created Scanner in Scanner page of APIsec product.
+	![Status](https://user-images.githubusercontent.com/87167426/162346854-820d821c-3695-44df-8b02-8f864311c015.png)
 
 	- Now you can run scans on the PLAYBOOKS in projects.
 	- Cluster and Container Details :
