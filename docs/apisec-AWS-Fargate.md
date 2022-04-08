@@ -36,9 +36,8 @@
 	- Give Unique Container name, Image name(fxlabs/bot:latest).![Container](https://user-images.githubusercontent.com/87167426/162345825-a440e591-92e3-4995-bcbb-6686bf232224.png)
 
 	- Skip all options & proceed on “Environment variables” section to add scanner parameters from scanner created page of APIsec Product.![Env Variables](https://user-images.githubusercontent.com/87167426/162345897-ea592132-6c5d-4cad-b01b-2acea3237794.png)
-
-	   Optional :- Log configuration 
-	- Add Container
+	- Optional :- Log configuration. 
+	- Add Container.
 	- Click on Create.
 	![APIsec Launched](https://user-images.githubusercontent.com/87167426/162345987-545c4af8-488d-41d5-a009-4ca29146ad11.png)
 
