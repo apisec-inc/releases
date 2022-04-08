@@ -31,7 +31,7 @@
 	- Followed by Next, Give Unique Name & Select the rest options as provided.![Task Congif1](https://user-images.githubusercontent.com/87167426/162345514-72e4f957-5e2f-4fe2-bede-cb02391f6906.png)
 
 	- Add Container
-	  Select atleast below mentioned CPU and Memory to run scans on playbooks smoothly.![Task Config2](https://user-images.githubusercontent.com/87167426/162345669-9ab488c1-00ab-408b-8c66-fa16bb9883cb.png)
+	- Select atleast below mentioned CPU and Memory to run scans on playbooks smoothly.![Task Config2](https://user-images.githubusercontent.com/87167426/162345669-9ab488c1-00ab-408b-8c66-fa16bb9883cb.png)
 
 	- Give Unique Container name, Image name(fxlabs/bot:latest).![Container](https://user-images.githubusercontent.com/87167426/162345825-a440e591-92e3-4995-bcbb-6686bf232224.png)
 
@@ -39,7 +39,7 @@
 	- Optional :- Log configuration. 
 	- Add Container.
 	- Click on Create.
-	![APIsec Launched](https://user-images.githubusercontent.com/87167426/162345987-545c4af8-488d-41d5-a009-4ca29146ad11.png)
+	- ![APIsec Launched](https://user-images.githubusercontent.com/87167426/162345987-545c4af8-488d-41d5-a009-4ca29146ad11.png)
 
 	- Redirect to home page, then Click on Newly Created Cluster.
 	![Cluster Created1](https://user-images.githubusercontent.com/87167426/162346031-af4c2521-7e20-41ef-999c-e7b859e2c250.png)
@@ -56,7 +56,7 @@
 	- On Container Override Expand to see Cluster with Env created and then click on RUN TASK, wait for 2minutes.![Task created](https://user-images.githubusercontent.com/87167426/162346663-d6903b70-df73-4099-a3cb-10afcc8e8ace.png)
 	- Click on Task to see information and its resources.
 	![Task 1](https://user-images.githubusercontent.com/87167426/162346764-c10f3c74-901b-442c-aa6a-16dc0e175568.png)
-	- Click on "Check Status" on the Created Scanner in Scanner page of APIsec product.
+	- Click on "Check Status" of the Created Scanner in Scanner page of APIsec product.
 	![Status](https://user-images.githubusercontent.com/87167426/162346854-820d821c-3695-44df-8b02-8f864311c015.png)
 
 	- Now you can run scans on the PLAYBOOKS in projects.
