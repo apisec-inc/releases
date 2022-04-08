@@ -12,7 +12,7 @@
 	- Select Amazon Elastic Container Service (ECS).![ECS](https://user-images.githubusercontent.com/87167426/162345174-d3112e20-7ca4-4855-a154-69551c0c853d.png)
 
 	- Select Clusters.
-	![Clusters](https://user-images.githubusercontent.com/87167426/162345213-777c9d4a-cc16-43b9-91d6-a222b1f46cd0.png)
+	- ![Clusters](https://user-images.githubusercontent.com/87167426/162345213-777c9d4a-cc16-43b9-91d6-a222b1f46cd0.png)
 
 	- Create a New Cluster
 	- Select "Networking Only" Option
@@ -20,10 +20,10 @@
 
 	- Skip VPC and CloudWatch option,Click on create 
 	- Select View Cluster.
-	![Cluster Created](https://user-images.githubusercontent.com/87167426/162345354-aaa3f2ed-82e5-4f6e-bcac-58edf558f862.png)
+	- ![Cluster Created](https://user-images.githubusercontent.com/87167426/162345354-aaa3f2ed-82e5-4f6e-bcac-58edf558f862.png)
 
 	- Task Definitions.
-	![Task Def](https://user-images.githubusercontent.com/87167426/162345408-54b0bc0a-a0b3-433a-b64e-317c24ac6cd7.png)
+	- ![Task Def](https://user-images.githubusercontent.com/87167426/162345408-54b0bc0a-a0b3-433a-b64e-317c24ac6cd7.png)
 
 	- Create a New Task Definition
 	- Select 'FARGATE' Option.![Task Config](https://user-images.githubusercontent.com/87167426/162345462-dcd22115-9141-4725-9869-47433e35fdd5.png)
