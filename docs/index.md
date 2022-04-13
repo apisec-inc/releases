@@ -10,17 +10,17 @@
 
 !!! danger "Security"
 
-	- 301 (HTTP moved temporarily) status code now marked as false positive.
+	- 301 Moved Permanently status code now marked as false positive.
 	- Free users are now restricted to access summary reports.
 	- API to get auto-suggestions by run.
 
 !!! tip "Features"
 
-	- Tiles revamp on scan detail dashboard.![image](https://user-images.githubusercontent.com/87167426/163153118-1dd531f6-bcd3-4873-8175-521af0239501.png)
+	- Tiles revamp on scan detail dashboard.![image (8)](https://user-images.githubusercontent.com/87167426/163156103-dd0bf59a-8e15-471e-929f-6f478ca56acd.png)
 
-	- Review comments added in the vulnerability details page.![image (1)](https://user-images.githubusercontent.com/87167426/163153184-34ea7082-c7d8-43fa-a06d-4f34b5239935.png)
+	- Review comments added in the vulnerability details page.![image (9)](https://user-images.githubusercontent.com/87167426/163156195-e70d2091-6f73-420a-96e1-d43e6725c604.png)
 
-	- Projects on the dashboard can be switched to list view.![image (3)](https://user-images.githubusercontent.com/87167426/163153364-5a0ba5c4-554a-4969-9cc6-43025d6f2923.png)
+	- Projects on the dashboard can be switched to list view.![image (10)](https://user-images.githubusercontent.com/87167426/163156240-a1f59d01-6245-4318-a5a7-1246f9b2071e.png)
 
 	- AWS Fargate Instructions added in release notes and scanner register page.![image (2)](https://user-images.githubusercontent.com/87167426/163153294-15b41efb-1a7c-48cd-af85-048986725c84.png)
 
