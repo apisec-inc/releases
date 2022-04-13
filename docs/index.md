@@ -10,25 +10,49 @@
 
 !!! danger "Security"
 
-	- .
-	- .
+	- 301 status code now marked as false positive.(HTTP moved temporarily)
+	- Free users are now restricted to access summary reports.
+	- API to get auto-suggestions by run.
 
 !!! tip "Features"
 
-	- 
-	- 
-	- 
+	- Tiles revamp on scan detail dashboard.![image](https://user-images.githubusercontent.com/87167426/163153118-1dd531f6-bcd3-4873-8175-521af0239501.png)
+
+	- Review comments added in the vulnerability details page.![image (1)](https://user-images.githubusercontent.com/87167426/163153184-34ea7082-c7d8-43fa-a06d-4f34b5239935.png)
+
+	- Projects on the dashboard can be switched to list view.![image (3)](https://user-images.githubusercontent.com/87167426/163153364-5a0ba5c4-554a-4969-9cc6-43025d6f2923.png)
+
+	- AWS Fargate Instructions added in release notes and scanner register page.![image (2)](https://user-images.githubusercontent.com/87167426/163153294-15b41efb-1a7c-48cd-af85-048986725c84.png)
 
 !!! abstract "Improvements"
 
-	- 
-	- 
-	- 
+	- Invalid base url shows an alert and does not allow submitting the scan.
+	- First and last navigation buttons added on the project list and scan details page.
+	- Improvements in open vulnerabilities details table.
+	- Inactive roles will be automatically removed from the RBAC map.
+	- Register API gateway and cloud scanner tiles replaced with a button.
+	- Unauthorized message on status code 403 for the USER role.
+	- Help text improved in the vault for report storage.
+	- Overall performance Improved.
 
 !!! success "Fixes"
 
-	- 
-	-
+	- Report Storage, Notification and Git backup: the toggle button made active by default.
+	- Replaced cancel button with Yes and No in the scan history page.
+	- Tooltip updated on scan history and org list page.
+	- Injection string org owner fix.
+	- Pentest report TOC Missing 'UNmeasured' fixed.
+	- Project register through advance section fix.
+	- In the scan history page, profile activities and activities list page navigation fix.
+	- Enabling space in edit project name from details page fix.
+	- Clearing bulk add field on click of cancel button fix.
+	- Summary report:  owasp coverage table values, severity column and vulnerabilities count issue fixed.
+	- API register via file upload fix.
+	- Beta tags removed from APIGateways and Ideabiz icon added.
+	- Alignment fixes in the register scanner page.
+	- Project activity page dialog fixes.
+	- Environment auth delete and bulk add issue fixed.
+	- Injection categories issues fixed.
 	
 	
 ## APIsec - March 22nd, 2022
