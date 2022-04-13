@@ -10,7 +10,7 @@
 
 !!! danger "Security"
 
-	- 301 status code now marked as false positive.(HTTP moved temporarily)
+	- 301 (HTTP moved temporarily) status code now marked as false positive.
 	- Free users are now restricted to access summary reports.
 	- API to get auto-suggestions by run.
 
