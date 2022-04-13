@@ -12,7 +12,7 @@
 
 	- 301 Moved Permanently status code now marked as false positive.
 	- Free users are now restricted to access summary reports.
-	- API to get auto-suggestions by run.
+	- API to get Vulnerabilities by Scan.
 
 !!! tip "Features"
 
