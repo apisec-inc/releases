@@ -6,10 +6,34 @@
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
 
+## APIsec - April 11th, 2022
 
+!!! danger "Security"
+
+	- .
+	- .
+
+!!! tip "Features"
+
+	- 
+	- 
+	- 
+
+!!! abstract "Improvements"
+
+	- 
+	- 
+	- 
+
+!!! success "Fixes"
+
+	- 
+	-
+	
+	
 ## APIsec - March 22nd, 2022
 
-!!! info "Note"
+??? note "Note"
 	
 	- This release has code changes in bot, please ensure to refresh the private scanners.
 
