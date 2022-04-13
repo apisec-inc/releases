@@ -10,7 +10,7 @@
 
 !!! danger "Security"
 
-	- 301 Moved Permanently status code now marked as false positive.
+	- 301 Moved Permanently.
 	- Free users are now restricted to access summary reports.
 	- API to get auto-suggestions by run.
 
