@@ -6,6 +6,25 @@
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
 
+## APIsec - April 19th, 2022
+
+!!! danger "Security"
+
+	- RBAC Scan to use Random UUIDs instead of variables for DELETE endpoints.
+	- Supporting '*' wild card for partial header name search in RateLimit categories to check for any header starting with X-RateLimit.
+	 - APIsec is now supporting HMAC auth type.
+
+!!! abstract "Improvements"
+
+	- Improved save & sync functionality.![image (11)](https://user-images.githubusercontent.com/87167426/164306965-b30851fc-b361-4183-8387-d663f7435662.png)
+
+	- CI/CD integration is now easy to access via the dropdown menu.![image (12)](https://user-images.githubusercontent.com/87167426/164307007-b1c6a5f4-3aaf-4879-bc94-b9a2d2d6c19f.png)
+
+	- Scan dialog window improved for category selection.
+	- Category names made user-friendly in the playbooks list page and open vulnerabilities on the dashboard page.
+	- Project list view improvements on landing page.
+
+
 ## APIsec - April 11th, 2022
 
 !!! danger "Security"
