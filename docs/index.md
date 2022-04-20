@@ -10,9 +10,9 @@
 
 !!! danger "Security"
 
-	- RBAC Scan to use Random UUIDs instead of variables for DELETE endpoints.
+	- RBAC scan to use random UUIDs instead of variables for DELETE endpoints.
 	- Supporting '*' wild card for partial header name search in RateLimit categories to check for any header starting with X-RateLimit.
-	 - APIsec is now supporting HMAC auth type.
+	- APIsec is now supporting HMAC auth type.
 
 !!! abstract "Improvements"
 
