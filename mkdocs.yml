@@ -16,6 +16,7 @@ theme:
   name: material
 
 
+
   # 404 page
   static_templates:
     - 404.html
@@ -47,10 +48,14 @@ plugins:
   - search
 
 # Google Analytics
+extra:
+  analytics:
+    provider: google
+    property: G-HMF511CYJB
 
-google_analytics:
-  - 306022893
-  - auto
+# google_analytics:
+#   - 306022893
+#   - auto
 
 extra_javascript:
   - javascripts/feedback.js
