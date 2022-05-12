@@ -13,8 +13,7 @@
 
 !!! tip "Features"
 
-	- False positives in the unsecured category are now identified by Artificial Intelligence. AI can learn and analyse vast amounts of data in the blink of an eye.
-	- ![unnamed](https://user-images.githubusercontent.com/87167426/167991704-5c3d8c72-3c64-49e5-85a0-b201a3c78a26.jpg)
+	- False positives in the unsecured category are now identified by Artificial Intelligence. AI can learn and analyse vast amounts of data in the blink of an eye.![unnamed](https://user-images.githubusercontent.com/87167426/167991704-5c3d8c72-3c64-49e5-85a0-b201a3c78a26.jpg)
 
 
 !!! abstract "Improvements"
