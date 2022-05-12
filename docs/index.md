@@ -5,6 +5,38 @@
 ###### APIsec - API Security Platform - https://apisec.ai
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
+## APIsec - May 10th,2022
+
+!!! danger "Security"
+
+	- Authentication roles set to inactive are now restricted to scan the test results.
+
+!!! tip "Features"
+
+	- False positives in the unsecured category are now identified by Artificial Intelligence. AI can learn and analyse vast amounts of data in the blink of an eye.
+	- ![unnamed](https://user-images.githubusercontent.com/87167426/167991704-5c3d8c72-3c64-49e5-85a0-b201a3c78a26.jpg)
+
+
+!!! abstract "Improvements"
+
+	- HMAC help text improved.
+	- Issue trackers are now easy to access via the dropdown menu.
+	- Messaging improves when data is empty on the dashboard, profiles and scanners table.
+	- Sorting improved on the vulnerability details table.
+	- Summary and detailed report info displayed via snackbar, messaging improved.
+	- Playbook count reduced for authentication categories.
+	- CI/CD helptext improvements.
+	- Init and cleanup playbooks added to match playbooks count.
+	- Improvements in the paginations.
+	- Improvements in the performance.
+
+!!! success "Fixes"
+
+	- Overlapping of text in org list page and scan details page fixed.
+	- Typos in playbook management, CI/CD and password reset page fixed.
+	- Alignments for free users are fixed.
+	- Search bar and empty table issue fixed on landing page.
+	
 
 ## APIsec - April 19th, 2022
 
