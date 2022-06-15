@@ -5,6 +5,48 @@
 ###### APIsec - API Security Platform - https://apisec.ai
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
+## APIsec - June 13th,2022
+
+!!! danger "Security"
+
+	- Strong password policy implemented across the product.![Screenshot from 2022-06-15 00-21-34](https://user-images.githubusercontent.com/87167426/173896604-7d363e81-8334-4f5f-9948-4fcf882bc85f.png)
+	- SendGrid integration: All the org monthly emails will trigger via SendGrid to the customers.
+
+!!! tip "Features"
+
+	- A new version of developer and compliance report launched.![Screenshot from 2022-06-15 00-27-28](https://user-images.githubusercontent.com/87167426/173896865-4b5c5eab-1052-48e9-a83e-0afa6298ba4e.png)
+	- Skip ABAC: This option during project registration prevents identification of ABAC resources used for generating ABAC Playbooks.![Screenshot from 2022-06-15 00-30-01](https://user-images.githubusercontent.com/87167426/173896977-6050e971-1cdf-44f9-a4be-33942aba4292.png)
+
+!!! abstract "Improvements"
+
+	- Improved the Refresh button on the Playbooks tab (It refreshes the list of playbooks on the current page).
+	- Revert the changes on the Authentication Exploit(SQL) category to generate playbooks for all endpoints.
+	- Credentials field is set to optional in the advance project registration page. The user can enter and test the credentials from the 		           environments.
+	- Project creation/deletion messaging improved in API gateway.
+	- Improvements on the login page.
+	- Help text improvements in various pages.
+	- Search bars and dialog windows improved.
+	- Backend sorting Improved for a few of the tables.
+	- CICD-Jenkins job scripts improved.
+	- Spec upload on project details page improved.
+	- While uploading the project the text option was made read-only. 
+	
+!!! success "Fixes"
+
+	- All project data to excel-sheet download on the dashboard fixed.
+	- Alignments fixed on the landing page.
+	- Issue tracker validations and links fixed.
+	- Injections data load fixed.
+	- Category numbers in the summary report are accurate now.
+	- Slack notification url fixed.
+	- First scan shard error fixed for the fresh environments.
+	- Variables page was listing duplicate download csv links, fixed now.
+	- Text overlapping on the landing page is fixed.
+	- Pie chart on project dashboard issue fixed.
+	- Invalid scanner name in training profiles fixed.
+	- The console error on the project details page is fixed.
+
+
 ## APIsec - May 10th,2022
 
 !!! danger "Security"
