@@ -5,6 +5,50 @@
 ###### APIsec - API Security Platform - https://apisec.ai
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
+
+## APIsec - July 25th,2022
+
+!!! danger "Security"
+
+	- CICD-Powershell script and documentation updated.
+	- Tenant Admins can now Create,Edit and Delete Security Categories within the same Tenant.
+
+!!! abstract "Improvements"
+
+	- Project registration on API Gateways page improved
+	- Backend Sorting improved at various sections.
+	- In the Developer Report Wirelogs Section made clickable from vulnerabilities table.
+	- Password policy added for API calls for signup & reset.
+	- Added categories as optional query param in runByProject API
+	- Added error message for runByProject API
+	- Messaging has been improved at various sections,
+	
+!!! success "Fixes"
+
+	- Pentest, Developer and compliance reports fixes.
+	- All projects toggle disabled for the project manager.
+	- Playbooks page hidden columns fixed on tab resolutions.
+	- Security researchers add in collaborators is fixed.
+	- Github invalid url & sync all issue fixed
+	- Responsive Fixes of Internal Project Dashboard 
+	- Add Collaborators to project fixes.
+	- Postman Basepath Extraction fixed.
+	- HMAC auth URL fixed
+	- Jira issue tracker validation & duplicate issue logging fixed.
+	- Scanner name edit Disabled.
+	- API Gateway -- Mulesoft Business Group issue fixed.
+	- Project Entitlements - fix
+	- Dashboard page - Scan graph box alignment fix
+	- Propagate Headers fixed.
+	- private scanner page - copy to clipboard on new scanner and owner column is empty issues are fixed.
+	- Project Owner - collaborator Fixed
+	- Project dashboard page - dropdown button click issue fixed.
+	- No runs found , 500 error msg fixed
+	- On signup password hide was not working issue fixed.
+	- Remediation sections and closed vulnerabilities Repeat issue in the Pentest and Developer report are fixed.
+	- API Gateways Spec Auto On boarding issue fixed.
+	
+
 ## APIsec - June 13th,2022
 
 !!! danger "Security"
