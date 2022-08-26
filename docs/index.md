@@ -39,8 +39,10 @@
 	- Validating base url of environment on environment edit, project dashboard, playbook pages fixed.
 	- API Gateways minor fixes.
 	- Orgs API fixed.
+
+??? note "Note"
 	
-`Note : Ethical check (free pentest) website also improved.(https://www.ethicalcheck.dev/)`
+	- Ethical check (free pentest) website also improved.(https://www.ethicalcheck.dev/)
 
 
 ## APIsec - July 25th,2022
