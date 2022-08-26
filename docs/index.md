@@ -6,6 +6,43 @@
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
 
+## APIsec - August 24th,2022
+
+!!! danger "Security"
+
+	- We have added new CORS Security Categories to find signs that your API server is extra vulnerable to Cross Site Scripting attacks. Improperly setup CORS policies will allow an attacker to redirect one of your users to your API with their credentials and impersonate them for further attacks. Here's a helpful link for more information on the security concerns of improperly configured CORS policy : https://portswigger.net/web-security/cors
+	- Help text added to the Custom header category.![Help text](https://user-images.githubusercontent.com/87167426/186986277-a685b3e7-e950-4965-b74c-420c2381d168.png)
+	
+!!! tip "Features"
+
+	- "JupiterOne" issue tracker Integrated.![jupyter 1](https://user-images.githubusercontent.com/87167426/186985659-65ef8f73-51f0-4487-ad47-a11a4d457729.png)
+	
+!!! abstract "Improvements"
+
+	- Footer links updated.
+	- Pentest Report improvements for Ethical Check.
+	- Messaging at various sections has been improved.
+	- APIsec Monthly Report Improved.
+	- Added Postman set up documentation.
+	
+!!! success "Fixes"
+
+	- Report Storage in clouds fixed. 
+	- API Gateways SpecAutoOnboarding fixed.
+	- Pagination issue fixed in org list.
+	- Issue Tracker links and url's fixes.
+	- Error icon added in status section of playbooks page.
+	- Login restricted to inactive tenants is fixed.
+	- Playbook page toggle button fixed.
+	- For private Security categories, search restricted to tenants is fixed.
+	- Minor fixes at Project lists page.
+	- Validating base url of environment on environment edit, project dashboard, playbook pages fixed.
+	- API Gateways minor fixes.
+	- Orgs API fixed.
+	
+`Note : Ethical check (free pentest) website also improved.(https://www.ethicalcheck.dev/)`
+
+
 ## APIsec - July 25th,2022
 
 !!! danger "Security"
