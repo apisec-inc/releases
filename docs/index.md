@@ -6,6 +6,29 @@
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
 
+## APIsec - August 29th,2022
+	
+!!! tip "Features"
+
+	- "Wrike" issue tracker Integrated.![wrike](https://user-images.githubusercontent.com/87167426/188198360-e297f75f-cc9d-4764-881a-2dddbe3c00f2.png)
+
+	
+!!! abstract "Improvements"
+
+	- Org Pages - Name and Email Validations have been improved.
+	- Forthcoming Org Monthly Reports will be sent via SendGrid.
+	- Improvements in form validation and environment base url validation at issue tracker pages and environment page.
+	- Messaging improved for 400 status codes.
+	
+!!! success "Fixes"
+
+	- Environment edit - console error is fixed.
+	- API Gateway issues are fixed and credentials are being validated using the Test button.
+	- Long variable value not able to be saved issue fixed.
+	- Search field is kept populated unless it's cleared at the project Category section.
+	- Environments Duplicate Authentication is fixed.
+
+
 ## APIsec - August 24th,2022
 
 !!! danger "Security"
