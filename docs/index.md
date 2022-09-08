@@ -6,6 +6,48 @@
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
 
+## APIsec - September 7th,2022
+
+!!! danger "Security"
+
+	- CORS - False Negatives Added.
+	
+!!! tip "Features"
+
+	- Add Endpoint to API spec via API.
+	
+!!! abstract "Improvements"
+
+	- Messaging improved at Org member adding.
+	- Validating Scanner status on playbook edit and scan trigger dialog window.
+	- Homepage - Search field kept populated unless cleared. 
+	- API's are also being fetched in Postman API Gateway.
+	- Security Categories info is linked from the reports section.
+	- CI/CD & Github Actions Scripts updated.
+	
+!!! success "Fixes"
+
+	- Search bar not working for saved draft categories is fixed.
+	- User add - email validation is fixed.
+	- CI/CD-Jenkins script fails for a Project name with empty space issue is fixed.
+	- Search private security categories are fixed.
+	- Email validations at signup and Org pages Added.
+	- The User name accepting special characters is fixed.
+	- Billing email field accepting invalid email id's is fixed.
+	- Existing email restricted from creating an account.
+	- Developer Reports - Wirelogs height issue fixed.
+	- API Gateway - Register Dialog UI and duplicate name issue fixed.
+	- Project configuration console error fixed.
+	- New playbook - Playbook special character is fixed.
+	- Pagination issues fixed.
+	- Console error is fixed for CORS category. 
+
+??? note "Note"
+	
+	- cloud.fxlabs.io is redirected to cloud.apisec.ai 
+	- APIsec cloud is migrated to modern Kubernetes architecture.
+
+
 ## APIsec - August 29th,2022
 	
 !!! tip "Features"
