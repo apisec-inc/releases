@@ -9,7 +9,7 @@
 
 !!! danger "Security"
 
-	- PII Category added.
+	- PII Category added, it checks if Personal Identifiable Information is revealed through this API response
 	
 !!! tip "Features"
 
@@ -23,11 +23,11 @@
 	- Search added for public categories saved as draft
 	- Header Variable injection path processing
 	- Improved logging
+	- @plaintext added, PII Generator improved
 	
 !!! success "Fixes"
 
 	- Fixed multi email issue.
-	- @plaintext added, PII Generator improved
 	- Linear IT fixes
 
 
