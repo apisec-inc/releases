@@ -5,6 +5,25 @@
 ###### APIsec - API Security Platform - https://apisec.ai
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
+## APIsec - September 12th,2022
+
+!!! danger "Security"
+
+	- PII Category added.
+	
+!!! tip "Features"
+
+	- Linear Issue Tracker interated.![LinearIT](https://user-images.githubusercontent.com/87167471/189995572-0346d487-458c-443b-8a34-ab939a125758.png)
+
+	
+!!! abstract "Improvements"
+
+	- Messaging improved at Org member adding.
+	
+!!! success "Fixes"
+
+	- Search bar not working for saved draft categories is fixed.
+
 
 ## APIsec - September 7th,2022
 
