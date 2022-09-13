@@ -19,10 +19,12 @@
 !!! abstract "Improvements"
 
 	- Messaging improved at Org member adding.
+	- Messaging added on empty tables.
+	- Search added for public categories saved as draft
 	
 !!! success "Fixes"
 
-	- Search bar not working for saved draft categories is fixed.
+	- Fixed multi email issue.
 
 
 ## APIsec - September 7th,2022
