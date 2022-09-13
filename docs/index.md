@@ -21,10 +21,14 @@
 	- Messaging improved at Org member adding.
 	- Messaging added on empty tables.
 	- Search added for public categories saved as draft
+	- Header Variable injection path processing
+	- Improved logging
 	
 !!! success "Fixes"
 
 	- Fixed multi email issue.
+	- @plaintext added, PII Generator improved
+	- Linear IT fixes
 
 
 ## APIsec - September 7th,2022
