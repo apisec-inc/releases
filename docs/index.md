@@ -13,7 +13,7 @@
 	
 !!! tip "Features"
 
-	- Linear Issue Tracker interated.![LinearIT](https://user-images.githubusercontent.com/87167471/189995572-0346d487-458c-443b-8a34-ab939a125758.png)
+	- Linear Issue Tracker integrated.![LinearIT](https://user-images.githubusercontent.com/87167471/189995572-0346d487-458c-443b-8a34-ab939a125758.png)
 
 	
 !!! abstract "Improvements"
