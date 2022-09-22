@@ -5,6 +5,42 @@
 ###### APIsec - API Security Platform - https://apisec.ai
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
+
+## APIsec - September 20th,2022
+
+!!! danger "Security"
+
+	- CORS category updated.
+	
+!!! tip "Features"
+
+	- New API added to Re-Sync Project category with Org category.
+	- Add Endpoint to API spec .
+	- EthicalCheck Pro Launched.
+
+!!! abstract "Improvements"
+
+	- Messaging improved for propagations, snack bar and archive.
+	- Invalid Base url warning improved.
+	- Pentest and Developer minor improvements.
+	- OKTA enabled org messaging improved.
+	- CI/CD script improved.
+	- Documentation updated for new playbook.
+	
+!!! success "Fixes"
+
+	- Active and inactive bug for integrations fixed.
+	- Creating a new profile bug fixed.
+	- Postman API Gateway Fetch API/Collections bug fixed.
+	- Search security categories issue fixed.
+	- Minor Linear IT fixes.
+	- Pentest and Developer minor fixes.
+	- Global dashboard closed vulnerability count fixed.
+	- New user unable to login with OKTA SSO issue fixed.
+	- Vault page - rows are showing blank issues fixed.
+	- Sync all issues fixed.
+
+
 ## APIsec - September 12th,2022
 
 !!! danger "Security"
@@ -97,6 +133,11 @@
 
 
 ## APIsec - August 24th,2022
+
+
+!!! info "Academy"
+	
+	- APIsec Univeristy Launched.(https://university.apisec.ai/) 
 
 !!! danger "Security"
 
