@@ -6,6 +6,65 @@
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
 
+
+## APIsec - October 12th,2022
+	
+!!! tip "Features"
+
+	- Sftp - Storage Account.
+
+!!! abstract "Improvements"
+
+	- UI Flag Added to show endpoint was added manually. 
+	- Messaging improved at various sections.
+	- Pentest and Ethical check reports improved.
+	- Add Endpoint UI improvements.
+	- Postman API Gateway - Fetch APIs/Collections based on workspace ID improved.
+	- Cookies evaluation support added.
+	
+!!! success "Fixes"
+
+	- Propagate Payload issue fixed.
+	- obfuscating value from request headers in wirelogs fixed.
+	- summary report - All vulnerable endpoints display & count in the table fixed.
+	- Re-sync issue fixed.
+	- Jupiter one IT fixed.
+	- The TLS Headers/Cors category not visible in the scan window is fixed.
+	- Save and reload spec issue fixed.
+	- Propagate Assertions issue fixed.
+	- Access control on "Org Activities" for User profile is fixed.
+
+??? note "Note"
+	
+	- Private Scanners will need to be refreshed.
+
+
+## APIsec - September 27th,2022
+
+!!! danger "Security"
+
+	- TLS - Cryptographic protocol designed to provide communications security.
+	
+!!! tip "Features"
+
+	- Download all projects Endpoints added. 
+
+!!! abstract "Improvements"
+
+	- Reading Credentials from the postman collection improved. 
+	
+!!! success "Fixes"
+
+	- Project list - Persist last visited pagination fixed.
+	- Developer Report - Vulnerabilities count in Active Vulnerabilities table fixed.
+	- Propagate Assertions and Headers fixed.
+	- ApiGateway - APIGEE projects register - fixed. 
+	- Minor UI fixes at footer and Scan summary.
+	- CVSS Score below 3.9 marked as low severity - fixed.
+	- Filter by task in profile activity is fixed.
+	- Domain name at Auth and jupiter one issue tracker issues fixed.
+
+
 ## APIsec - September 20th,2022
 
 !!! danger "Security"
