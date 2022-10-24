@@ -20,11 +20,11 @@
 	- Add Endpoint minor improvements.
 	- Added date comparison support in assertions.
 	- Scans Schedule on weekly or monthly added. 
-	- Added documentations:
-	   Getting OAS for an API from IBM DataPower
-	   JupiterOne IT integration
-	   Linear IT integration
-	   Wrike IT integration
+	- Added documentations: 
+	   Getting OAS for an API from IBM DataPower, 
+	   JupiterOne IT integration, 
+	   Linear IT integration, 
+	   Wrike IT integration.
 	
 !!! success "Fixes"
 
