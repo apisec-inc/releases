@@ -7,6 +7,32 @@
 
 
 
+## APIsec - October 19th,2022
+	
+!!! tip "Features"
+
+	- Vulnerabilities view at Org level initiated.
+	
+!!! abstract "Improvements"
+
+	- Messaging improved at various sections.
+	- Ethical check Free &  Ethical check  Pro reports improved.
+	- Add Endpoint minor improvements.
+	- Added date comparison support in assertions.
+	- Scans Schedule on weekly or monthly added. 
+	- Added documentations:
+	   Getting OAS for an API from IBM DataPower
+	   JupiterOne IT integration
+	   Linear IT integration
+	   Wrike IT integration
+	
+!!! success "Fixes"
+
+	- Playbooks count on the scan history page is fixed.
+	- Custom categories name updated.
+	- Custom generator pages -  Assertion syntax OR fixed.
+
+
 ## APIsec - October 12th,2022
 	
 !!! tip "Features"
