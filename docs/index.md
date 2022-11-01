@@ -6,6 +6,30 @@
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
 
+## APIsec - October 27th,2022
+	
+!!! danger "Security"
+
+	- Injections in Scans - Fuzzing one property at a time.
+	
+!!! abstract "Improvements"
+
+	- Ethical Check minor improvements.
+	- Project list page - vulnerabilities view improved.
+	- Integrations improved.
+	- Environment edit page improved.
+	- Messaging improved at the scanner page.
+	
+!!! success "Fixes"
+
+	- Authentication Exploit (SQL) - Invalid assertion fixed.
+	- Low severity on saving security category is fixed.
+	- Delete/Archive issue fixed by disabling the button.
+	- Minor fixes on the vulnerability page.
+	- Project configuration - resync issue fixed.
+	- Org vulnerabilities Download error is fixed.
+	- Digest Auth issue fixed.
+
 
 ## APIsec - October 19th,2022
 	
