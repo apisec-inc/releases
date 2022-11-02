@@ -62,11 +62,12 @@
 	- Now you can run scans on the PLAYBOOKS in projects.
 	- Cluster and Container Details :
 	![Details](https://user-images.githubusercontent.com/87167426/162346898-058a199c-1ffe-4ae0-9bb7-8eada179695e.png)
-	![Details1](https://user-images.githubusercontent.com/87167426/162346927-13faab7e-d896-4564-afdb-97bebc36e7b0.png)
+	![image1](https://user-images.githubusercontent.com/113323378/199402484-bfba5b8b-dd7e-499a-930c-60b89ffebbec.png)
+
 
 
 !!! info "Note"
 	
 	- If Auto-assign public IP is selected as disable, the container will be in stop state.
 	- To Delete cluster, first you need to stop the TASK.
-	- If you are behind firewall/vpn, then you will have to whitelist cloud.fxlabs.io IP (104.196.107.163) and port 5671 on the outbound request for the scanner to connect with the APIsec server.
+	- If you are behind firewall/vpn, then you will have to whitelist cloud.apisec.ai IP (104.196.107.163) and port 5671 on the outbound request for the scanner to connect with the APIsec server.
