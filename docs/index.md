@@ -6,6 +6,47 @@
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
 
+## APIsec - November 16th,2022
+	
+!!! danger "Security"
+
+	- 2FA Implemented at Org Level.
+	
+!!! tip "Features"
+
+	- CICD Integration - drone integration introduced.
+	- Search Categories by tag and Name added.
+
+!!! abstract "Improvements"
+
+	- Improvements at Auth Test dialog Table, Help texts and Error messages.
+	- Postman v10 support added for APIs in Postman-APIGateway.
+	- 500 status added to all categories for FP/FN.
+	- Flag added to org Vulnerability download endpoint.
+	- Project list Tiles view - Base URL added.
+	- Vulnerabilities section added on dashboard.
+	- EthicalCheck email body and signature and text improved.
+	- Maintenance window footer link added and updated.(https://docs.apisec.ai/maintenance-window/)
+	- Project config - OWASP9 & OWASP10 added in compliance categories.
+	- Auto Pilot - Improvements and Generate playbooks job implemented.
+	- Sorting on Global Vulnerability table implemented. 
+	- Logs Added to wrike IT service.
+	- All project vulnerabilities download is restricted to users(Role Basic).
+	- Global dashboard vulnerabilities graphs displayed as scan graphs.
+	
+!!! success "Fixes"
+
+	- Log4j Variable injection fixed.
+	- Categories Display names fixed.
+	- Free account - Unauthorized error is fixed.
+	- 405 Errors due to empty variable replacements in url fixed.
+	- Insecure cookies Category missing in scan window fixed.
+	- Private Security Category Edit - User Authorization Fixed.
+	- Pagination retaining issue fixed.
+	- Notifications page toggle issue fixed.
+	- No property found issue fixed.
+
+
 ## APIsec - October 27th,2022
 	
 !!! danger "Security"
