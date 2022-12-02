@@ -6,6 +6,28 @@
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
 
+## APIsec - December 1st,2022
+	
+	
+!!! tip "Features"
+
+	- Download All API's feature added under vulnerabilities Action Section.
+	- Added Last-Ping column to Scanners page.
+	- Scanner page - Non Apisec Scanner tab Added and all Scanners views for Super Admin
+
+!!! abstract "Improvements"
+
+        - OAS Url added to EthicalCheck Executive summary Report.
+	- Sort by category made case INSENSITIVE.
+	- Download project Endpoints links moved to the top of the page instead of bottom.
+	
+!!! success "Fixes"
+
+	- Manage Ados dialog window fixed and Sorting Added.
+	- Vulnerabilities-detail page redirecting to playbook and pagination issues fixed.
+	- The Success rate issue on the scan details page is fixed.
+
+
 ## APIsec - November 16th,2022
 	
 !!! danger "Security"
