@@ -26,6 +26,11 @@
 	- Manage Ados dialog window fixed and Sorting Added.
 	- Vulnerabilities-detail page redirecting to playbook and pagination issues fixed.
 	- The Success rate issue on the scan details page is fixed.
+	
+??? note "Note"
+	
+	- Private Scanners will need to be refreshed.
+
 
 
 ## APIsec - November 16th,2022
