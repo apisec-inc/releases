@@ -6,6 +6,25 @@
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
 
+## APIsec - December 8th,2022
+		
+
+!!! abstract "Improvements"
+
+        - Performance improved at landing page.
+	- Added help text for injection and stored injection category.
+	- Messaging and hover text improved at various pages for null data.
+	- Org name column added in "other private scanners" page.
+	- All xlsx and Excel extensions are replaced with CSV extensions.
+	- Confirmation dialogue box added after inactive project category.
+	
+!!! success "Fixes"
+
+	- Search field at the security categories page is fixed.
+	- Sorting at the vulnerabilities page is fixed.
+	- Low severity added at various places
+
+
 ## APIsec - December 1st,2022
 	
 	
