@@ -11,7 +11,8 @@
 	
 !!! tip "Features"
 
-	- Org level integrations introduced.![Untitled](https://user-images.githubusercontent.com/105206963/209281236-eb14114e-9d4c-4756-afb9-30aa8f93f13d.png)
+	- Org level integrations introduced.![Screenshot 2022-12-22 223521](https://user-images.githubusercontent.com/105206963/209333874-05d4797f-be81-4fe2-9c11-c9b31c47a8fb.png)
+
 
 
 !!! abstract "Improvements"
