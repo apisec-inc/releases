@@ -6,6 +6,28 @@
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
 
+## APIsec - December 22nd,2022
+	
+	
+!!! tip "Features"
+
+	- Org level integrations introduced.![Untitled](https://user-images.githubusercontent.com/105206963/209281236-eb14114e-9d4c-4756-afb9-30aa8f93f13d.png)
+
+
+!!! abstract "Improvements"
+
+      - Overall performance improved.
+	- Vaults section is moved to profile menu.![Untitledvault](https://user-images.githubusercontent.com/105206963/209281392-32c721fc-8e6e-4671-b5e5-4c2078c21c06.png)
+
+	
+!!! success "Fixes"
+
+	- Categories page throws an error issue is fixed.
+	- Postman host setting issue is fixed.
+	- Exception when no auth items in postman collection issue is fixed.
+	- Support of project creation for postman collection issues is fixed.
+	- Bugs across the vaults section are fixed.
+
 ## APIsec - December 8th,2022
 		
 
