@@ -5,6 +5,20 @@
 ###### APIsec - API Security Platform - https://apisec.ai
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
+## APIsec - December 30th,2022
+	
+	
+!!! abstract "Improvements"
+
+
+    - Search feature introduced at vulnerabilities list page.
+    - OKTA settings can be accessible from the integrations Tab.
+    - UX is improved across the RBAC category.
+	
+!!! success "Fixes"
+
+    - Scan failing at endpoints is fixed.
+
 
 ## APIsec - December 22nd,2022
 	
