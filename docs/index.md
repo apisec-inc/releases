@@ -5,6 +5,23 @@
 ###### APIsec - API Security Platform - https://apisec.ai
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
+## APIsec - January 6th,2023
+	
+	
+!!! tip "Features"
+
+    - Notification is added for integration status.![notification](https://user-images.githubusercontent.com/105206963/210976328-ac80239e-f801-4cec-b571-d0e1e0bfa3af.png)
+
+
+!!! abstract "Improvements"
+
+    - On Trends page - Environments dropdown added.
+	
+!!! success "Fixes"
+
+    - Apigee saml Authentication issue fixed.
+    - Authentication Table issues fixed.
+
 ## APIsec - December 30th,2022
 	
 	
