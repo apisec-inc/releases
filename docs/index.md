@@ -5,6 +5,20 @@
 ###### APIsec - API Security Platform - https://apisec.ai
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
+## APIsec - January 13th,2023
+	
+	
+!!! abstract "Improvements"
+
+    - On Summary page - Environments dropdown added. 
+    - Text enhancement and alignment in pentest report.
+	
+!!! success "Fixes"
+
+    - Summary report - download issues fixed.
+    - Uploading CSV file in Rbac issue is fixed.
+    - Search field on the categories tab is fixed.
+
 ## APIsec - January 6th,2023
 	
 	
