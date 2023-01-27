@@ -5,6 +5,21 @@
 ###### APIsec - API Security Platform - https://apisec.ai
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
+## APIsec - January 27th,2023
+	
+	
+!!! tip "Features"
+
+	- Variable page - Edit feature is added.
+	
+!!! success "Fixes"
+
+	- RBAC inactive auths issue is fixed.
+	- When the payload is not modified, the error message issue is fixed.
+	- API gateways - search field issue is fixed.
+	- Comparison method violates its general contract issue - fixed.
+	- Report coverage page showing empty with one endpoint issue is fixed.
+	
 ## APIsec - January 13th,2023
 	
 	
