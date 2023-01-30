@@ -10,7 +10,7 @@
 	
 !!! tip "Features"
 
-	- Variable page - Edit feature is added.
+	- Variable page - Edit feature is added for ease of Variable customizations.
 	
 !!! success "Fixes"
 
