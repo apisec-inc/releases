@@ -18,6 +18,11 @@
       - Added active button to Issue Tracker for APIsec Issues.
       - Messaging improved for the playbooks page.
 
+??? note "Note"
+	
+      - Private Scanners will need to be refreshed.
+
+
 
 ## APIsec - January 27th,2023
 	
