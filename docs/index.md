@@ -5,6 +5,20 @@
 ###### APIsec - API Security Platform - https://apisec.ai
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
+## APIsec - February 2nd,2023
+	
+	
+!!! tip "Features"
+
+      - AutoPilot : The Autopilot feature now has the ability to automatically trigger scans after playbook generation,With this feature, users can be confident that their playbooks will be scanned promptly and any necessary changes can be made promptly.
+
+
+!!! abstract "Improvements"
+
+      - Added active button to Issue Tracker for APIsec Issues.
+      - Messaging improved for the playbooks page.
+
+
 ## APIsec - January 27th,2023
 	
 	
