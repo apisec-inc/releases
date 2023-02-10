@@ -5,6 +5,21 @@
 ###### APIsec - API Security Platform - https://apisec.ai
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
+## APIsec - February 10th,2023
+	
+	
+!!! abstract "Improvements"
+
+    - Alert message for variables and bulk Auth are made window consistent.
+	
+!!! success "Fixes"
+
+    - Search API field on the main dashboard is fixed.
+    - Scan triggered via Jenkins failed to send a report issue is fixed.
+    - Adding new endpoints & trigger a scan completes without any playbooks issue is Fixed.
+    - On the vulnerabilities details page - the remediations field is fixed.
+    - Playbook generation - single playbook issue is fixed.
+
 ## APIsec - February 2nd,2023
 	
 	
