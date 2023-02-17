@@ -10,7 +10,7 @@
 	
 !!! tip "Features"
 
-      - Project Tagging -  This feature allows users to easily organize and categorize their projects for improved visibility and accessibility.![Screenshot 2023-02-17 153959](https://user-images.githubusercontent.com/105206963/219616210-de998eb7-233b-4e63-bda5-f7bad8c0703e.jpg)
+      - Project Tagging -  This feature allows users to easily organize and categorize their projects for improved visibility and accessibility.![Screenshot 2023-02-17 153959](https://user-images.githubusercontent.com/105206963/219617975-bc97ca0f-2ee3-4a66-bccd-128df0b0438e.png)
 
 
 !!! abstract "Improvements"
