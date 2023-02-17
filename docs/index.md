@@ -5,6 +5,22 @@
 ###### APIsec - API Security Platform - https://apisec.ai
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
+## APIsec - February 17th,2023
+	
+	
+!!! tip "Features"
+
+      - Project Tagging -  This feature allows users to easily organize and categorize their projects for improved visibility and accessibility.![Screenshot 2023-02-17 153959](https://user-images.githubusercontent.com/105206963/219616210-de998eb7-233b-4e63-bda5-f7bad8c0703e.jpg)
+
+
+!!! abstract "Improvements"
+
+      - API Gateways - Improved with pagination and the ability to select all APIs in one go.
+
+??? note "Note"
+	
+      - Private Scanners will need to be refreshed.
+
 ## APIsec - February 10th,2023
 	
 	
