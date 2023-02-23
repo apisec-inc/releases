@@ -16,10 +16,11 @@
 !!! abstract "Improvements"
 
       - API Gateways - Improved with pagination and the ability to select all APIs in one go.
+      
+!!! note "Note"
 
-??? note "Note"
-	
       - Private Scanners will need to be refreshed.
+
 
 ## APIsec - February 10th,2023
 	
