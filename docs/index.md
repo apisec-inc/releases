@@ -5,6 +5,26 @@
 ###### APIsec - API Security Platform - https://apisec.ai
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
+## APIsec - February 24th,2023
+	
+	
+!!! abstract "Improvements"
+
+    - Main page - The toggle now defaults to the “All API’s” instead of My API’s.![All Apis](https://user-images.githubusercontent.com/105206963/221225532-0b3b94d4-685e-4ac4-8f3b-75d6d5ff6bb1.png)
+    - Configurations - variables tab - Delete option has been introduced in the variables table.![variables](https://user-images.githubusercontent.com/105206963/221227836-efb3c264-05b1-4808-b3e8-7700b32be1d3.png)
+    - We now support variables in the base URL in Postman collections. During the import process, the variables will be resolved into the correct base URL.
+    - If the OAS file contains multiple environments for an API, we will now automatically create all environments for a given API.
+
+	
+!!! success "Fixes"
+
+    - Detailed scan report text alignment issue has been fixed.
+    - Fixed an error where clicking the "Back" button on the Vulnerabilities page would take you to       the APIs page instead. Now it takes them to the Vulnerabilities section.
+    - Project activities page - project name length text wrap  issue has been fixed.
+    - Configurations - variables tab - Distorted UI issues have been fixed.
+    - Unresolved Variables in the Base URLs issue have been fixed.
+    
+
 ## APIsec - February 17th,2023
 	
 	
@@ -50,8 +70,8 @@
       - Added active button to Issue Tracker for APIsec Issues.
       - Messaging improved for the playbooks page.
 
-??? note "Note"
-	
+!!! note "Note"
+
       - Private Scanners will need to be refreshed.
 
 
