@@ -6,7 +6,7 @@
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
 
-## APIsec - March 3rd,2023
+## APIsec - March 6th,2023
 	
 	
 !!! tip "Features"
@@ -26,7 +26,7 @@
 
 !!! abstract "Improvements"
 
-        - Add the ability to see the SOURCE  of the API when viewing the API’s as a list.
+        - Added the ability to see the SOURCE  of the API when viewing the API’s as a list.
       	<p>Options shown are:<br> File.<br> URL.<br> API_GATEWAY.</p>
       
   	![Source](https://user-images.githubusercontent.com/105206963/223141779-ca97b07f-35ef-4cf3-bd74-1ee87e7d7723.png)
