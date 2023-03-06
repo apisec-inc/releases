@@ -11,27 +11,27 @@
 	
 !!! tip "Features"
 
-      - **NEW** : Spec Analysis
-      - We have introduced a new feature where we will analyze the specification.
+      - **Spec Analysis**: We have introduced a new feature where we will analyze the specification.
 	At the moment it will look for the following:
-- Incomplete items in the specification that are recommended to be there
-- Items that are defined but lead to issues such as:
--  - Basic auth
--  - Parameters in methods that you should not use
-- More information can be found at our [documentation]([url](https://docs.apisec.ai/SpecAnalysis/)) ![Spec Analysis](https://user-images.githubusercontent.com/105206963/223140935-0a4de044-7c0d-495b-b3b2-0149406e9169.png)
+	- Incomplete items in the specification that are recommended to be there.
+	- Items that are defined but lead to issues such as:
+   		- Basic auth
+   		- Parameters in methods that you should not use
+	- More information can be found at our [documentation]([url](https://docs.apisec.ai/SpecAnalysis/)) ![Spec Analysis](https://user-images.githubusercontent.com/105206963/223140935-0a4de044-7c0d-495b-b3b2-0149406e9169.png)
 	
 	
-      - When creating a project and loading a new API, we will now automatically create 4 separate profiles. Each profile will refer to our security tiers. For more information on our security tiers, please go to this [link]([url](https://docs.apisec.ai/SecurityCategories/)) in documentation.![Tier](https://user-images.githubusercontent.com/105206963/223140880-ba9d8660-f942-4906-8d10-d3e3fe0d7a5a.png)
+       - When creating a project and loading a new API, we will now automatically create 4 separate profiles. Each profile will refer to our security tiers. For more information on our security tiers, please go to this [link]([url](https://docs.apisec.ai/SecurityCategories/)) in documentation.![Tier](https://user-images.githubusercontent.com/105206963/223140880-ba9d8660-f942-4906-8d10-d3e3fe0d7a5a.png)
  
 
 
 !!! abstract "Improvements"
 
-      - Add the ability to see the SOURCE  of the API when viewing the API’s as a list.
+        - Add the ability to see the SOURCE  of the API when viewing the API’s as a list.
       Options shown are:
--        - File
--        - URL
--        - API_GATEWAY
+     	       - File
+      	       - URL
+     	       - API_GATEWAY
+      
       ![Source](https://user-images.githubusercontent.com/105206963/223141779-ca97b07f-35ef-4cf3-bd74-1ee87e7d7723.png)
 
 
