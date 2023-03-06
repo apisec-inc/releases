@@ -14,12 +14,13 @@
       - **Spec Analysis**: We have introduced a new feature where we will analyze the specification.<br>At the moment it will look for the following:<br>
 		- Incomplete items in the specification that are recommended to be there.
 		- Items that are defined but lead to issues such as:
-   			- Basic auth
-   			- Parameters in methods that you should not use
-		More information can be found at our [documentation]([url](https://docs.apisec.ai/SpecAnalysis/)) ![Spec Analysis](https://user-images.githubusercontent.com/105206963/223140935-0a4de044-7c0d-495b-b3b2-0149406e9169.png)
+   			1. Basic auth
+   			2. Parameters in methods that you should not use.
+		![Spec Analysis](https://user-images.githubusercontent.com/105206963/223140935-0a4de044-7c0d-495b-b3b2-0149406e9169.png)
+		More information can be found at our [documentation](https://docs.apisec.ai/SpecAnalysis/)
 	
 	
-      - When creating a project and loading a new API, we will now automatically create 4 separate profiles. Each profile will refer to our security tiers. For more information on our security tiers, please go to this [link]([url](https://docs.apisec.ai/SecurityCategories/)) in documentation.![Tier](https://user-images.githubusercontent.com/105206963/223140880-ba9d8660-f942-4906-8d10-d3e3fe0d7a5a.png)
+      - When creating a project and loading a new API, we will now automatically create 4 separate profiles. Each profile will refer to our security tiers. For more information on our security tiers, please go to this [link](https://docs.apisec.ai/SecurityCategories/) in documentation.![Tier](https://user-images.githubusercontent.com/105206963/223140880-ba9d8660-f942-4906-8d10-d3e3fe0d7a5a.png)
  
 
 
