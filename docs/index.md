@@ -5,6 +5,49 @@
 ###### APIsec - API Security Platform - https://apisec.ai
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
+
+## APIsec - March 3rd,2023
+	
+	
+!!! tip "Features"
+
+      - **NEW** : Spec Analysis
+           - We have introduced a new feature where we will analyze the specification. At the moment it will look for the following:
+                 - Incomplete items in the specification that are recommended to be there
+		 - Items that are defined but lead to issues such as:
+		       1 - Basic auth
+		       2 - Parameters in methods that you should not use
+	- More information can be found at our [documentation]([url](https://docs.apisec.ai/SpecAnalysis/)) ![Spec Analysis](https://user-images.githubusercontent.com/105206963/223140935-0a4de044-7c0d-495b-b3b2-0149406e9169.png)
+	
+	
+      - When creating a project and loading a new API, we will now automatically create 4 separate profiles. Each profile will refer to our security tiers. For more information on our security tiers, please go to this [link]([url](https://docs.apisec.ai/SecurityCategories/)) in documentation.![Tier](https://user-images.githubusercontent.com/105206963/223140880-ba9d8660-f942-4906-8d10-d3e3fe0d7a5a.png)
+ 
+
+
+!!! abstract "Improvements"
+
+      - Add the ability to see the SOURCE  of the API when viewing the API’s as a list.
+      Options shown are:
+          - File
+	  - URL
+	  - API_GATEWAY
+      ![Source](https://user-images.githubusercontent.com/105206963/223141779-ca97b07f-35ef-4cf3-bd74-1ee87e7d7723.png)
+
+
+!!! success "Fixes"
+
+    - API Gateways - If the API that was registered via a gateway is no longer in the gateway, you would receive a message stating “Unable to generate playbooks”.  With this change, instead of getting an error message we will utilize the specification that is stored in APIsec.
+    - Main page - APIs table - Navigation bar should get refreshed when we are logging in.
+    - Project dashboard - vulnerabilities table  - Fixed an error where clicking the "Back" button on the Vulnerabilities details page would take you to the wrong page instead. 
+    - Configurations - Environments - Profiles - The training profiles will be hidden by default now. Users can see it by clicking on the "show training profiles" link.![Training Profiles](https://user-images.githubusercontent.com/105206963/223142268-7b37e95d-6736-4860-85b6-217a96dd6a3f.png)
+
+    - Environments tab - When we cloned multiple environments and open a scan window it is throwing an error  issue has been fixed.
+    - Endpoints section - Add endpoints - After adding endpoints scan is not getting triggered instead. Now scan is getting triggered.
+    - Error fixed at profiles page while creating a profile, if scanner is not selected it was showing any random scanner on scan window instead. Now it is displaying the correct scanner.
+	
+         
+
+
 ## APIsec - February 24th,2023
 	
 	
