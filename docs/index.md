@@ -18,7 +18,7 @@
 !!! success "Fixes"
 
     
-    - Configurations-> Environments-> Variables-> Section :
+    - Configurations-> Environments-> Variables Section:
     
 		1. Issues deleting an existing variable issue have been fixed.
 		2. Improved messaging when a new variable is added.![snackbar](https://user-images.githubusercontent.com/105206963/225223360-8b057a04-cecc-4542-9ee3-d00a0fdd1db6.png)
@@ -29,7 +29,7 @@
     - Details page - API project name name length text wrap issue has been fixed.
     - Several empty profiles are added automatically upon project registration or cloning an environment, which results in "Master profile not available" error upon running a scan issue has been fixed.
     
-    - **Project Tagging :**
+    - **Project Tagging:**
     
 		1. Error fixed when a project is registered through advanced section tag was not showing instead. Now it is showing.
 		2. In API's table - If multiple tags were added it is getting overlapped with the source column instead. It is fixed now.![Multiple](https://user-images.githubusercontent.com/105206963/225223950-1bee68c2-d46a-4921-b8c2-127fbd77f5b8.png)
