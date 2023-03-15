@@ -35,6 +35,11 @@
 		2. In API's table - If multiple tags were added it is getting overlapped with the source column instead. It is fixed now.![Multiple](https://user-images.githubusercontent.com/105206963/225223950-1bee68c2-d46a-4921-b8c2-127fbd77f5b8.png)
 
 		3. Text wrap is added for tag name length.![text wrap](https://user-images.githubusercontent.com/105206963/225224002-1501bef7-eb6b-4611-ac05-8a4725d6053a.png)
+		
+		
+ !!! note "Note"
+
+      - We have released a bug fix for the SSL Assertion category. To see the changes, please manually refresh local scanners.
 
 
 ## APIsec - March 6th,2023
