@@ -11,27 +11,27 @@
 !!! abstract "Improvements"
 
     - We have release several Postman integration improvements:
-	1. APIsec will now read any pre pre-request scripts in your postman collection for generating a token.  You will be able to access this script from the environments tab of the appropriate imported API. This script will not be run, but will be available if you want to copy it and manually execute the script to generate a token.
+		1. APIsec will now read any pre pre-request scripts in your postman collection for generating a token.  You will be able to access this script from the environments tab of the appropriate imported API. This script will not be run, but will be available if you want to copy it and manually execute the script to generate a token.
 	To read more about pre-request script in Postman, please check out their documentation.
-	2. APIsec supports displaying user defined headers in the postman. These will be shown in the playbooks under headers.
-	3. APIsec supports displaying original payload defined in the postman. Prior to this change, we would only show a sample payload.
+		2. APIsec supports displaying user defined headers in the postman. These will be shown in the playbooks under headers.
+		3. APIsec supports displaying original payload defined in the postman. Prior to this change, we would only show a sample payload.
 	
 !!! success "Fixes"
 
     - Configurations - Environments - Variables Section -
-	1. Issues deleting an existing variable issue have been fixed.
-	2. Improved messaging when a new variable is added.![snackbar](https://user-images.githubusercontent.com/105206963/225223360-8b057a04-cecc-4542-9ee3-d00a0fdd1db6.png)
+		1. Issues deleting an existing variable issue have been fixed.
+		2. Improved messaging when a new variable is added.![snackbar](https://user-images.githubusercontent.com/105206963/225223360-8b057a04-cecc-4542-9ee3-d00a0fdd1db6.png)
 	
-	3. **New variables(Bulk)** -  There was an error when added bulk variables in the help text. This has been corrected.
+		3. **New variables(Bulk)** -  There was an error when added bulk variables in the help text. This has been corrected.
 
     - API Gateways - Messaging formatting improved during the API import.
     - Details page - API project name name length text wrap issue has been fixed.
     - Several empty profiles are added automatically upon project registration or cloning an environment, which results in "Master profile not available" error upon running a scan issue has been fixed.
     - **Project Tagging -**
-	1. Error fixed when a project is registered through advanced section tag was not showing instead. Now it is showing.
-	2. In API's table - If multiple tags were added it is getting overlapped with the source column instead. It is fixed now.![Multiple](https://user-images.githubusercontent.com/105206963/225223950-1bee68c2-d46a-4921-b8c2-127fbd77f5b8.png)
+		1. Error fixed when a project is registered through advanced section tag was not showing instead. Now it is showing.
+		2. In API's table - If multiple tags were added it is getting overlapped with the source column instead. It is fixed now.![Multiple](https://user-images.githubusercontent.com/105206963/225223950-1bee68c2-d46a-4921-b8c2-127fbd77f5b8.png)
 
-	3. Text wrap is added for tag name length.![text wrap](https://user-images.githubusercontent.com/105206963/225224002-1501bef7-eb6b-4611-ac05-8a4725d6053a.png)
+		3. Text wrap is added for tag name length.![text wrap](https://user-images.githubusercontent.com/105206963/225224002-1501bef7-eb6b-4611-ac05-8a4725d6053a.png)
 
 
 ## APIsec - March 6th,2023
