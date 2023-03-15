@@ -11,7 +11,7 @@
 !!! abstract "Improvements"
 
     - We have release several Postman integration improvements:
-		1. APIsec will now read any pre pre-request scripts in your postman collection for generating a token.  You will be able to access this script from the environments tab of the appropriate imported API. This script will not be run, but will be available if you want to copy it and manually execute the script to generate a token.<br>To read more about pre-request script in Postman, please check out their [documentation](https://learning.postman.com/docs/writing-scripts/pre-request-scripts/).<br>
+		1. APIsec will now read any pre-request scripts in your postman collection for generating a token.  You will be able to access this script from the environments tab of the appropriate imported API. This script will not be run, but will be available if you want to copy it and manually execute the script to generate a token.<br>To read more about pre-request script in Postman, please check out their [documentation](https://learning.postman.com/docs/writing-scripts/pre-request-scripts/).<br>
 		2. APIsec supports displaying user defined headers in the postman. These will be shown in the playbooks under headers.
 		3. APIsec supports displaying original payload defined in the postman. Prior to this change, we would only show a sample payload.
 	
