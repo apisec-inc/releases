@@ -14,10 +14,9 @@
     
 		1. APIsec will now read any pre-request scripts in your postman collection for generating a token.  You will be able to access this script from the environments tab of the appropriate imported API. This script will not be run, but will be available if you want to copy it and manually execute the script to generate a token.![image](https://user-images.githubusercontent.com/105206963/225819307-4bc54fb9-f3b3-41e9-9bb2-e1717f8e0a3f.png)<br>To read more about pre-request script in Postman, please check out their [documentation](https://learning.postman.com/docs/writing-scripts/pre-request-scripts/).<br>
 
-		2. APIsec supports displaying user defined headers in the postman. These will be shown in the playbooks under headers.![headers1](https://user-images.githubusercontent.com/105206963/225819373-1379356f-f561-4bfd-9887-568840c4103e.png)
+		2. APIsec supports displaying user defined headers in the postman. These will be shown in the playbooks under headers.![Headers](https://user-images.githubusercontent.com/105206963/225830185-756e75bb-00e2-4e90-a06f-d4cc02b69e8e.png)
 
-		3. APIsec supports displaying original payload defined in the postman. Prior to this change, we would only show a sample payload.![Payloads](https://user-images.githubusercontent.com/105206963/225819431-1a140535-4641-49e0-a96e-7f10cdd1849a.png)
-
+		3. APIsec supports displaying original payload defined in the postman. Prior to this change, we would only show a sample payload.![headers1](https://user-images.githubusercontent.com/105206963/225830309-bd208da5-d9d0-4d3d-bbcb-fac84582fe78.png)
 	
 !!! success "Fixes"
 
