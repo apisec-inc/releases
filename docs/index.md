@@ -5,6 +5,21 @@
 ###### APIsec - API Security Platform - https://apisec.ai
 ###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
 
+## APIsec - March 27th,2023
+	
+	
+!!! abstract "Improvements"
+
+    - "New Org Creation": With this release, every new tenant will be created with the crAPI project via Auto-pilot. crAPI is a vulnerable API project created by OWASP to educate Security Practitioners on API security risks and attack patterns. This ensures that all new users have access to a fully-onboarded API project so the outcome of the API onboarding process is more clear.![CrAPI](https://user-images.githubusercontent.com/105206963/228031392-4c8a1be5-3760-4bc7-a7f3-d3c90446eccc.png)
+
+	
+!!! success "Fixes"
+
+    - Playbook name now has special characters restriction. Users are no longer allowed to use special characters such as %, $, #, *, etc. in the Playbook name field.
+    - Fixed a UI issue which occurs when an API Specification does not have a fully qualified domain name.
+    - Resolved an issue with updating project names and tags in the details tab of API Projects created without providing a spec file. Previously, users were unable to make changes to project names and tags. Now, users can update project names and tags as expected.![No API](https://user-images.githubusercontent.com/105206963/228031643-d1f1d788-c8e2-47fc-877b-4ae7ea5ed8bc.png)
+
+
 ## APIsec - March 15th,2023
 	
 	
