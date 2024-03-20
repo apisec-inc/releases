@@ -4,6 +4,33 @@
 
 ###### APIsec - API Security Platform - https://apisec.ai
 
+## APIsec - October 5th,2023
+	
+	
+!!! abstract "Improvements"
+
+    - **New Integration**: Introduction of the JumpCloud integration in this release. With this new feature, you can now seamlessly integrate your APIsec account with JumpCloud for enhanced user management and security.
+    - **Vulnerability Navigation**: Added the filter by category option to the Vulnerabilities screen.
+    - **New Teams Feature**: Administrators can create teams of users, optimizing access to specific objects accoring to Team based access controls.
+	
+!!! success "Fixes"
+
+    - Many defects addressed with this release.
+
+## APIsec - September 23rd,2023
+	
+	
+!!! abstract "Improvements"
+
+    - **Security Categories**: Playbook autogeneration now supports custom parameters. Improvements to Rate Limit playbooks with POST operations. Excessive Data Exposure categories improved as well.
+    - **List Sorting Improvements**: Sorting now available as an option throughout the User Interface.
+    - **Security Center Updates**: Added new dashboard to report on a comprehensive List of Unscanned APIs.
+    - **Aesthetic Improvements**: Buttons, fonts, tooltips, and text is now easier to read throught the User Interface.
+	
+!!! success "Fixes"
+
+    - Many defects addressed with this release.
+
 ## APIsec - September 1st,2023
 	
 	
