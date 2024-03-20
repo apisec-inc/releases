@@ -3,7 +3,62 @@
 # APIsec
 
 ###### APIsec - API Security Platform - https://apisec.ai
-###### EthicalCheck<sup>TM</sup> - Free & Instant API Penetration Test Tool - [Try Now](https://www.apisec.ai/free-api-pen-test)
+
+## APIsec - September 1st,2023
+	
+	
+!!! abstract "Improvements"
+
+    - **Updated Vulnerability Age Formula**: Enhanced the Vulnerability Age calculation in response to user feedback. Instead of displaying the number of days since a vulnerability was first discovered, it now calculates the age based on the time between the vulnerability's discovery and its subsequent fix.
+    - **Scanner Listing Improvements**: enhanced the Scanner listing by adding Build Time information and Start Time.
+    - **Enhanced Vulnerability Reports**: Several improvements with vulnerability reports to allow users to download additional details that were previously unavailable.
+    - **New Scanner Option**: Added support for multi-cluster scanner setup as a new option.
+	
+!!! success "Fixes"
+
+    - Many defects addressed with this release.
+
+## APIsec - August 16th,2023
+	
+	
+!!! abstract "Improvements"
+
+    - **Added OAuth2 Authentication Options**: Streamlined the OAuth2 wizard.
+    - **Additional Integrations**: Added support for Microsoft Teams Notification.
+    - **Security Center Updates**: Several improvements with Security Center dashboards.
+	
+!!! success "Fixes"
+
+    - Many defects addressed with this release.
+
+## APIsec - July 31st,2023
+	
+	
+!!! abstract "Improvements"
+
+    - **Added Skip Endpoints**: Configuration of "skipping endpoints" is now possible as a global setting.
+    - **Additional Integrations**: SwaggerHub API Gateway support, Azure Active Directory user and user roles auto-mapping.
+    - **Security Center Updates**: Several improvements with Security Center dashboards.
+	
+!!! success "Fixes"
+
+    - Many defects addressed with this release.
+
+## APIsec - July 19th,2023
+	
+	
+!!! abstract "Improvements"
+
+    - **Authentication Testing**: Basic authentication tests are now possible directly from the UI.
+    - **Improved Messaging**: Many improvements and optimization with pop-up message dialog.
+    - **Improved Security Categories**: Launched "Insecure Parameters" category.
+    - **Improved Slack Integration**: Updated Slack notification alerts to include additional details.
+    - **New Feature Spotlight: Security Center**: Security Center is now live. Please navigate to the "Security Center" tile and check it out.
+	
+!!! success "Fixes"
+
+    - Many defects addressed with this release.
+
 
 ## APIsec - March 27th,2023
 	
