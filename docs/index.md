@@ -1,52 +1,157 @@
-
-
 # APIsec
 
 ###### APIsec - API Security Platform - https://apisec.ai
 
-## APIsec - September 1st,2023
-	
-	
+## APIsec - March 20th, 2024
+
+!!! tip "Improvements"
+
+	-  **New Feature: New Customer Onboarding Wizard**: Launched new beta feature to help customers with onboarding. This wizard is designed to empower customers to navigate their onboarding journey independently, ensuring a seamless experience with minimal manual intervention.
+	-  **Security Categories**: Reflected GET Injection category updated based on latest security trends.
+	-  **Integrations**: Enhancements to the MuleSoft integration updated to include a wider range of APIs in various environments regardless of naming convention.
+
+!!! success "Fixes"
+
+	- Many defects addressed with this release.
+
+## APIsec - February 29th, 2024
+
+!!! danger "Security"
+
+	- **Scanner Security**: Improved security in APIsec Scanner to resolve open CVE's.
+
+!!! tip "Improvements"
+
+	-  **Security Center**: Updates to the Security Center to de-duplicate monthly data.
+	-  **Enhancements to YAML Processing**: Enhancements to processor of complex YAML schemas and improve handling of edge cases.
+	-  **Inference Engine**: Launched Inference Engine to automatically reduce false positives based on scan results and specification inconsistencies.
+
+!!! success "Fixes"
+
+	- Many defects addressed with this release.
+
+## APIsec - January 31st, 2024
+
+!!! tip "Improvements"
+
+	-  **Monthly Report Updates**: Added the ability to select who should receive automated monthly reports from the APIsec platform.
+	-  **Playbook Generation**: Enhancements to the automated playbook generation mechanism and synchronization.
+	-  **ServiceNow Enhancements**: General improvements to the official ServiceNow integration.
+
+!!! success "Fixes"
+
+	- Many defects addressed with this release.
+
+## APIsec - January 4th, 2024
+
+!!! tip "Improvements"
+
+	-  **Online Documentation Updates**: Online documentation has been updated for all APIsec integrations with simple to follow instructions.
+
+!!! success "Fixes"
+
+	- Many defects addressed with this release.
+
+
+## APIsec - December 4th, 2023
+
+!!! danger "Security"
+
+	- Increased security of the platform by improving application control and enforcement features.
+
+!!! tip "Improvements"
+
+	-  **Skip Endpoints Enhancements**: Changed the Category ID to the Category names in the Skipped Endpoints list for better customer experience.
+
+!!! success "Fixes"
+
+  - Jira Integration issue resolved.
+	- MuleSoft Integration issue resolved.
+	- Many other defects addressed.
+
+## APIsec - November 20th, 2023
+
+
+!!! abstract "Improvements"
+
+    - **Vulnerability Comments**: Enhanced the visibility of vulnerability comments.
+    - **GitHub Integration**: Numerous enhancements related to GitHub integration including configuration updates, credentials, and playbook synchronization.
+    - **Teams Feature Enhancements**: Enhancements to the previously released Teams feature based on customer feedback.
+
+!!! success "Fixes"
+
+    - Many defects addressed with this release.
+
+## APIsec - October 5th, 2023
+
+
+!!! abstract "Improvements"
+
+    - **New Integration**: Introduction of the JumpCloud integration in this release. With this new feature, you can now seamlessly integrate your APIsec account with JumpCloud for enhanced user management and security.
+    - **Vulnerability Navigation**: Added the filter by category option to the Vulnerabilities screen.
+    - **New Teams Feature**: Administrators can create teams of users, optimizing access to specific objects according to Team based access controls.
+
+!!! success "Fixes"
+
+    - Many defects addressed with this release.
+
+## APIsec - September 23rd, 2023
+
+
+!!! abstract "Improvements"
+
+    - **Security Categories**: Playbook autogeneration now supports custom parameters. Improvements to Rate Limit playbooks with POST operations. Excessive Data Exposure categories improved as well.
+    - **List Sorting Improvements**: Sorting now available as an option throughout the User Interface.
+    - **Security Center Updates**: Added new dashboard to report on a comprehensive List of Unscanned APIs.
+    - **Aesthetic Improvements**: Buttons, fonts, tooltips, and text is now easier to read throughout the User Interface.
+
+!!! success "Fixes"
+
+    - Many defects addressed with this release.
+
+## APIsec - September 1st, 2023
+
+
 !!! abstract "Improvements"
 
     - **Updated Vulnerability Age Formula**: Enhanced the Vulnerability Age calculation in response to user feedback. Instead of displaying the number of days since a vulnerability was first discovered, it now calculates the age based on the time between the vulnerability's discovery and its subsequent fix.
     - **Scanner Listing Improvements**: enhanced the Scanner listing by adding Build Time information and Start Time.
     - **Enhanced Vulnerability Reports**: Several improvements with vulnerability reports to allow users to download additional details that were previously unavailable.
     - **New Scanner Option**: Added support for multi-cluster scanner setup as a new option.
-	
+
 !!! success "Fixes"
 
     - Many defects addressed with this release.
 
-## APIsec - August 16th,2023
-	
-	
+## APIsec - August 16th, 2023
+
+
 !!! abstract "Improvements"
 
     - **Added OAuth2 Authentication Options**: Streamlined the OAuth2 wizard.
     - **Additional Integrations**: Added support for Microsoft Teams Notification.
     - **Security Center Updates**: Several improvements with Security Center dashboards.
-	
+
 !!! success "Fixes"
 
     - Many defects addressed with this release.
 
-## APIsec - July 31st,2023
-	
-	
+## APIsec - July 31st, 2023
+
+
 !!! abstract "Improvements"
 
     - **Added Skip Endpoints**: Configuration of "skipping endpoints" is now possible as a global setting.
     - **Additional Integrations**: SwaggerHub API Gateway support, Azure Active Directory user and user roles auto-mapping.
     - **Security Center Updates**: Several improvements with Security Center dashboards.
-	
+
 !!! success "Fixes"
 
     - Many defects addressed with this release.
 
-## APIsec - July 19th,2023
-	
-	
+## APIsec - July 19th, 2023
+
+
 !!! abstract "Improvements"
 
     - **Authentication Testing**: Basic authentication tests are now possible directly from the UI.
@@ -54,20 +159,20 @@
     - **Improved Security Categories**: Launched "Insecure Parameters" category.
     - **Improved Slack Integration**: Updated Slack notification alerts to include additional details.
     - **New Feature Spotlight: Security Center**: Security Center is now live. Please navigate to the "Security Center" tile and check it out.
-	
+
 !!! success "Fixes"
 
     - Many defects addressed with this release.
 
 
-## APIsec - March 27th,2023
-	
-	
+## APIsec - March 27th, 2023
+
+
 !!! abstract "Improvements"
 
     - **New Org Creation**: With this release, every new tenant will be created with the crAPI project via Auto-pilot. crAPI is a vulnerable API project created by OWASP to educate Security Practitioners on API security risks and attack patterns. This ensures that all new users have access to a fully-onboarded API project so the outcome of the API onboarding process is more clear.![CrAPI](https://user-images.githubusercontent.com/105206963/228031392-4c8a1be5-3760-4bc7-a7f3-d3c90446eccc.png)
 
-	
+
 !!! success "Fixes"
 
     - Playbook name now has special characters restriction. Users are no longer allowed to use special characters such as %, $, #, *, etc. in the Playbook name field.
@@ -75,51 +180,51 @@
     - Resolved an issue with updating project names and tags in the details tab of API Projects created without providing a spec file. Previously, users were unable to make changes to project names and tags. Now, users can update project names and tags as expected.![No API](https://user-images.githubusercontent.com/105206963/228031643-d1f1d788-c8e2-47fc-877b-4ae7ea5ed8bc.png)
 
 
-## APIsec - March 15th,2023
-	
-	
+## APIsec - March 15th, 2023
+
+
 !!! abstract "Improvements"
 
     - We have release several Postman integration improvements:
-    
+
 		1. APIsec will now read any pre-request scripts in your postman collection for generating a token.  You will be able to access this script from the environments tab of the appropriate imported API. This script will not be run, but will be available if you want to copy it and manually execute the script to generate a token.![image](https://user-images.githubusercontent.com/105206963/225819307-4bc54fb9-f3b3-41e9-9bb2-e1717f8e0a3f.png)<br>To read more about pre-request script in Postman, please check out their [documentation](https://learning.postman.com/docs/writing-scripts/pre-request-scripts/).<br>
 
 		2. APIsec supports displaying user defined headers in the postman. These will be shown in the playbooks under headers.![Headers](https://user-images.githubusercontent.com/105206963/225830185-756e75bb-00e2-4e90-a06f-d4cc02b69e8e.png)
 
 		3. APIsec supports displaying original payload defined in the postman. Prior to this change, we would only show a sample payload.![headers1](https://user-images.githubusercontent.com/105206963/225830309-bd208da5-d9d0-4d3d-bbcb-fac84582fe78.png)
-	
+
 !!! success "Fixes"
 
-    
+
     - Configurations-> Environments-> Variables Section:
-    
+
 		1. Issues deleting an existing variable issue have been fixed.
 		2. Improved messaging when a new variable is added.![snackbar](https://user-images.githubusercontent.com/105206963/225223360-8b057a04-cecc-4542-9ee3-d00a0fdd1db6.png)
-	
+
 		3. **New variables(Bulk)** -  There was an error when added bulk variables in the help text. This has been corrected.
 
     - API Gateways - Messaging formatting improved during the API import.
     - Details page - API project name name length text wrap issue has been fixed.
     - Several empty profiles are added automatically upon project registration or cloning an environment, which results in "Master profile not available" error upon running a scan issue has been fixed.
-    
+
     - **Project Tagging:**
-    
+
 		1. Error fixed when a project is registered through advanced section tag was not showing instead. Now it is showing.
 		2. In API's table - If multiple tags were added it is getting overlapped with the source column instead. It is fixed now.![Multiple](https://user-images.githubusercontent.com/105206963/225223950-1bee68c2-d46a-4921-b8c2-127fbd77f5b8.png)
 
 		3. Text wrap is added for tag name length.![text wrap](https://user-images.githubusercontent.com/105206963/225224002-1501bef7-eb6b-4611-ac05-8a4725d6053a.png)
-		
-		
+
+
 !!! note "Note"
 
       - We have released a bug fix for the SSL Assertion category. To see the changes, please manually refresh local scanners.
-      
-      
+
+
 
 
 ## APIsec - March 6th,2023
-	
-	
+
+
 !!! tip "Features"
 
       - **Spec Analysis**: We have introduced a new feature where we will analyze the specification.<br>At the moment it will look for the following:<br>
@@ -129,17 +234,17 @@
    			2. Parameters in methods that you should not use.
 		![Spec Analysis](https://user-images.githubusercontent.com/105206963/223140935-0a4de044-7c0d-495b-b3b2-0149406e9169.png)
 		More information can be found at our [documentation](https://docs.apisec.ai/SpecAnalysis/)
-	
-	
+
+
       - When creating a project and loading a new API, we will now automatically create 4 separate profiles. Each profile will refer to our security tiers. For more information on our security tiers, please go to this [link](https://docs.apisec.ai/SecurityCategories/) in documentation.![Tier](https://user-images.githubusercontent.com/105206963/223140880-ba9d8660-f942-4906-8d10-d3e3fe0d7a5a.png)
- 
+
 
 
 !!! abstract "Improvements"
 
         - Added the ability to see the SOURCE  of the API when viewing the API’s as a list.
       	<p>Options shown are:<br> File.<br> URL.<br> API_GATEWAY.</p>
-      
+
   	![Source](https://user-images.githubusercontent.com/105206963/223141779-ca97b07f-35ef-4cf3-bd74-1ee87e7d7723.png)
 
 
@@ -147,19 +252,19 @@
 
     - API Gateways - If the API that was registered via a gateway is no longer in the gateway, you would receive a message stating “Unable to generate playbooks”.  With this change, instead of getting an error message we will utilize the specification that is stored in APIsec.
     - Main page - APIs table - Navigation bar should get refreshed when we are logging in.
-    - Project dashboard - vulnerabilities table  - Fixed an error where clicking the "Back" button on the Vulnerabilities details page would take you to the wrong page instead. 
+    - Project dashboard - vulnerabilities table  - Fixed an error where clicking the "Back" button on the Vulnerabilities details page would take you to the wrong page instead.
     - Configurations - Environments - Profiles - The training profiles will be hidden by default now. Users can see it by clicking on the "show training profiles" link.![Training Profiles](https://user-images.githubusercontent.com/105206963/223142268-7b37e95d-6736-4860-85b6-217a96dd6a3f.png)
 
     - Environments tab - When we cloned multiple environments and open a scan window it is throwing an error  issue has been fixed.
     - Endpoints section - Add endpoints - After adding endpoints scan is not getting triggered instead. Now scan is getting triggered.
     - Error fixed at profiles page while creating a profile, if scanner is not selected it was showing any random scanner on scan window instead. Now it is displaying the correct scanner.
-	
-         
 
 
-## APIsec - February 24th,2023
-	
-	
+
+
+## APIsec - February 24th, 2023
+
+
 !!! abstract "Improvements"
 
     - Main page - The toggle now defaults to the “All API’s” instead of My API’s.![All Apis](https://user-images.githubusercontent.com/105206963/221225532-0b3b94d4-685e-4ac4-8f3b-75d6d5ff6bb1.png)
@@ -167,7 +272,7 @@
     - We now support variables in the base URL in Postman collections. During the import process, the variables will be resolved into the correct base URL.
     - If the OAS file contains multiple environments for an API, we will now automatically create all environments for a given API.
 
-	
+
 !!! success "Fixes"
 
     - Detailed scan report text alignment issue has been fixed.
@@ -175,11 +280,11 @@
     - Project activities page - project name length text wrap  issue has been fixed.
     - Configurations - variables tab - Distorted UI issues have been fixed.
     - Unresolved Variables in the Base URLs issue have been fixed.
-    
 
-## APIsec - February 17th,2023
-	
-	
+
+## APIsec - February 17th, 2023
+
+
 !!! tip "Features"
 
       - Project Tagging -  This feature allows users to easily organize and categorize their projects for improved visibility and accessibility.![Screenshot 2023-02-17 153959](https://user-images.githubusercontent.com/105206963/219617975-bc97ca0f-2ee3-4a66-bccd-128df0b0438e.png)
@@ -188,19 +293,19 @@
 !!! abstract "Improvements"
 
       - API Gateways - Improved with pagination and the ability to select all APIs in one go.
-      
+
 !!! note "Note"
 
       - Private Scanners will need to be refreshed.
 
 
-## APIsec - February 10th,2023
-	
-	
+## APIsec - February 10th, 2023
+
+
 !!! abstract "Improvements"
 
     - Alert message for variables and bulk Auth are made window consistent.
-	
+
 !!! success "Fixes"
 
     - Search API field on the main dashboard is fixed.
@@ -209,9 +314,9 @@
     - On the vulnerabilities details page - the remediations field is fixed.
     - Playbook generation - single playbook issue is fixed.
 
-## APIsec - February 2nd,2023
-	
-	
+## APIsec - February 2nd, 2023
+
+
 !!! tip "Features"
 
       - AutoPilot : The Autopilot feature now has the ability to automatically trigger scans after playbook generation,With this feature, users can be confident that their playbooks will be scanned promptly and any necessary changes can be made promptly.
@@ -228,77 +333,75 @@
 
 
 
-## APIsec - January 27th,2023
-	
-	
+## APIsec - January 27th, 2023
+
+
 !!! tip "Features"
 
 	- Variable page - Edit feature is added for ease of Variable customizations.
-	
+
 !!! success "Fixes"
 
-	- RBAC inactive auths issue is fixed.
+	- RBAC inactive authentication issue is fixed.
 	- When the payload is not modified, the error message issue is fixed.
 	- API gateways - search field issue is fixed.
 	- Comparison method violates its general contract issue - fixed.
 	- Report coverage page showing empty with one endpoint issue is fixed.
-	
-## APIsec - January 13th,2023
-	
-	
+
+## APIsec - January 13th, 2023
+
+
 !!! abstract "Improvements"
 
-    - On Summary page - Environments dropdown added. 
-    - Text enhancement and alignment in pentest report.
-	
+    - On Summary page - Environments dropdown added.
+    - Text enhancement and alignment in PenTest report.
+
 !!! success "Fixes"
 
     - Summary report - download issues fixed.
-    - Uploading CSV file in Rbac issue is fixed.
+    - Uploading CSV file in RBAC issue is fixed.
     - Search field on the categories tab is fixed.
 
-## APIsec - January 6th,2023
-	
-	
+## APIsec - January 6th, 2023
+
+
 !!! tip "Features"
 
     - Notification is added for integration status.![notification](https://user-images.githubusercontent.com/105206963/210976328-ac80239e-f801-4cec-b571-d0e1e0bfa3af.png)
-	
+
 !!! success "Fixes"
 
-    - Apigee saml Authentication issue fixed.
+    - Apigee SAML Authentication issue fixed.
     - Authentication Table issues fixed.
 
-## APIsec - December 30th,2022
-	
-	
+## APIsec - December 30th, 2022
+
+
 !!! abstract "Improvements"
 
 
     - Search feature introduced at vulnerabilities list page.
     - OKTA settings can be accessible from the integrations Tab.
     - UX is improved across the RBAC category.
-	
+
 !!! success "Fixes"
 
     - Scan failing at endpoints is fixed.
 
 
-## APIsec - December 22nd,2022
-	
-	
+## APIsec - December 22nd, 2022
+
+
 !!! tip "Features"
 
 	- Org level integrations introduced.![Screenshot 2022-12-22 223521](https://user-images.githubusercontent.com/105206963/209333874-05d4797f-be81-4fe2-9c11-c9b31c47a8fb.png)
 
-
-
 !!! abstract "Improvements"
 
-      - Overall performance improved.
+  - Overall performance improved.
 	- Vaults section is moved to profile menu.![Untitledvault](https://user-images.githubusercontent.com/105206963/209281392-32c721fc-8e6e-4671-b5e5-4c2078c21c06.png)
 
-	
+
 !!! success "Fixes"
 
 	- Categories page throws an error issue is fixed.
@@ -307,19 +410,19 @@
 	- Support of project creation for postman collection issues is fixed.
 	- Bugs across the vaults section are fixed.
 
-## APIsec - December 8th,2022
-		
+## APIsec - December 8th, 2022
+
 
 !!! abstract "Improvements"
 
-      
-        - Performance improved at landing page.
+
+  - Performance improved at landing page.
 	- Added help text for injection and stored injection category.
 	- Messaging and hover text improved at various pages for null data.
 	- Org name column added in "other private scanners" page.
 	- All xlsx and Excel extensions are replaced with CSV extensions.
 	- Confirmation dialogue box added after inactive project category.
-	
+
 !!! success "Fixes"
 
 	- Search field at the security categories page is fixed.
@@ -328,8 +431,8 @@
 
 
 ## APIsec - December 1st,2022
-	
-	
+
+
 !!! tip "Features"
 
 	- Download All API's feature added under vulnerabilities Action Section.
@@ -341,28 +444,28 @@
         - OAS Url added to EthicalCheck Executive summary Report.
 	- Sort by category made case INSENSITIVE.
 	- Download project Endpoints links moved to the top of the page instead of bottom.
-	
+
 !!! success "Fixes"
 
-	- Manage Ados dialog window fixed and Sorting Added.
+	- Manage ADOS dialog window fixed and Sorting Added.
 	- Vulnerabilities-detail page redirecting to playbook and pagination issues fixed.
 	- The Success rate issue on the scan details page is fixed.
-	
+
 ??? note "Note"
-	
+
 	- Private Scanners will need to be refreshed.
 
 
 
-## APIsec - November 16th,2022
-	
+## APIsec - November 16th, 2022
+
 !!! danger "Security"
 
 	- 2FA Implemented at Org Level.
-	
+
 !!! tip "Features"
 
-	- CICD Integration - drone integration introduced.
+	- CI/CD Integration - drone integration introduced.
 	- Search Categories by tag and Name added.
 
 !!! abstract "Improvements"
@@ -377,11 +480,11 @@
 	- Maintenance window footer link added and updated.(https://docs.apisec.ai/maintenance-window/)
 	- Project config - OWASP9 & OWASP10 added in compliance categories.
 	- Auto Pilot - Improvements and Generate playbooks job implemented.
-	- Sorting on Global Vulnerability table implemented. 
+	- Sorting on Global Vulnerability table implemented.
 	- Logs Added to wrike IT service.
 	- All project vulnerabilities download is restricted to users(Role Basic).
 	- Global dashboard vulnerabilities graphs displayed as scan graphs.
-	
+
 !!! success "Fixes"
 
 	- Log4j Variable injection fixed.
@@ -395,12 +498,12 @@
 	- No property found issue fixed.
 
 
-## APIsec - October 27th,2022
-	
+## APIsec - October 27th, 2022
+
 !!! danger "Security"
 
 	- Injections in Scans - Fuzzing one property at a time.
-	
+
 !!! abstract "Improvements"
 
 	- Ethical Check minor improvements.
@@ -408,7 +511,7 @@
 	- Integrations improved.
 	- Environment edit page improved.
 	- Messaging improved at the scanner page.
-	
+
 !!! success "Fixes"
 
 	- Authentication Exploit (SQL) - Invalid assertion fixed.
@@ -420,25 +523,25 @@
 	- Digest Auth issue fixed.
 
 
-## APIsec - October 19th,2022
-	
+## APIsec - October 19th, 2022
+
 !!! tip "Features"
 
 	- Vulnerabilities view at Org level initiated.
-	
+
 !!! abstract "Improvements"
 
 	- Messaging improved at various sections.
 	- Ethical check Free &  Ethical check  Pro reports improved.
 	- Add Endpoint minor improvements.
 	- Added date comparison support in assertions.
-	- Scans Schedule on weekly or monthly added. 
-	- Added documentations: 
-	   Getting OAS for an API from IBM DataPower, 
-	   JupiterOne IT integration, 
-	   Linear IT integration, 
+	- Scans Schedule on weekly or monthly added.
+	- Added documentations:
+	   Getting OAS for an API from IBM DataPower,
+	   JupiterOne IT integration,
+	   Linear IT integration,
 	   Wrike IT integration.
-	
+
 !!! success "Fixes"
 
 	- Playbooks count on the scan history page is fixed.
@@ -446,21 +549,21 @@
 	- Custom generator pages -  Assertion syntax OR fixed.
 
 
-## APIsec - October 12th,2022
-	
+## APIsec - October 12th, 2022
+
 !!! tip "Features"
 
 	- Sftp - Storage Account.
 
 !!! abstract "Improvements"
 
-	- UI Flag Added to show endpoint was added manually. 
+	- UI Flag Added to show endpoint was added manually.
 	- Messaging improved at various sections.
-	- Pentest and Ethical check reports improved.
+	- PenTest and Ethical check reports improved.
 	- Add Endpoint UI improvements.
 	- Postman API Gateway - Fetch APIs/Collections based on workspace ID improved.
 	- Cookies evaluation support added.
-	
+
 !!! success "Fixes"
 
 	- Propagate Payload issue fixed.
@@ -468,52 +571,52 @@
 	- summary report - All vulnerable endpoints display & count in the table fixed.
 	- Re-sync issue fixed.
 	- Jupiter one IT fixed.
-	- The TLS Headers/Cors category not visible in the scan window is fixed.
+	- The TLS Headers/CORS category not visible in the scan window is fixed.
 	- Save and reload spec issue fixed.
 	- Propagate Assertions issue fixed.
 	- Access control on "Org Activities" for User profile is fixed.
 
 ??? note "Note"
-	
+
 	- Private Scanners will need to be refreshed.
 
 
-## APIsec - September 27th,2022
+## APIsec - September 27th, 2022
 
 !!! danger "Security"
 
 	- TLS - Cryptographic protocol designed to provide communications security.
-	
+
 !!! tip "Features"
 
-	- Download all projects Endpoints added. 
+	- Download all projects Endpoints added.
 
 !!! abstract "Improvements"
 
-	- Reading Credentials from the postman collection improved. 
-	
+	- Reading Credentials from the postman collection improved.
+
 !!! success "Fixes"
 
 	- Project list - Persist last visited pagination fixed.
 	- Developer Report - Vulnerabilities count in Active Vulnerabilities table fixed.
 	- Propagate Assertions and Headers fixed.
-	- ApiGateway - APIGEE projects register - fixed. 
+	- ApiGateway - APIGEE projects register - fixed.
 	- Minor UI fixes at footer and Scan summary.
 	- CVSS Score below 3.9 marked as low severity - fixed.
 	- Filter by task in profile activity is fixed.
 	- Domain name at Auth and jupiter one issue tracker issues fixed.
 
 
-## APIsec - September 20th,2022
+## APIsec - September 20th, 2022
 
 !!! danger "Security"
 
 	- CORS category updated.
-	
+
 !!! tip "Features"
 
 	- New API added to Re-Sync Project category with Org category.
-	- Add Endpoint to API spec .
+	- Add Endpoint to API spec.
 	- EthicalCheck Pro Launched.
 
 !!! abstract "Improvements"
@@ -524,7 +627,7 @@
 	- OKTA enabled org messaging improved.
 	- CI/CD script improved.
 	- Documentation updated for new playbook.
-	
+
 !!! success "Fixes"
 
 	- Active and inactive bug for integrations fixed.
@@ -532,24 +635,24 @@
 	- Postman API Gateway Fetch API/Collections bug fixed.
 	- Search security categories issue fixed.
 	- Minor Linear IT fixes.
-	- Pentest and Developer minor fixes.
+	- PenTest and Developer minor fixes.
 	- Global dashboard closed vulnerability count fixed.
 	- New user unable to login with OKTA SSO issue fixed.
 	- Vault page - rows are showing blank issues fixed.
 	- Sync all issues fixed.
 
 
-## APIsec - September 12th,2022
+## APIsec - September 12th, 2022
 
 !!! danger "Security"
 
 	- PII Category added, it checks if Personal Identifiable Information is revealed through this API response
-	
+
 !!! tip "Features"
 
 	- Linear Issue Tracker integrated.![LinearIT](https://user-images.githubusercontent.com/87167471/189995572-0346d487-458c-443b-8a34-ab939a125758.png)
 
-	
+
 !!! abstract "Improvements"
 
 	- Messaging improved at Org member adding.
@@ -558,32 +661,32 @@
 	- Header Variable injection path processing
 	- Improved logging
 	- @plaintext added, PII Generator improved
-	
+
 !!! success "Fixes"
 
 	- Fixed multi email issue.
 	- Linear IT fixes
 
 
-## APIsec - September 7th,2022
+## APIsec - September 7th, 2022
 
 !!! danger "Security"
 
 	- CORS - False Negatives Added.
-	
+
 !!! tip "Features"
 
 	- Add Endpoint to API spec via API.
-	
+
 !!! abstract "Improvements"
 
 	- Messaging improved at Org member adding.
 	- Validating Scanner status on playbook edit and scan trigger dialog window.
-	- Homepage - Search field kept populated unless cleared. 
+	- Homepage - Search field kept populated unless cleared.
 	- API's are also being fetched in Postman API Gateway.
 	- Security Categories info is linked from the reports section.
 	- CI/CD & Github Actions Scripts updated.
-	
+
 !!! success "Fixes"
 
 	- Search bar not working for saved draft categories is fixed.
@@ -599,28 +702,28 @@
 	- Project configuration console error fixed.
 	- New playbook - Playbook special character is fixed.
 	- Pagination issues fixed.
-	- Console error is fixed for CORS category. 
+	- Console error is fixed for CORS category.
 
 ??? note "Note"
-	
-	- cloud.fxlabs.io is redirected to cloud.apisec.ai 
+
+	- cloud.fxlabs.io is redirected to cloud.apisec.ai
 	- APIsec cloud is migrated to modern Kubernetes architecture.
 
 
 ## APIsec - August 29th,2022
-	
+
 !!! tip "Features"
 
 	- "Wrike" issue tracker Integrated.![wrike](https://user-images.githubusercontent.com/87167426/188198360-e297f75f-cc9d-4764-881a-2dddbe3c00f2.png)
 
-	
+
 !!! abstract "Improvements"
 
 	- Org Pages - Name and Email Validations have been improved.
 	- Forthcoming Org Monthly Reports will be sent via SendGrid.
 	- Improvements in form validation and environment base url validation at issue tracker pages and environment page.
 	- Messaging improved for 400 status codes.
-	
+
 !!! success "Fixes"
 
 	- Environment edit - console error is fixed.
@@ -630,22 +733,22 @@
 	- Environments Duplicate Authentication is fixed.
 
 
-## APIsec - August 24th,2022
+## APIsec - August 24th, 2022
 
 
 !!! info "Academy"
-	
-	- APIsec Univeristy Launched.(https://university.apisec.ai/) 
+
+	- APIsec Univeristy Launched.(https://university.apisec.ai/)
 
 !!! danger "Security"
 
 	- We have added new CORS Security Categories to find signs that your API server is extra vulnerable to Cross Site Scripting attacks. Improperly setup CORS policies will allow an attacker to redirect one of your users to your API with their credentials and impersonate them for further attacks. Here's a helpful link for more information on the security concerns of improperly configured CORS policy : https://portswigger.net/web-security/cors
 	- Help text added to the Custom header category.![Help text](https://user-images.githubusercontent.com/87167426/186986277-a685b3e7-e950-4965-b74c-420c2381d168.png)
-	
+
 !!! tip "Features"
 
 	- "JupiterOne" issue tracker Integrated.![jupyter 1](https://user-images.githubusercontent.com/87167426/186985659-65ef8f73-51f0-4487-ad47-a11a4d457729.png)
-	
+
 !!! abstract "Improvements"
 
 	- Footer links updated.
@@ -653,10 +756,10 @@
 	- Messaging at various sections has been improved.
 	- APIsec Monthly Report Improved.
 	- Added Postman set up documentation.
-	
+
 !!! success "Fixes"
 
-	- Report Storage in clouds fixed. 
+	- Report Storage in clouds fixed.
 	- API Gateways SpecAutoOnboarding fixed.
 	- Pagination issue fixed in org list.
 	- Issue Tracker links and url's fixes.
@@ -670,11 +773,11 @@
 	- Orgs API fixed.
 
 ??? note "Note"
-	
+
 	- Ethical check (free pentest) website also improved.(https://www.ethicalcheck.dev/)
 
 
-## APIsec - July 25th,2022
+## APIsec - July 25th, 2022
 
 !!! danger "Security"
 
@@ -690,7 +793,7 @@
 	- Added categories as optional query param in runByProject API
 	- Added error message for runByProject API
 	- Messaging has been improved at various sections,
-	
+
 !!! success "Fixes"
 
 	- Pentest, Developer and compliance reports fixes.
@@ -698,13 +801,13 @@
 	- Playbooks page hidden columns fixed on tab resolutions.
 	- Security researchers add in collaborators is fixed.
 	- Github invalid url & sync all issue fixed
-	- Responsive Fixes of Internal Project Dashboard 
+	- Responsive Fixes of Internal Project Dashboard
 	- Add Collaborators to project fixes.
 	- Postman Basepath Extraction fixed.
 	- HMAC auth URL fixed
 	- Jira issue tracker validation & duplicate issue logging fixed.
 	- Scanner name edit Disabled.
-	- API Gateway -- Mulesoft Business Group issue fixed.
+	- API Gateway -- MuleSoft Business Group issue fixed.
 	- Project Entitlements - fix
 	- Dashboard page - Scan graph box alignment fix
 	- Propagate Headers fixed.
@@ -715,9 +818,9 @@
 	- On signup password hide was not working issue fixed.
 	- Remediation sections and closed vulnerabilities Repeat issue in the Pentest and Developer report are fixed.
 	- API Gateways Spec Auto On boarding issue fixed.
-	
 
-## APIsec - June 13th,2022
+
+## APIsec - June 13th, 2022
 
 !!! danger "Security"
 
@@ -741,8 +844,8 @@
 	- Backend sorting Improved for a few of the tables.
 	- CICD-Jenkins job scripts improved.
 	- Spec upload on project details page improved.
-	- While uploading the project the text option was made read-only. 
-	
+	- While uploading the project the text option was made read-only.
+
 !!! success "Fixes"
 
 	- All project data to excel-sheet download on the dashboard fixed.
@@ -759,7 +862,7 @@
 	- The console error on the project details page is fixed.
 
 
-## APIsec - May 10th,2022
+## APIsec - May 10th, 2022
 
 !!! danger "Security"
 
@@ -789,7 +892,7 @@
 	- Typos in playbook management, CI/CD and password reset page fixed.
 	- Alignments for free users are fixed.
 	- Search bar and empty table issue fixed on landing page.
-	
+
 
 ## APIsec - April 19th, 2022
 
@@ -857,12 +960,12 @@
 	- Project activity page dialog fixes.
 	- Environment auth delete and bulk add issue fixed.
 	- Injection categories issues fixed.
-	
-	
+
+
 ## APIsec - March 22nd, 2022
 
 ??? note "Note"
-	
+
 	- This release has code changes in bot, please ensure to refresh the private scanners.
 
 !!! danger "Security"
@@ -875,7 +978,7 @@
 	- Monthly Org Reports will be shared with Org owners on the first of every month. This report provides test executions of the past month.![monthly org](https://user-images.githubusercontent.com/87167426/160037891-ce89b0cb-c849-43a4-ad57-994d09c2a073.jpg)
 	- Dashboard tiles revamp: It's all about new trends and making them simplify for our customers.![revamp](https://user-images.githubusercontent.com/87167426/160037982-141ccc07-2ef6-41a4-823e-23e4d738b57a.png)
 	- Release Notes: Check out the new release notes integrated into GitHub with security updates.![release notes](https://user-images.githubusercontent.com/87167426/160038054-b4669c67-ceca-44cf-bbf9-9837ecec8800.jpg)
-	
+
 !!! success "Fixes"
 
 	- Summary Report Page enhancements.
@@ -908,8 +1011,8 @@
 
 	- Auto-Onboarding feature launched: The APIsec automatic onboarding was designed to detect weekly specs to onboard their projects. This initial version now supports detection of the open api specs to register in multiple projects in the same account through API gateways.![AutoOnboarding](https://user-images.githubusercontent.com/87167426/158768718-232fe3f3-e5b6-434d-bce7-2fd6aed641cb.png)
 	- Help text of Jira issue tracker introduced.![JiraelpText](https://user-images.githubusercontent.com/87167471/158938463-f48ece03-907c-4ea6-ac94-68159621d3eb.png)
-	- Faster Playbook Generation - 15% performance improvement 
-	- Propagate headers in activity list format are in badge style now. 
+	- Faster Playbook Generation - 15% performance improvement
+	- Propagate headers in activity list format are in badge style now.
 
 !!! success "Fixes"
 
@@ -1110,10 +1213,10 @@
 	- Search field is hidden on the payloads tab.
 	- Project dashboard page - don't show search field until page loads
 	- Added null checks.
-	- Raw file token ,file remain changes 
+	- Raw file token ,file remain changes
 	- Cronjob weekly once for new project
 	- Vulnerabilities details no longer accessible fix
-	- Updated readme 
+	- Updated readme
 
 ## APIsec - Nov 8th, 2021
 
@@ -1196,7 +1299,7 @@
 	- Okta Integration launched: Okta is one trusted platform to secure every identity, from customers to your workforce with Single Sign-On and more.
 	- New SQL & Stored SQL categories launched.
 	- Project search functionality added on the landing page.
-	
+
 !!! success "Fixes"
 
 	- Search activities by users are fixed.
@@ -1346,7 +1449,7 @@
 	- Oracle stored sql injections fix.
 
 !!! tip "Features"
-	
+
 	- Consolidated action items in environment page.
 	- Categories in scan model window will show the auth status if invalid.
 	- Select environment options
@@ -1393,11 +1496,11 @@
 	- Environments are editable now, edit option in the action menu.
 	- Ace color editor changed to single color in vulnerabilities details wirelog.
 	- Sorting added on env auth table.
-	
+
 
 ## APIsec - Aug 9th, 2021
 !!! tip "Features"
-	
+
 	- XML Support: APIsec now supports the XML version which validates and registers the project
 	- Vulnerability Report Download Enhancement: Vulns can be downloaded associated with the filters (Category & Severity).
 	- User Variable: User variable is now set to case sensitive
@@ -1419,7 +1522,7 @@
 ## APIsec - Aug 2nd, 2021
 !!! tip "Features"
 
-	- Propagate Assertions: Changing assertions in a Playbook auto triggers the suggestion to apply the changes across the entire category playbooks. 
+	- Propagate Assertions: Changing assertions in a Playbook auto triggers the suggestion to apply the changes across the entire category playbooks.
 	- Vulnerability Report Download: Added six new columns like (Method, Playbook Name, Bug Bounty savings, CVSS, OWASP Rank, Since, etc.)
 	- Environment: Defaulted to a detailed view. Instantly see all the credentials in an environment
 	- Test Credentials: Instantly check your Jira and GitHub accounts are working.
@@ -1444,7 +1547,7 @@
 
 
 !!! tip "Features"
-	
+
 	- New style for project tabs: Project tabs moved to breadcrumb position. White background added & table size aligned.
 	- Dashboard enhancement: Dashboard changed to the project name with bold view.
 	- Org list: Created by column added into the org table and email notification.
@@ -1570,7 +1673,7 @@
 	- Org enhancements: Added few org tags like PARTNER, CHURN, OPPORTUNITY.
 	- Org table enhancements: Columns renamed and, used license numbers added.
 	- Email notification: Trigger notifications to super admins for new tenant creation.
-	- Beta tags: Beta tags removed from API gateways and reports. 
+	- Beta tags: Beta tags removed from API gateways and reports.
 
 !!! success "Fixes"
 
@@ -1604,7 +1707,7 @@
 	- Text help improvements in Integration inner tabs.
 
 ## APIsec - May 3rd, 2021
-	
+
 !!! danger "Security"
 
 	- Injections removed from date types from all the injection categories.
