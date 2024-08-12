@@ -2,6 +2,16 @@
 
 ###### APIsec - API Security Platform - https://apisec.ai
 
+## APIsec - May 23rd, 2024
+
+!!! danger "Security"
+
+	- **Scanner Security**: Improved security in container image to resolve malware detected.
+	
+!!! success "Fixes"
+
+ 	- Many defects have been addressed with this release.
+
 ## APIsec - May 9th, 2024
 
 !!! tip "Improvements"
