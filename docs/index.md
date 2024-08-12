@@ -4,9 +4,9 @@
 
 ## APIsec - June 13th, 2024
 
-!!! tip "Improvements"
+!!! abstract "Improvements"
 
-	-  The Enhancements have been made to handle the HTTP PATCH method.
+	-  The enhancement has been made to handle the HTTP PATCH method.
 	
 !!! success "Fixes"
 
@@ -16,7 +16,7 @@
 
 !!! danger "Security"
 
-	- **Scanner Security**: Improved security in container image to resolve malware detected.
+	- **Scanner Security**: Improved security in the container image to resolve detected malware.
 	
 !!! success "Fixes"
 
@@ -24,7 +24,7 @@
 
 ## APIsec - May 9th, 2024
 
-!!! tip "Improvements"
+!!! abstract "Improvements"
 
 	-  **hasAny or hasAll keywords**: The hasAny or hasAll keywords are supported in assertions across all categories.
  	-  **SwaggerHub Integration**: The SwaggerHub integration allows URL replacement for retrieving specifications.
