@@ -2,6 +2,16 @@
 
 ###### APIsec - API Security Platform - https://apisec.ai
 
+## APIsec - June 13th, 2024
+
+!!! tip "Improvements"
+
+	-  The Enhancements have been made to handle the HTTP PATCH method.
+	
+!!! success "Fixes"
+
+ 	- Many defects have been addressed with this release.
+
 ## APIsec - May 23rd, 2024
 
 !!! danger "Security"
