@@ -2,6 +2,35 @@
 
 ###### APIsec - API Security Platform - https://apisec.ai
 
+## APIsec - August 7th, 2024
+
+!!! tip "Improvements"
+
+	- Support has been added for SSO with Azure AD using SPA with a public client.
+ 	- Support has been added for SSO with Azure AD using OAuth 2.0 PKCE with a confidential client.
+  	- Search and sorting functionality has been added to the SwaggerHub gateway integration.
+	- Published an API endpoint (POST:/api/v1/oas-validator) to validate OpenAPI Specification.
+ 	
+!!! success "Fixes"
+
+ 	- Many defects have been addressed with this release.
+
+## APIsec - July 18th, 2024
+
+!!! abstract "Improvements"
+
+	- The ability to paste into the password confirmation field has been enabled when changing or setting passwords.
+ 	- An option has been provided to manually delete added endpoints.
+
+!!! danger "Security"
+
+	- Applied UI-related security fixes.
+ 	
+!!! success "Fixes"
+
+ 	- Many defects have been addressed with this release.
+
+
 ## APIsec - June 13th, 2024
 
 !!! abstract "Improvements"
@@ -32,6 +61,7 @@
 !!! success "Fixes"
 
  	- The issue where allowed and disallowed tags were copied across all playbooks when using regex in assertions has been fixed.
+  	- Gracefully Handle null pointer exceptions when parsing errors occur during project registration.
 
 ## APIsec - April 4th, 2024
 
