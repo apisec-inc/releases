@@ -2,6 +2,17 @@
 
 ###### APIsec - API Security Platform - https://apisec.ai
 
+## APIsec - May 9th, 2024
+
+!!! tip "Improvements"
+
+	-  **hasAny or hasAll keywords**: The hasAny or hasAll keywords are supported in assertions across all categories.
+ 	-  **SwaggerHub Integration**: The SwaggerHub integration allows URL replacement for retrieving specifications.
+	
+!!! success "Fixes"
+
+ 	- The issue where allowed and disallowed tags were copied across all playbooks when using regex in assertions has been fixed.
+
 ## APIsec - April 4th, 2024
 
 !!! tip "Improvements"
