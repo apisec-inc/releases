@@ -2,6 +2,21 @@
 
 ###### APIsec - API Security Platform - https://apisec.ai
 
+## APIsec - April 4th, 2024
+
+!!! tip "Improvements"
+
+	-  **Security Categories**: The JWT Security Category has been implemented.
+	
+!!! success "Fixes"
+
+ 	- The identification of open CVEs in the APIsec Scanner, which represent potential security risks, has been addressed.
+ 	- Scans terminated as errored have been fixed.
+  
+!!! note "Note"
+
+ 	- A scanner refresh is required.
+	
 ## APIsec - March 20th, 2024
 
 !!! tip "Improvements"
