@@ -30,6 +30,9 @@
 
  	- Many defects have been addressed with this release.
 
+!!! note "Note"
+
+ 	- A scanner refresh is required.
 
 ## APIsec - June 13th, 2024
 
