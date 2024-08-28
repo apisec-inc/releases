@@ -2,6 +2,28 @@
 
 ###### APIsec - API Security Platform - https://apisec.ai
 
+## APIsec - July 28th, 2024
+
+!!! abstract "Improvements"
+
+- Improved handling of API Gateway-related issues during API onboarding.
+- Enhanced injection attack detection by substituting variables with more accurate values, reducing false negatives, and improving vulnerability identification.
+- Four new API endpoints have been published.
+	- Endpoint(GET:/api/v1/login-activity-logs) to Track Login and Logout Activity.
+	- Endpoint(GET:/api/v1/system-activity-logs) to Track System Activity
+	- Endpoint(POST:/api/v1/envs/validate-auth) to validate token.
+	- Endpoint(POST:/api/v1/endpoint/project/{id}/last-scan) to retrieve the last scan date of onboarded API endpoints
+	- Upgraded an existing API endpoint(POST:/api/v1/oas-validator) to validate API specifications in various formats, including Postman Collection and OAS with .YAML 	extension.
+	- Updated documentation for Scanner to use port 443 instead of 5671.
+	 	
+!!! success "Fixes"
+
+ 	- Many defects have been addressed with this release.
+
+!!! note "Note"
+
+ 	- A scanner refresh is required.
+
 ## APIsec - August 7th, 2024
 
 !!! tip "Improvements"
