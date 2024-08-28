@@ -6,9 +6,9 @@
 
 !!! abstract "Improvements"
 
-- Improved handling of API Gateway-related issues during API onboarding.
-- Enhanced injection attack detection by substituting variables with more accurate values, reducing false negatives, and improving vulnerability identification.
-- Four new API endpoints have been published.
+	- Improved handling of API Gateway-related issues during API onboarding.
+	- Enhanced injection attack detection by substituting variables with more accurate values, reducing false negatives, and improving vulnerability identification.
+	- The following four new API endpoints have been published.
 	- Endpoint(GET:/api/v1/login-activity-logs) to Track Login and Logout Activity.
 	- Endpoint(GET:/api/v1/system-activity-logs) to Track System Activity
 	- Endpoint(POST:/api/v1/envs/validate-auth) to validate token.
