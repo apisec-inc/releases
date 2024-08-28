@@ -2,7 +2,7 @@
 
 ###### APIsec - API Security Platform - https://apisec.ai
 
-## APIsec - July 28th, 2024
+## APIsec - August 28th, 2024
 
 !!! abstract "Improvements"
 
