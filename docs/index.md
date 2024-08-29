@@ -8,11 +8,11 @@
 
 	- Improved handling of API Gateway-related issues during API onboarding.
 	- Enhanced injection attack detection by substituting variables with more accurate values, reducing false negatives, and improving vulnerability identification.
-	- The following four new API endpoints have been published.
-	- Endpoint(GET:/api/v1/login-activity-logs) to Track Login and Logout Activity.
-	- Endpoint(GET:/api/v1/system-activity-logs) to Track System Activity
-	- Endpoint(POST:/api/v1/envs/validate-auth) to validate token.
-	- Endpoint(POST:/api/v1/endpoint/project/{id}/last-scan) to retrieve the last scan date of onboarded API endpoints
+	- **The following four new API endpoints have been published.**
+		- Endpoint(GET:/api/v1/login-activity-logs) to Track Login and Logout Activity.
+		- Endpoint(GET:/api/v1/system-activity-logs) to Track System Activity
+		- Endpoint(POST:/api/v1/envs/validate-auth) to validate token.
+		- Endpoint(POST:/api/v1/endpoint/project/{id}/last-scan) to retrieve the last scan date of onboarded API endpoints
 	- Upgraded an existing API endpoint(POST:/api/v1/oas-validator) to validate API specifications in various formats, including Postman Collection and OAS with .YAML 	extension.
 	- Updated documentation for Scanner to use port 443 instead of 5671.
 	 	
