@@ -2,6 +2,22 @@
 
 ###### APIsec - API Security Platform - https://apisec.ai
 
+## APIsec - September 11th, 2024
+
+!!! abstract "Improvements"
+
+	- Published an API endpoint (GET:/api/v1/user-activity-logs) to retrieve user activity.
+ 	- Support has been added for pagination and dates to the activity endpoints.
+  	- Enhanced handling of API Gateway-related issues during API onboarding.
+	 	
+!!! success "Fixes"
+
+ 	- Many defects have been addressed with this release.
+
+!!! note "Note"
+
+ 	- A scanner refresh is required.
+
 ## APIsec - August 28th, 2024
 
 !!! abstract "Improvements"
