@@ -7,7 +7,7 @@
 !!! abstract "Improvements"
 
 	- BU-Level Reporting Enabled, allowing for the filtering of data by API groups in the Security Center.
- 	- Enhanced search and pagination across all tabs.
+ 	- Improvements to the UI have been made to enhance user experience.
 	 	
 !!! success "Fixes"
 
