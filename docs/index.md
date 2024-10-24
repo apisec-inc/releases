@@ -14,6 +14,17 @@
  	- Hiding Sensitive Parameters in SSO Configuration.
   	- Resolved Vulnerability Logging Issues.
 
+## APIsec - September 26th, 2024
+
+!!! abstract "Improvements"
+
+	- Improved handling of API Gateway-related issues during API onboarding.
+ 	- Enhanced payload generation by substituting variables for elements included in an array, reducing false negatives, and improving vulnerability identification.
+	 	
+!!! success "Fixes"
+
+ 	- Many defects have been addressed with this release.
+
 ## APIsec - September 11th, 2024
 
 !!! abstract "Improvements"
