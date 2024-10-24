@@ -1,0 +1,4269 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="APIsec Release Notes">
+      
+      
+      
+      
+      
+        <link rel="next" href="apisec-enterprise/">
+      
+      
+      <link rel="icon" href="static/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+    
+    
+      
+        <title>Releases</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="m8.533.133 5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.7 1.7 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667l5.25-1.68a1.75 1.75 0 0 1 1.066 0m-.61 1.429zl-5.25 1.68a.25.25 0 0 0-.174.237V7c0 1.36.275 2.666 1.057 3.859.784 1.194 2.121 2.342 4.366 3.298a.2.2 0 0 0 .154 0c2.245-.957 3.582-2.103 4.366-3.297C13.225 9.666 13.5 8.358 13.5 7V3.48a.25.25 0 0 0-.174-.238l-5.25-1.68a.25.25 0 0 0-.153 0M11.28 6.28l-3.5 3.5a.75.75 0 0 1-1.06 0l-1.5-1.5a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l.97.97 2.97-2.97a.75.75 0 0 1 1.042.018.75.75 0 0 1 .018 1.042"/></svg>');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Nunito Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#apisec" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Releases" class="md-header__button md-logo" aria-label="Releases" data-md-component="logo">
+      
+  <img src="assets/APIsec-logo-light.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Releases
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              APIsec
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://apisec.ai" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Apisec/Releases
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Releases" class="md-nav__button md-logo" aria-label="Releases" data-md-component="logo">
+      
+  <img src="assets/APIsec-logo-light.png" alt="logo">
+
+    </a>
+    Releases
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://apisec.ai" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Apisec/Releases
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    APIsec
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    APIsec
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-api-security-platform-httpsapisecai" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - API Security Platform - https://apisec.ai
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-october-24th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - October 24th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-september-26th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - September 26th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-september-11th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - September 11th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-august-28th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - August 28th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-august-7th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - August 7th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-july-18th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - July 18th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-june-13th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - June 13th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-may-23rd-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - May 23rd, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-may-9th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - May 9th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-april-4th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - April 4th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-march-20th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - March 20th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-february-29th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - February 29th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-january-31st-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - January 31st, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-january-4th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - January 4th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-december-4th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - December 4th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-november-20th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - November 20th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-october-5th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - October 5th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-september-23rd-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - September 23rd, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-september-1st-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - September 1st, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-august-16th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - August 16th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-july-31st-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - July 31st, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-july-19th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - July 19th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-march-27th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - March 27th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-march-15th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - March 15th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-march-6th2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - March 6th,2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-february-24th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - February 24th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-february-17th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - February 17th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-february-10th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - February 10th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-february-2nd-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - February 2nd, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-january-27th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - January 27th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-january-13th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - January 13th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-january-6th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - January 6th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-december-30th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - December 30th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-december-22nd-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - December 22nd, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-december-8th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - December 8th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-december-1st2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - December 1st,2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-november-16th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - November 16th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-october-27th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - October 27th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-october-19th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - October 19th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-october-12th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - October 12th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-september-27th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - September 27th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-september-20th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - September 20th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-september-12th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - September 12th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-september-7th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - September 7th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-august-29th2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - August 29th,2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-august-24th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - August 24th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-july-25th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - July 25th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-june-13th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - June 13th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-may-10th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - May 10th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-april-19th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - April 19th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-april-11th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - April 11th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-march-22nd-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - March 22nd, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-feb-23rd-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Feb 23rd, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-feb-7th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Feb 7th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-jan-20th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Jan 20th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-jan-12th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Jan 12th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-dec-15th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Dec 15th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-nov-30th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Nov 30th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-nov-16th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Nov 16th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-nov-8th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Nov 8th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-oct-26th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Oct 26th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-oct-20th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Oct 20th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-oct-13th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Oct 13th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-sep-7th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Sep 7th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-aug-23rd-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Aug 23rd, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-aug-16th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Aug 16th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-aug-9th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Aug 9th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-aug-2nd-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Aug 2nd, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-july-19th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - July 19th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-july-5th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - July 5th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-june-21st-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - June 21st, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-june-15th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - June 15th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-june-7th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - June 7th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-june-1st-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - June 1st, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-may-24th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - May 24th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-may-3rd-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - May 3rd, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-april-19th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - April 19th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-april-5th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - April 5th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-april-13th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - April 13th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-jan-2018-april-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Jan 2018 - April 2021
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="apisec-enterprise/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    APIsec Enterprise
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="apisec-ethicalcheck/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    APIsec EthicalCheck
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="apisec-AWS-Fargate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    APIsec AWS Fargate
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-api-security-platform-httpsapisecai" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - API Security Platform - https://apisec.ai
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-october-24th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - October 24th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-september-26th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - September 26th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-september-11th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - September 11th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-august-28th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - August 28th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-august-7th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - August 7th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-july-18th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - July 18th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-june-13th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - June 13th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-may-23rd-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - May 23rd, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-may-9th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - May 9th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-april-4th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - April 4th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-march-20th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - March 20th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-february-29th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - February 29th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-january-31st-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - January 31st, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-january-4th-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - January 4th, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-december-4th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - December 4th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-november-20th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - November 20th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-october-5th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - October 5th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-september-23rd-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - September 23rd, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-september-1st-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - September 1st, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-august-16th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - August 16th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-july-31st-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - July 31st, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-july-19th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - July 19th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-march-27th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - March 27th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-march-15th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - March 15th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-march-6th2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - March 6th,2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-february-24th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - February 24th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-february-17th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - February 17th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-february-10th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - February 10th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-february-2nd-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - February 2nd, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-january-27th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - January 27th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-january-13th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - January 13th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-january-6th-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - January 6th, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-december-30th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - December 30th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-december-22nd-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - December 22nd, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-december-8th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - December 8th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-december-1st2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - December 1st,2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-november-16th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - November 16th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-october-27th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - October 27th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-october-19th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - October 19th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-october-12th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - October 12th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-september-27th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - September 27th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-september-20th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - September 20th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-september-12th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - September 12th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-september-7th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - September 7th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-august-29th2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - August 29th,2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-august-24th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - August 24th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-july-25th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - July 25th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-june-13th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - June 13th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-may-10th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - May 10th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-april-19th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - April 19th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-april-11th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - April 11th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-march-22nd-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - March 22nd, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-feb-23rd-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Feb 23rd, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-feb-7th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Feb 7th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-jan-20th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Jan 20th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-jan-12th-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Jan 12th, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-dec-15th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Dec 15th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-nov-30th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Nov 30th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-nov-16th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Nov 16th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-nov-8th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Nov 8th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-oct-26th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Oct 26th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-oct-20th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Oct 20th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-oct-13th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Oct 13th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-sep-7th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Sep 7th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-aug-23rd-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Aug 23rd, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-aug-16th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Aug 16th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-aug-9th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Aug 9th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-aug-2nd-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Aug 2nd, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-july-19th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - July 19th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-july-5th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - July 5th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-june-21st-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - June 21st, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-june-15th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - June 15th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-june-7th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - June 7th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-june-1st-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - June 1st, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-may-24th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - May 24th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-may-3rd-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - May 3rd, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-april-19th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - April 19th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-april-5th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - April 5th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-april-13th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - April 13th, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apisec-jan-2018-april-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      APIsec - Jan 2018 - April 2021
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="apisec">APIsec<a class="headerlink" href="#apisec" title="Permanent link">&para;</a></h1>
+<h6 id="apisec-api-security-platform-httpsapisecai">APIsec - API Security Platform - <a href="https://apisec.ai">https://apisec.ai</a><a class="headerlink" href="#apisec-api-security-platform-httpsapisecai" title="Permanent link">&para;</a></h6>
+<h2 id="apisec-october-24th-2024">APIsec - October 24<sup>th</sup>, 2024<a class="headerlink" href="#apisec-october-24th-2024" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>BU-Level Reporting Enabled, allowing for the filtering of data by API groups in the Security Center.</li>
+<li>Improvements to the UI have been made to enhance user experience.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Hiding Sensitive Parameters in SSO Configuration.</li>
+<li>Resolved Vulnerability Logging Issues.</li>
+</ul>
+</div>
+<h2 id="apisec-september-26th-2024">APIsec - September 26<sup>th</sup>, 2024<a class="headerlink" href="#apisec-september-26th-2024" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Improved handling of API Gateway-related issues during API onboarding.</li>
+<li>Enhanced payload generation by substituting variables for elements included in an array, reducing false negatives, and improving vulnerability identification.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects have been addressed with this release.</li>
+</ul>
+</div>
+<h2 id="apisec-september-11th-2024">APIsec - September 11<sup>th</sup>, 2024<a class="headerlink" href="#apisec-september-11th-2024" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Published an API endpoint (GET:/api/v1/user-activity-logs) to retrieve user activity.</li>
+<li>Support has been added for pagination and dates to the activity endpoints.</li>
+<li>Enhanced handling of API Gateway-related issues during API onboarding.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects have been addressed with this release.</li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>A scanner refresh is required.</li>
+</ul>
+</div>
+<h2 id="apisec-august-28th-2024">APIsec - August 28<sup>th</sup>, 2024<a class="headerlink" href="#apisec-august-28th-2024" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Improved handling of API Gateway-related issues during API onboarding.</li>
+<li>Enhanced injection attack detection by substituting variables with more accurate values, reducing false negatives, and improving vulnerability identification.</li>
+<li><strong>The following four new API endpoints have been published.</strong><ul>
+<li>Endpoint(GET:/api/v1/login-activity-logs) to Track Login and Logout Activity.</li>
+<li>Endpoint(GET:/api/v1/system-activity-logs) to Track System Activity</li>
+<li>Endpoint(POST:/api/v1/envs/validate-auth) to validate token.</li>
+<li>Endpoint(POST:/api/v1/endpoint/project/{id}/last-scan) to retrieve the last scan date of onboarded API endpoints</li>
+</ul>
+</li>
+<li>Upgraded an existing API endpoint(POST:/api/v1/oas-validator) to validate API specifications in various formats, including Postman Collection and OAS with .YAML  extension.</li>
+<li>Updated documentation for Scanner to use port 443 instead of 5671.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects have been addressed with this release.</li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>A scanner refresh is required.</li>
+</ul>
+</div>
+<h2 id="apisec-august-7th-2024">APIsec - August 7<sup>th</sup>, 2024<a class="headerlink" href="#apisec-august-7th-2024" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Support has been added for SSO with Azure AD using SPA with a public client.</li>
+<li>Support has been added for SSO with Azure AD using OAuth 2.0 PKCE with a confidential client.</li>
+<li>Search and sorting functionality has been added to the SwaggerHub gateway integration.</li>
+<li>Published an API endpoint (POST:/api/v1/oas-validator) to validate OpenAPI Specification.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects have been addressed with this release.</li>
+</ul>
+</div>
+<h2 id="apisec-july-18th-2024">APIsec - July 18<sup>th</sup>, 2024<a class="headerlink" href="#apisec-july-18th-2024" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>The ability to paste into the password confirmation field has been enabled when changing or setting passwords.</li>
+<li>An option has been provided to manually delete added endpoints.</li>
+</ul>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Applied UI-related security fixes.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects have been addressed with this release.</li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>A scanner refresh is required.</li>
+</ul>
+</div>
+<h2 id="apisec-june-13th-2024">APIsec - June 13<sup>th</sup>, 2024<a class="headerlink" href="#apisec-june-13th-2024" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>The enhancement has been made to handle the HTTP PATCH method.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects have been addressed with this release.</li>
+</ul>
+</div>
+<h2 id="apisec-may-23rd-2024">APIsec - May 23<sup>rd</sup>, 2024<a class="headerlink" href="#apisec-may-23rd-2024" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li><strong>Scanner Security</strong>: Improved security in the container image to resolve detected malware.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects have been addressed with this release.</li>
+</ul>
+</div>
+<h2 id="apisec-may-9th-2024">APIsec - May 9<sup>th</sup>, 2024<a class="headerlink" href="#apisec-may-9th-2024" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li><strong>hasAny or hasAll keywords</strong>: The hasAny or hasAll keywords are supported in assertions across all categories.</li>
+<li><strong>SwaggerHub Integration</strong>: The SwaggerHub integration allows URL replacement for retrieving specifications.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>The issue where allowed and disallowed tags were copied across all playbooks when using regex in assertions has been fixed.</li>
+<li>Gracefully Handle null pointer exceptions when parsing errors occur during project registration.</li>
+</ul>
+</div>
+<h2 id="apisec-april-4th-2024">APIsec - April 4<sup>th</sup>, 2024<a class="headerlink" href="#apisec-april-4th-2024" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li><strong>Security Categories</strong>: The JWT Security Category has been implemented.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>The identification of open CVEs in the APIsec Scanner, which represent potential security risks, has been addressed.</li>
+<li>Scans terminated as errored have been fixed.</li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>A scanner refresh is required.</li>
+</ul>
+</div>
+<h2 id="apisec-march-20th-2024">APIsec - March 20<sup>th</sup>, 2024<a class="headerlink" href="#apisec-march-20th-2024" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li><strong>New Feature: New Customer Onboarding Wizard</strong>: Launched new beta feature to help customers with onboarding. This wizard is designed to empower customers to navigate their onboarding journey independently, ensuring a seamless experience with minimal manual intervention.</li>
+<li><strong>Security Categories</strong>: Reflected GET Injection category updated based on latest security trends.</li>
+<li><strong>Integrations</strong>: Enhancements to the MuleSoft integration updated to include a wider range of APIs in various environments regardless of naming convention.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects addressed with this release.</li>
+</ul>
+</div>
+<h2 id="apisec-february-29th-2024">APIsec - February 29<sup>th</sup>, 2024<a class="headerlink" href="#apisec-february-29th-2024" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li><strong>Scanner Security</strong>: Improved security in APIsec Scanner to resolve open CVE's.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li><strong>Security Center</strong>: Updates to the Security Center to de-duplicate monthly data.</li>
+<li><strong>Enhancements to YAML Processing</strong>: Enhancements to processor of complex YAML schemas and improve handling of edge cases.</li>
+<li><strong>Inference Engine</strong>: Launched Inference Engine to automatically reduce false positives based on scan results and specification inconsistencies.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects addressed with this release.</li>
+</ul>
+</div>
+<h2 id="apisec-january-31st-2024">APIsec - January 31<sup>st</sup>, 2024<a class="headerlink" href="#apisec-january-31st-2024" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li><strong>Monthly Report Updates</strong>: Added the ability to select who should receive automated monthly reports from the APIsec platform.</li>
+<li><strong>Playbook Generation</strong>: Enhancements to the automated playbook generation mechanism and synchronization.</li>
+<li><strong>ServiceNow Enhancements</strong>: General improvements to the official ServiceNow integration.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects addressed with this release.</li>
+</ul>
+</div>
+<h2 id="apisec-january-4th-2024">APIsec - January 4<sup>th</sup>, 2024<a class="headerlink" href="#apisec-january-4th-2024" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li><strong>Online Documentation Updates</strong>: Online documentation has been updated for all APIsec integrations with simple to follow instructions.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects addressed with this release.</li>
+</ul>
+</div>
+<h2 id="apisec-december-4th-2023">APIsec - December 4<sup>th</sup>, 2023<a class="headerlink" href="#apisec-december-4th-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Increased security of the platform by improving application control and enforcement features.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li><strong>Skip Endpoints Enhancements</strong>: Changed the Category ID to the Category names in the Skipped Endpoints list for better customer experience.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+</div>
+<ul>
+<li>Jira Integration issue resolved.<ul>
+<li>MuleSoft Integration issue resolved.</li>
+<li>Many other defects addressed.</li>
+</ul>
+</li>
+</ul>
+<h2 id="apisec-november-20th-2023">APIsec - November 20<sup>th</sup>, 2023<a class="headerlink" href="#apisec-november-20th-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li><strong>Vulnerability Comments</strong>: Enhanced the visibility of vulnerability comments.</li>
+<li><strong>GitHub Integration</strong>: Numerous enhancements related to GitHub integration including configuration updates, credentials, and playbook synchronization.</li>
+<li><strong>Teams Feature Enhancements</strong>: Enhancements to the previously released Teams feature based on customer feedback.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects addressed with this release.</li>
+</ul>
+</div>
+<h2 id="apisec-october-5th-2023">APIsec - October 5<sup>th</sup>, 2023<a class="headerlink" href="#apisec-october-5th-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li><strong>New Integration</strong>: Introduction of the JumpCloud integration in this release. With this new feature, you can now seamlessly integrate your APIsec account with JumpCloud for enhanced user management and security.</li>
+<li><strong>Vulnerability Navigation</strong>: Added the filter by category option to the Vulnerabilities screen.</li>
+<li><strong>New Teams Feature</strong>: Administrators can create teams of users, optimizing access to specific objects according to Team based access controls.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects addressed with this release.</li>
+</ul>
+</div>
+<h2 id="apisec-september-23rd-2023">APIsec - September 23<sup>rd</sup>, 2023<a class="headerlink" href="#apisec-september-23rd-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li><strong>Security Categories</strong>: Playbook autogeneration now supports custom parameters. Improvements to Rate Limit playbooks with POST operations. Excessive Data Exposure categories improved as well.</li>
+<li><strong>List Sorting Improvements</strong>: Sorting now available as an option throughout the User Interface.</li>
+<li><strong>Security Center Updates</strong>: Added new dashboard to report on a comprehensive List of Unscanned APIs.</li>
+<li><strong>Aesthetic Improvements</strong>: Buttons, fonts, tooltips, and text is now easier to read throughout the User Interface.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects addressed with this release.</li>
+</ul>
+</div>
+<h2 id="apisec-september-1st-2023">APIsec - September 1<sup>st</sup>, 2023<a class="headerlink" href="#apisec-september-1st-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li><strong>Updated Vulnerability Age Formula</strong>: Enhanced the Vulnerability Age calculation in response to user feedback. Instead of displaying the number of days since a vulnerability was first discovered, it now calculates the age based on the time between the vulnerability's discovery and its subsequent fix.</li>
+<li><strong>Scanner Listing Improvements</strong>: enhanced the Scanner listing by adding Build Time information and Start Time.</li>
+<li><strong>Enhanced Vulnerability Reports</strong>: Several improvements with vulnerability reports to allow users to download additional details that were previously unavailable.</li>
+<li><strong>New Scanner Option</strong>: Added support for multi-cluster scanner setup as a new option.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects addressed with this release.</li>
+</ul>
+</div>
+<h2 id="apisec-august-16th-2023">APIsec - August 16<sup>th</sup>, 2023<a class="headerlink" href="#apisec-august-16th-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li><strong>Added OAuth2 Authentication Options</strong>: Streamlined the OAuth2 wizard.</li>
+<li><strong>Additional Integrations</strong>: Added support for Microsoft Teams Notification.</li>
+<li><strong>Security Center Updates</strong>: Several improvements with Security Center dashboards.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects addressed with this release.</li>
+</ul>
+</div>
+<h2 id="apisec-july-31st-2023">APIsec - July 31<sup>st</sup>, 2023<a class="headerlink" href="#apisec-july-31st-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li><strong>Added Skip Endpoints</strong>: Configuration of "skipping endpoints" is now possible as a global setting.</li>
+<li><strong>Additional Integrations</strong>: SwaggerHub API Gateway support, Azure Active Directory user and user roles auto-mapping.</li>
+<li><strong>Security Center Updates</strong>: Several improvements with Security Center dashboards.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects addressed with this release.</li>
+</ul>
+</div>
+<h2 id="apisec-july-19th-2023">APIsec - July 19<sup>th</sup>, 2023<a class="headerlink" href="#apisec-july-19th-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li><strong>Authentication Testing</strong>: Basic authentication tests are now possible directly from the UI.</li>
+<li><strong>Improved Messaging</strong>: Many improvements and optimization with pop-up message dialog.</li>
+<li><strong>Improved Security Categories</strong>: Launched "Insecure Parameters" category.</li>
+<li><strong>Improved Slack Integration</strong>: Updated Slack notification alerts to include additional details.</li>
+<li><strong>New Feature Spotlight: Security Center</strong>: Security Center is now live. Please navigate to the "Security Center" tile and check it out.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Many defects addressed with this release.</li>
+</ul>
+</div>
+<h2 id="apisec-march-27th-2023">APIsec - March 27<sup>th</sup>, 2023<a class="headerlink" href="#apisec-march-27th-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li><strong>New Org Creation</strong>: With this release, every new tenant will be created with the crAPI project via Auto-pilot. crAPI is a vulnerable API project created by OWASP to educate Security Practitioners on API security risks and attack patterns. This ensures that all new users have access to a fully-onboarded API project so the outcome of the API onboarding process is more clear.<img alt="CrAPI" src="https://user-images.githubusercontent.com/105206963/228031392-4c8a1be5-3760-4bc7-a7f3-d3c90446eccc.png" /></li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Playbook name now has special characters restriction. Users are no longer allowed to use special characters such as %, $, #, *, etc. in the Playbook name field.</li>
+<li>Fixed a UI issue which occurs when an API Specification does not have a fully qualified domain name.</li>
+<li>Resolved an issue with updating project names and tags in the details tab of API Projects created without providing a spec file. Previously, users were unable to make changes to project names and tags. Now, users can update project names and tags as expected.<img alt="No API" src="https://user-images.githubusercontent.com/105206963/228031643-d1f1d788-c8e2-47fc-877b-4ae7ea5ed8bc.png" /></li>
+</ul>
+</div>
+<h2 id="apisec-march-15th-2023">APIsec - March 15<sup>th</sup>, 2023<a class="headerlink" href="#apisec-march-15th-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>
+<p>We have release several Postman integration improvements:</p>
+<ol>
+<li>
+<p>APIsec will now read any pre-request scripts in your postman collection for generating a token.  You will be able to access this script from the environments tab of the appropriate imported API. This script will not be run, but will be available if you want to copy it and manually execute the script to generate a token.<img alt="image" src="https://user-images.githubusercontent.com/105206963/225819307-4bc54fb9-f3b3-41e9-9bb2-e1717f8e0a3f.png" /><br>To read more about pre-request script in Postman, please check out their <a href="https://learning.postman.com/docs/writing-scripts/pre-request-scripts/">documentation</a>.<br></p>
+</li>
+<li>
+<p>APIsec supports displaying user defined headers in the postman. These will be shown in the playbooks under headers.<img alt="Headers" src="https://user-images.githubusercontent.com/105206963/225830185-756e75bb-00e2-4e90-a06f-d4cc02b69e8e.png" /></p>
+</li>
+<li>
+<p>APIsec supports displaying original payload defined in the postman. Prior to this change, we would only show a sample payload.<img alt="headers1" src="https://user-images.githubusercontent.com/105206963/225830309-bd208da5-d9d0-4d3d-bbcb-fac84582fe78.png" /></p>
+</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>
+<p>Configurations-&gt; Environments-&gt; Variables Section:</p>
+<ol>
+<li>Issues deleting an existing variable issue have been fixed.</li>
+<li>
+<p>Improved messaging when a new variable is added.<img alt="snackbar" src="https://user-images.githubusercontent.com/105206963/225223360-8b057a04-cecc-4542-9ee3-d00a0fdd1db6.png" /></p>
+</li>
+<li>
+<p><strong>New variables(Bulk)</strong> -  There was an error when added bulk variables in the help text. This has been corrected.</p>
+</li>
+</ol>
+</li>
+<li>
+<p>API Gateways - Messaging formatting improved during the API import.</p>
+</li>
+<li>Details page - API project name name length text wrap issue has been fixed.</li>
+<li>
+<p>Several empty profiles are added automatically upon project registration or cloning an environment, which results in "Master profile not available" error upon running a scan issue has been fixed.</p>
+</li>
+<li>
+<p><strong>Project Tagging:</strong></p>
+<ol>
+<li>Error fixed when a project is registered through advanced section tag was not showing instead. Now it is showing.</li>
+<li>
+<p>In API's table - If multiple tags were added it is getting overlapped with the source column instead. It is fixed now.<img alt="Multiple" src="https://user-images.githubusercontent.com/105206963/225223950-1bee68c2-d46a-4921-b8c2-127fbd77f5b8.png" /></p>
+</li>
+<li>
+<p>Text wrap is added for tag name length.<img alt="text wrap" src="https://user-images.githubusercontent.com/105206963/225224002-1501bef7-eb6b-4611-ac05-8a4725d6053a.png" /></p>
+</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>We have released a bug fix for the SSL Assertion category. To see the changes, please manually refresh local scanners.</li>
+</ul>
+</div>
+<h2 id="apisec-march-6th2023">APIsec - March 6<sup>th</sup>,2023<a class="headerlink" href="#apisec-march-6th2023" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>
+<p><strong>Spec Analysis</strong>: We have introduced a new feature where we will analyze the specification.<br>At the moment it will look for the following:<br></p>
+<ul>
+<li>Incomplete items in the specification that are recommended to be there.</li>
+<li>Items that are defined but lead to issues such as:<ol>
+<li>Basic auth</li>
+<li>Parameters in methods that you should not use.
+<img alt="Spec Analysis" src="https://user-images.githubusercontent.com/105206963/223140935-0a4de044-7c0d-495b-b3b2-0149406e9169.png" />
+More information can be found at our <a href="https://docs.apisec.ai/SpecAnalysis/">documentation</a></li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p>When creating a project and loading a new API, we will now automatically create 4 separate profiles. Each profile will refer to our security tiers. For more information on our security tiers, please go to this <a href="https://docs.apisec.ai/SecurityCategories/">link</a> in documentation.<img alt="Tier" src="https://user-images.githubusercontent.com/105206963/223140880-ba9d8660-f942-4906-8d10-d3e3fe0d7a5a.png" /></p>
+</li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<div class="highlight"><pre><span></span><code>- Added the ability to see the SOURCE  of the API when viewing the API’s as a list.
+&lt;p&gt;Options shown are:&lt;br&gt; File.&lt;br&gt; URL.&lt;br&gt; API_GATEWAY.&lt;/p&gt;
+</code></pre></div>
+<p><img alt="Source" src="https://user-images.githubusercontent.com/105206963/223141779-ca97b07f-35ef-4cf3-bd74-1ee87e7d7723.png" /></p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>API Gateways - If the API that was registered via a gateway is no longer in the gateway, you would receive a message stating “Unable to generate playbooks”.  With this change, instead of getting an error message we will utilize the specification that is stored in APIsec.</li>
+<li>Main page - APIs table - Navigation bar should get refreshed when we are logging in.</li>
+<li>Project dashboard - vulnerabilities table  - Fixed an error where clicking the "Back" button on the Vulnerabilities details page would take you to the wrong page instead.</li>
+<li>
+<p>Configurations - Environments - Profiles - The training profiles will be hidden by default now. Users can see it by clicking on the "show training profiles" link.<img alt="Training Profiles" src="https://user-images.githubusercontent.com/105206963/223142268-7b37e95d-6736-4860-85b6-217a96dd6a3f.png" /></p>
+</li>
+<li>
+<p>Environments tab - When we cloned multiple environments and open a scan window it is throwing an error  issue has been fixed.</p>
+</li>
+<li>Endpoints section - Add endpoints - After adding endpoints scan is not getting triggered instead. Now scan is getting triggered.</li>
+<li>Error fixed at profiles page while creating a profile, if scanner is not selected it was showing any random scanner on scan window instead. Now it is displaying the correct scanner.</li>
+</ul>
+</div>
+<h2 id="apisec-february-24th-2023">APIsec - February 24<sup>th</sup>, 2023<a class="headerlink" href="#apisec-february-24th-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Main page - The toggle now defaults to the “All API’s” instead of My API’s.<img alt="All Apis" src="https://user-images.githubusercontent.com/105206963/221225532-0b3b94d4-685e-4ac4-8f3b-75d6d5ff6bb1.png" /></li>
+<li>Configurations - variables tab - Delete option has been introduced in the variables table.<img alt="variables" src="https://user-images.githubusercontent.com/105206963/221227836-efb3c264-05b1-4808-b3e8-7700b32be1d3.png" /></li>
+<li>We now support variables in the base URL in Postman collections. During the import process, the variables will be resolved into the correct base URL.</li>
+<li>If the OAS file contains multiple environments for an API, we will now automatically create all environments for a given API.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Detailed scan report text alignment issue has been fixed.</li>
+<li>Fixed an error where clicking the "Back" button on the Vulnerabilities page would take you to       the APIs page instead. Now it takes them to the Vulnerabilities section.</li>
+<li>Project activities page - project name length text wrap  issue has been fixed.</li>
+<li>Configurations - variables tab - Distorted UI issues have been fixed.</li>
+<li>Unresolved Variables in the Base URLs issue have been fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-february-17th-2023">APIsec - February 17<sup>th</sup>, 2023<a class="headerlink" href="#apisec-february-17th-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Project Tagging -  This feature allows users to easily organize and categorize their projects for improved visibility and accessibility.<img alt="Screenshot 2023-02-17 153959" src="https://user-images.githubusercontent.com/105206963/219617975-bc97ca0f-2ee3-4a66-bccd-128df0b0438e.png" /></li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>API Gateways - Improved with pagination and the ability to select all APIs in one go.</li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>Private Scanners will need to be refreshed.</li>
+</ul>
+</div>
+<h2 id="apisec-february-10th-2023">APIsec - February 10<sup>th</sup>, 2023<a class="headerlink" href="#apisec-february-10th-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Alert message for variables and bulk Auth are made window consistent.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Search API field on the main dashboard is fixed.</li>
+<li>Scan triggered via Jenkins failed to send a report issue is fixed.</li>
+<li>Adding new endpoints &amp; trigger a scan completes without any playbooks issue is Fixed.</li>
+<li>On the vulnerabilities details page - the remediations field is fixed.</li>
+<li>Playbook generation - single playbook issue is fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-february-2nd-2023">APIsec - February 2<sup>nd</sup>, 2023<a class="headerlink" href="#apisec-february-2nd-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>AutoPilot : The Autopilot feature now has the ability to automatically trigger scans after playbook generation,With this feature, users can be confident that their playbooks will be scanned promptly and any necessary changes can be made promptly.</li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Added active button to Issue Tracker for APIsec Issues.</li>
+<li>Messaging improved for the playbooks page.</li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>Private Scanners will need to be refreshed.</li>
+</ul>
+</div>
+<h2 id="apisec-january-27th-2023">APIsec - January 27<sup>th</sup>, 2023<a class="headerlink" href="#apisec-january-27th-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Variable page - Edit feature is added for ease of Variable customizations.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>RBAC inactive authentication issue is fixed.</li>
+<li>When the payload is not modified, the error message issue is fixed.</li>
+<li>API gateways - search field issue is fixed.</li>
+<li>Comparison method violates its general contract issue - fixed.</li>
+<li>Report coverage page showing empty with one endpoint issue is fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-january-13th-2023">APIsec - January 13<sup>th</sup>, 2023<a class="headerlink" href="#apisec-january-13th-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>On Summary page - Environments dropdown added.</li>
+<li>Text enhancement and alignment in PenTest report.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Summary report - download issues fixed.</li>
+<li>Uploading CSV file in RBAC issue is fixed.</li>
+<li>Search field on the categories tab is fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-january-6th-2023">APIsec - January 6<sup>th</sup>, 2023<a class="headerlink" href="#apisec-january-6th-2023" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Notification is added for integration status.<img alt="notification" src="https://user-images.githubusercontent.com/105206963/210976328-ac80239e-f801-4cec-b571-d0e1e0bfa3af.png" /></li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Apigee SAML Authentication issue fixed.</li>
+<li>Authentication Table issues fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-december-30th-2022">APIsec - December 30<sup>th</sup>, 2022<a class="headerlink" href="#apisec-december-30th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Search feature introduced at vulnerabilities list page.</li>
+<li>OKTA settings can be accessible from the integrations Tab.</li>
+<li>UX is improved across the RBAC category.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Scan failing at endpoints is fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-december-22nd-2022">APIsec - December 22<sup>nd</sup>, 2022<a class="headerlink" href="#apisec-december-22nd-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Org level integrations introduced.<img alt="Screenshot 2022-12-22 223521" src="https://user-images.githubusercontent.com/105206963/209333874-05d4797f-be81-4fe2-9c11-c9b31c47a8fb.png" /></li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+</div>
+<ul>
+<li>Overall performance improved.<ul>
+<li>Vaults section is moved to profile menu.<img alt="Untitledvault" src="https://user-images.githubusercontent.com/105206963/209281392-32c721fc-8e6e-4671-b5e5-4c2078c21c06.png" /></li>
+</ul>
+</li>
+</ul>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Categories page throws an error issue is fixed.</li>
+<li>Postman host setting issue is fixed.</li>
+<li>Exception when no auth items in postman collection issue is fixed.</li>
+<li>Support of project creation for postman collection issues is fixed.</li>
+<li>Bugs across the vaults section are fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-december-8th-2022">APIsec - December 8<sup>th</sup>, 2022<a class="headerlink" href="#apisec-december-8th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+</div>
+<ul>
+<li>Performance improved at landing page.<ul>
+<li>Added help text for injection and stored injection category.</li>
+<li>Messaging and hover text improved at various pages for null data.</li>
+<li>Org name column added in "other private scanners" page.</li>
+<li>All xlsx and Excel extensions are replaced with CSV extensions.</li>
+<li>Confirmation dialogue box added after inactive project category.</li>
+</ul>
+</li>
+</ul>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Search field at the security categories page is fixed.</li>
+<li>Sorting at the vulnerabilities page is fixed.</li>
+<li>Low severity added at various places</li>
+</ul>
+</div>
+<h2 id="apisec-december-1st2022">APIsec - December 1<sup>st</sup>,2022<a class="headerlink" href="#apisec-december-1st2022" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Download All API's feature added under vulnerabilities Action Section.</li>
+<li>Added Last-Ping column to Scanners page.</li>
+<li>Scanner page - Non Apisec Scanner tab Added and all Scanners views for Super Admin</li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<div class="highlight"><pre><span></span><code>- OAS Url added to EthicalCheck Executive summary Report.
+</code></pre></div>
+<ul>
+<li>Sort by category made case INSENSITIVE.</li>
+<li>Download project Endpoints links moved to the top of the page instead of bottom.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Manage ADOS dialog window fixed and Sorting Added.</li>
+<li>Vulnerabilities-detail page redirecting to playbook and pagination issues fixed.</li>
+<li>The Success rate issue on the scan details page is fixed.</li>
+</ul>
+</div>
+<details class="note">
+<summary>Note</summary>
+<ul>
+<li>Private Scanners will need to be refreshed.</li>
+</ul>
+</details>
+<h2 id="apisec-november-16th-2022">APIsec - November 16<sup>th</sup>, 2022<a class="headerlink" href="#apisec-november-16th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>2FA Implemented at Org Level.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>CI/CD Integration - drone integration introduced.</li>
+<li>Search Categories by tag and Name added.</li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Improvements at Auth Test dialog Table, Help texts and Error messages.</li>
+<li>Postman v10 support added for APIs in Postman-APIGateway.</li>
+<li>500 status added to all categories for FP/FN.</li>
+<li>Flag added to org Vulnerability download endpoint.</li>
+<li>Project list Tiles view - Base URL added.</li>
+<li>Vulnerabilities section added on dashboard.</li>
+<li>EthicalCheck email body and signature and text improved.</li>
+<li>Maintenance window footer link added and updated.(<a href="https://docs.apisec.ai/maintenance-window/">https://docs.apisec.ai/maintenance-window/</a>)</li>
+<li>Project config - OWASP9 &amp; OWASP10 added in compliance categories.</li>
+<li>Auto Pilot - Improvements and Generate playbooks job implemented.</li>
+<li>Sorting on Global Vulnerability table implemented.</li>
+<li>Logs Added to wrike IT service.</li>
+<li>All project vulnerabilities download is restricted to users(Role Basic).</li>
+<li>Global dashboard vulnerabilities graphs displayed as scan graphs.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Log4j Variable injection fixed.</li>
+<li>Categories Display names fixed.</li>
+<li>Free account - Unauthorized error is fixed.</li>
+<li>405 Errors due to empty variable replacements in url fixed.</li>
+<li>Insecure cookies Category missing in scan window fixed.</li>
+<li>Private Security Category Edit - User Authorization Fixed.</li>
+<li>Pagination retaining issue fixed.</li>
+<li>Notifications page toggle issue fixed.</li>
+<li>No property found issue fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-october-27th-2022">APIsec - October 27<sup>th</sup>, 2022<a class="headerlink" href="#apisec-october-27th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Injections in Scans - Fuzzing one property at a time.</li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Ethical Check minor improvements.</li>
+<li>Project list page - vulnerabilities view improved.</li>
+<li>Integrations improved.</li>
+<li>Environment edit page improved.</li>
+<li>Messaging improved at the scanner page.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Authentication Exploit (SQL) - Invalid assertion fixed.</li>
+<li>Low severity on saving security category is fixed.</li>
+<li>Delete/Archive issue fixed by disabling the button.</li>
+<li>Minor fixes on the vulnerability page.</li>
+<li>Project configuration - resync issue fixed.</li>
+<li>Org vulnerabilities Download error is fixed.</li>
+<li>Digest Auth issue fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-october-19th-2022">APIsec - October 19<sup>th</sup>, 2022<a class="headerlink" href="#apisec-october-19th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Vulnerabilities view at Org level initiated.</li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Messaging improved at various sections.</li>
+<li>Ethical check Free &amp;  Ethical check  Pro reports improved.</li>
+<li>Add Endpoint minor improvements.</li>
+<li>Added date comparison support in assertions.</li>
+<li>Scans Schedule on weekly or monthly added.</li>
+<li>Added documentations:
+   Getting OAS for an API from IBM DataPower,
+   JupiterOne IT integration,
+   Linear IT integration,
+   Wrike IT integration.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Playbooks count on the scan history page is fixed.</li>
+<li>Custom categories name updated.</li>
+<li>Custom generator pages -  Assertion syntax OR fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-october-12th-2022">APIsec - October 12<sup>th</sup>, 2022<a class="headerlink" href="#apisec-october-12th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Sftp - Storage Account.</li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>UI Flag Added to show endpoint was added manually.</li>
+<li>Messaging improved at various sections.</li>
+<li>PenTest and Ethical check reports improved.</li>
+<li>Add Endpoint UI improvements.</li>
+<li>Postman API Gateway - Fetch APIs/Collections based on workspace ID improved.</li>
+<li>Cookies evaluation support added.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Propagate Payload issue fixed.</li>
+<li>obfuscating value from request headers in wirelogs fixed.</li>
+<li>summary report - All vulnerable endpoints display &amp; count in the table fixed.</li>
+<li>Re-sync issue fixed.</li>
+<li>Jupiter one IT fixed.</li>
+<li>The TLS Headers/CORS category not visible in the scan window is fixed.</li>
+<li>Save and reload spec issue fixed.</li>
+<li>Propagate Assertions issue fixed.</li>
+<li>Access control on "Org Activities" for User profile is fixed.</li>
+</ul>
+</div>
+<details class="note">
+<summary>Note</summary>
+<ul>
+<li>Private Scanners will need to be refreshed.</li>
+</ul>
+</details>
+<h2 id="apisec-september-27th-2022">APIsec - September 27<sup>th</sup>, 2022<a class="headerlink" href="#apisec-september-27th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>TLS - Cryptographic protocol designed to provide communications security.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Download all projects Endpoints added.</li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Reading Credentials from the postman collection improved.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Project list - Persist last visited pagination fixed.</li>
+<li>Developer Report - Vulnerabilities count in Active Vulnerabilities table fixed.</li>
+<li>Propagate Assertions and Headers fixed.</li>
+<li>ApiGateway - APIGEE projects register - fixed.</li>
+<li>Minor UI fixes at footer and Scan summary.</li>
+<li>CVSS Score below 3.9 marked as low severity - fixed.</li>
+<li>Filter by task in profile activity is fixed.</li>
+<li>Domain name at Auth and jupiter one issue tracker issues fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-september-20th-2022">APIsec - September 20<sup>th</sup>, 2022<a class="headerlink" href="#apisec-september-20th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>CORS category updated.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>New API added to Re-Sync Project category with Org category.</li>
+<li>Add Endpoint to API spec.</li>
+<li>EthicalCheck Pro Launched.</li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Messaging improved for propagations, snack bar and archive.</li>
+<li>Invalid Base url warning improved.</li>
+<li>Pentest and Developer minor improvements.</li>
+<li>OKTA enabled org messaging improved.</li>
+<li>CI/CD script improved.</li>
+<li>Documentation updated for new playbook.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Active and inactive bug for integrations fixed.</li>
+<li>Creating a new profile bug fixed.</li>
+<li>Postman API Gateway Fetch API/Collections bug fixed.</li>
+<li>Search security categories issue fixed.</li>
+<li>Minor Linear IT fixes.</li>
+<li>PenTest and Developer minor fixes.</li>
+<li>Global dashboard closed vulnerability count fixed.</li>
+<li>New user unable to login with OKTA SSO issue fixed.</li>
+<li>Vault page - rows are showing blank issues fixed.</li>
+<li>Sync all issues fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-september-12th-2022">APIsec - September 12<sup>th</sup>, 2022<a class="headerlink" href="#apisec-september-12th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>PII Category added, it checks if Personal Identifiable Information is revealed through this API response</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Linear Issue Tracker integrated.<img alt="LinearIT" src="https://user-images.githubusercontent.com/87167471/189995572-0346d487-458c-443b-8a34-ab939a125758.png" /></li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Messaging improved at Org member adding.</li>
+<li>Messaging added on empty tables.</li>
+<li>Search added for public categories saved as draft</li>
+<li>Header Variable injection path processing</li>
+<li>Improved logging</li>
+<li><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/plaintext" title="GitHub User: plaintext">@plaintext</a> added, PII Generator improved</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Fixed multi email issue.</li>
+<li>Linear IT fixes</li>
+</ul>
+</div>
+<h2 id="apisec-september-7th-2022">APIsec - September 7<sup>th</sup>, 2022<a class="headerlink" href="#apisec-september-7th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>CORS - False Negatives Added.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Add Endpoint to API spec via API.</li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Messaging improved at Org member adding.</li>
+<li>Validating Scanner status on playbook edit and scan trigger dialog window.</li>
+<li>Homepage - Search field kept populated unless cleared.</li>
+<li>API's are also being fetched in Postman API Gateway.</li>
+<li>Security Categories info is linked from the reports section.</li>
+<li>CI/CD &amp; Github Actions Scripts updated.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Search bar not working for saved draft categories is fixed.</li>
+<li>User add - email validation is fixed.</li>
+<li>CI/CD-Jenkins script fails for a Project name with empty space issue is fixed.</li>
+<li>Search private security categories are fixed.</li>
+<li>Email validations at signup and Org pages Added.</li>
+<li>The User name accepting special characters is fixed.</li>
+<li>Billing email field accepting invalid email id's is fixed.</li>
+<li>Existing email restricted from creating an account.</li>
+<li>Developer Reports - Wirelogs height issue fixed.</li>
+<li>API Gateway - Register Dialog UI and duplicate name issue fixed.</li>
+<li>Project configuration console error fixed.</li>
+<li>New playbook - Playbook special character is fixed.</li>
+<li>Pagination issues fixed.</li>
+<li>Console error is fixed for CORS category.</li>
+</ul>
+</div>
+<details class="note">
+<summary>Note</summary>
+<ul>
+<li>cloud.fxlabs.io is redirected to cloud.apisec.ai</li>
+<li>APIsec cloud is migrated to modern Kubernetes architecture.</li>
+</ul>
+</details>
+<h2 id="apisec-august-29th2022">APIsec - August 29<sup>th</sup>,2022<a class="headerlink" href="#apisec-august-29th2022" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>"Wrike" issue tracker Integrated.<img alt="wrike" src="https://user-images.githubusercontent.com/87167426/188198360-e297f75f-cc9d-4764-881a-2dddbe3c00f2.png" /></li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Org Pages - Name and Email Validations have been improved.</li>
+<li>Forthcoming Org Monthly Reports will be sent via SendGrid.</li>
+<li>Improvements in form validation and environment base url validation at issue tracker pages and environment page.</li>
+<li>Messaging improved for 400 status codes.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Environment edit - console error is fixed.</li>
+<li>API Gateway issues are fixed and credentials are being validated using the Test button.</li>
+<li>Long variable value not able to be saved issue fixed.</li>
+<li>Search field is kept populated unless it's cleared at the project Category section.</li>
+<li>Environments Duplicate Authentication is fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-august-24th-2022">APIsec - August 24<sup>th</sup>, 2022<a class="headerlink" href="#apisec-august-24th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition info">
+<p class="admonition-title">Academy</p>
+<ul>
+<li>APIsec Univeristy Launched.(<a href="https://university.apisec.ai/">https://university.apisec.ai/</a>)</li>
+</ul>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>We have added new CORS Security Categories to find signs that your API server is extra vulnerable to Cross Site Scripting attacks. Improperly setup CORS policies will allow an attacker to redirect one of your users to your API with their credentials and impersonate them for further attacks. Here's a helpful link for more information on the security concerns of improperly configured CORS policy : <a href="https://portswigger.net/web-security/cors">https://portswigger.net/web-security/cors</a></li>
+<li>Help text added to the Custom header category.<img alt="Help text" src="https://user-images.githubusercontent.com/87167426/186986277-a685b3e7-e950-4965-b74c-420c2381d168.png" /></li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>"JupiterOne" issue tracker Integrated.<img alt="jupyter 1" src="https://user-images.githubusercontent.com/87167426/186985659-65ef8f73-51f0-4487-ad47-a11a4d457729.png" /></li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Footer links updated.</li>
+<li>Pentest Report improvements for Ethical Check.</li>
+<li>Messaging at various sections has been improved.</li>
+<li>APIsec Monthly Report Improved.</li>
+<li>Added Postman set up documentation.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Report Storage in clouds fixed.</li>
+<li>API Gateways SpecAutoOnboarding fixed.</li>
+<li>Pagination issue fixed in org list.</li>
+<li>Issue Tracker links and url's fixes.</li>
+<li>Error icon added in status section of playbooks page.</li>
+<li>Login restricted to inactive tenants is fixed.</li>
+<li>Playbook page toggle button fixed.</li>
+<li>For private Security categories, search restricted to tenants is fixed.</li>
+<li>Minor fixes at Project lists page.</li>
+<li>Validating base url of environment on environment edit, project dashboard, playbook pages fixed.</li>
+<li>API Gateways minor fixes.</li>
+<li>Orgs API fixed.</li>
+</ul>
+</div>
+<details class="note">
+<summary>Note</summary>
+<ul>
+<li>Ethical check (free pentest) website also improved.(<a href="https://www.ethicalcheck.dev/">https://www.ethicalcheck.dev/</a>)</li>
+</ul>
+</details>
+<h2 id="apisec-july-25th-2022">APIsec - July 25<sup>th</sup>, 2022<a class="headerlink" href="#apisec-july-25th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>CICD-Powershell script and documentation updated.</li>
+<li>Tenant Admins can now Create,Edit and Delete Security Categories within the same Tenant.</li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Project registration on API Gateways page improved</li>
+<li>Backend Sorting improved at various sections.</li>
+<li>In the Developer Report Wirelogs Section made clickable from vulnerabilities table.</li>
+<li>Password policy added for API calls for signup &amp; reset.</li>
+<li>Added categories as optional query param in runByProject API</li>
+<li>Added error message for runByProject API</li>
+<li>Messaging has been improved at various sections,</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Pentest, Developer and compliance reports fixes.</li>
+<li>All projects toggle disabled for the project manager.</li>
+<li>Playbooks page hidden columns fixed on tab resolutions.</li>
+<li>Security researchers add in collaborators is fixed.</li>
+<li>Github invalid url &amp; sync all issue fixed</li>
+<li>Responsive Fixes of Internal Project Dashboard</li>
+<li>Add Collaborators to project fixes.</li>
+<li>Postman Basepath Extraction fixed.</li>
+<li>HMAC auth URL fixed</li>
+<li>Jira issue tracker validation &amp; duplicate issue logging fixed.</li>
+<li>Scanner name edit Disabled.</li>
+<li>API Gateway -- MuleSoft Business Group issue fixed.</li>
+<li>Project Entitlements - fix</li>
+<li>Dashboard page - Scan graph box alignment fix</li>
+<li>Propagate Headers fixed.</li>
+<li>private scanner page - copy to clipboard on new scanner and owner column is empty issues are fixed.</li>
+<li>Project Owner - collaborator Fixed</li>
+<li>Project dashboard page - dropdown button click issue fixed.</li>
+<li>No runs found , 500 error msg fixed</li>
+<li>On signup password hide was not working issue fixed.</li>
+<li>Remediation sections and closed vulnerabilities Repeat issue in the Pentest and Developer report are fixed.</li>
+<li>API Gateways Spec Auto On boarding issue fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-june-13th-2022">APIsec - June 13<sup>th</sup>, 2022<a class="headerlink" href="#apisec-june-13th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Strong password policy implemented across the product.<img alt="Screenshot from 2022-06-15 00-21-34" src="https://user-images.githubusercontent.com/87167426/173896604-7d363e81-8334-4f5f-9948-4fcf882bc85f.png" /></li>
+<li>SendGrid integration: All the org monthly emails will trigger via SendGrid to the customers.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>A new version of developer and compliance report launched.<img alt="Screenshot from 2022-06-15 00-27-28" src="https://user-images.githubusercontent.com/87167426/173896865-4b5c5eab-1052-48e9-a83e-0afa6298ba4e.png" /></li>
+<li>Skip ABAC: This option during project registration prevents identification of ABAC resources used for generating ABAC Playbooks.<img alt="Screenshot from 2022-06-15 00-30-01" src="https://user-images.githubusercontent.com/87167426/173896977-6050e971-1cdf-44f9-a4be-33942aba4292.png" /></li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Improved the Refresh button on the Playbooks tab (It refreshes the list of playbooks on the current page).</li>
+<li>Revert the changes on the Authentication Exploit(SQL) category to generate playbooks for all endpoints.</li>
+<li>Credentials field is set to optional in the advance project registration page. The user can enter and test the credentials from the                  environments.</li>
+<li>Project creation/deletion messaging improved in API gateway.</li>
+<li>Improvements on the login page.</li>
+<li>Help text improvements in various pages.</li>
+<li>Search bars and dialog windows improved.</li>
+<li>Backend sorting Improved for a few of the tables.</li>
+<li>CICD-Jenkins job scripts improved.</li>
+<li>Spec upload on project details page improved.</li>
+<li>While uploading the project the text option was made read-only.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>All project data to excel-sheet download on the dashboard fixed.</li>
+<li>Alignments fixed on the landing page.</li>
+<li>Issue tracker validations and links fixed.</li>
+<li>Injections data load fixed.</li>
+<li>Category numbers in the summary report are accurate now.</li>
+<li>Slack notification url fixed.</li>
+<li>First scan shard error fixed for the fresh environments.</li>
+<li>Variables page was listing duplicate download csv links, fixed now.</li>
+<li>Text overlapping on the landing page is fixed.</li>
+<li>Pie chart on project dashboard issue fixed.</li>
+<li>Invalid scanner name in training profiles fixed.</li>
+<li>The console error on the project details page is fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-may-10th-2022">APIsec - May 10<sup>th</sup>, 2022<a class="headerlink" href="#apisec-may-10th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Authentication roles set to inactive are now restricted to scan the test results.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>False positives in the unsecured category are now identified by Artificial Intelligence. AI can learn and analyse vast amounts of data in the blink of an eye.<img alt="unnamed" src="https://user-images.githubusercontent.com/87167426/167991704-5c3d8c72-3c64-49e5-85a0-b201a3c78a26.jpg" /></li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>HMAC help text improved.</li>
+<li>Issue trackers are now easy to access via the dropdown menu.</li>
+<li>Messaging improves when data is empty on the dashboard, profiles and scanners table.</li>
+<li>Sorting improved on the vulnerability details table.</li>
+<li>Summary and detailed report info displayed via snackbar, messaging improved.</li>
+<li>Playbook count reduced for authentication categories.</li>
+<li>CI/CD helptext improvements.</li>
+<li>Init and cleanup playbooks added to match playbooks count.</li>
+<li>Improvements in the paginations.</li>
+<li>Improvements in the performance.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Overlapping of text in org list page and scan details page fixed.</li>
+<li>Typos in playbook management, CI/CD and password reset page fixed.</li>
+<li>Alignments for free users are fixed.</li>
+<li>Search bar and empty table issue fixed on landing page.</li>
+</ul>
+</div>
+<h2 id="apisec-april-19th-2022">APIsec - April 19<sup>th</sup>, 2022<a class="headerlink" href="#apisec-april-19th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>RBAC scan to use random UUIDs instead of variables for DELETE endpoints.</li>
+<li>Supporting '*' wild card for partial header name search in RateLimit categories to check for any header starting with X-RateLimit.</li>
+<li>APIsec is now supporting HMAC auth type.</li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>
+<p>Improved save &amp; sync functionality.<img alt="image (11)" src="https://user-images.githubusercontent.com/87167426/164306965-b30851fc-b361-4183-8387-d663f7435662.png" /></p>
+</li>
+<li>
+<p>CI/CD integration is now easy to access via the dropdown menu.<img alt="image (12)" src="https://user-images.githubusercontent.com/87167426/164307007-b1c6a5f4-3aaf-4879-bc94-b9a2d2d6c19f.png" /></p>
+</li>
+<li>
+<p>Scan dialog window improved for category selection.</p>
+</li>
+<li>Category names made user-friendly in the playbooks list page and open vulnerabilities on the dashboard page.</li>
+<li>Project list view improvements on landing page.</li>
+</ul>
+</div>
+<h2 id="apisec-april-11th-2022">APIsec - April 11<sup>th</sup>, 2022<a class="headerlink" href="#apisec-april-11th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>301 Moved Permanently status code now marked as false positive.</li>
+<li>Free users are now restricted to access summary reports.</li>
+<li>API to get Vulnerabilities by Scan.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>
+<p>Tiles revamp on scan detail dashboard.<img alt="image (8)" src="https://user-images.githubusercontent.com/87167426/163156103-dd0bf59a-8e15-471e-929f-6f478ca56acd.png" /></p>
+</li>
+<li>
+<p>Review comments added in the vulnerability details page.<img alt="image (9)" src="https://user-images.githubusercontent.com/87167426/163156195-e70d2091-6f73-420a-96e1-d43e6725c604.png" /></p>
+</li>
+<li>
+<p>Projects on the dashboard can be switched to list view.<img alt="image (10)" src="https://user-images.githubusercontent.com/87167426/163156240-a1f59d01-6245-4318-a5a7-1246f9b2071e.png" /></p>
+</li>
+<li>
+<p>AWS Fargate Instructions added in release notes and scanner register page.<img alt="image (2)" src="https://user-images.githubusercontent.com/87167426/163153294-15b41efb-1a7c-48cd-af85-048986725c84.png" /></p>
+</li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Improvements</p>
+<ul>
+<li>Invalid base url shows an alert and does not allow submitting the scan.</li>
+<li>First and last navigation buttons added on the project list and scan details page.</li>
+<li>Improvements in open vulnerabilities details table.</li>
+<li>Inactive roles will be automatically removed from the RBAC map.</li>
+<li>Register API gateway and cloud scanner tiles replaced with a button.</li>
+<li>Unauthorized message on status code 403 for the USER role.</li>
+<li>Help text improved in the vault for report storage.</li>
+<li>Overall performance Improved.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Report Storage, Notification and Git backup: the toggle button made active by default.</li>
+<li>Replaced cancel button with Yes and No in the scan history page.</li>
+<li>Tooltip updated on scan history and org list page.</li>
+<li>Injection string org owner fix.</li>
+<li>Pentest report TOC Missing 'UNmeasured' fixed.</li>
+<li>Project register through advance section fix.</li>
+<li>In the scan history page, profile activities and activities list page navigation fix.</li>
+<li>Enabling space in edit project name from details page fix.</li>
+<li>Clearing bulk add field on click of cancel button fix.</li>
+<li>Summary report:  owasp coverage table values, severity column and vulnerabilities count issue fixed.</li>
+<li>API register via file upload fix.</li>
+<li>Beta tags removed from APIGateways and Ideabiz icon added.</li>
+<li>Alignment fixes in the register scanner page.</li>
+<li>Project activity page dialog fixes.</li>
+<li>Environment auth delete and bulk add issue fixed.</li>
+<li>Injection categories issues fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-march-22nd-2022">APIsec - March 22<sup>nd</sup>, 2022<a class="headerlink" href="#apisec-march-22nd-2022" title="Permanent link">&para;</a></h2>
+<details class="note">
+<summary>Note</summary>
+<ul>
+<li>This release has code changes in bot, please ensure to refresh the private scanners.</li>
+</ul>
+</details>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>API Gateway - Region and session token added to AWS.</li>
+<li>Authentication - Digest authentication type introduced.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Monthly Org Reports will be shared with Org owners on the first of every month. This report provides test executions of the past month.<img alt="monthly org" src="https://user-images.githubusercontent.com/87167426/160037891-ce89b0cb-c849-43a4-ad57-994d09c2a073.jpg" /></li>
+<li>Dashboard tiles revamp: It's all about new trends and making them simplify for our customers.<img alt="revamp" src="https://user-images.githubusercontent.com/87167426/160037982-141ccc07-2ef6-41a4-823e-23e4d738b57a.png" /></li>
+<li>Release Notes: Check out the new release notes integrated into GitHub with security updates.<img alt="release notes" src="https://user-images.githubusercontent.com/87167426/160038054-b4669c67-ceca-44cf-bbf9-9837ecec8800.jpg" /></li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Summary Report Page enhancements.</li>
+<li>Session timeout message improvement.</li>
+<li>Pentest Report Enhancements in intro and background.</li>
+<li>Performance Improved throughout the product.</li>
+<li>Save &amp; Rewrite playbooks showing incorrect entity type in activities fix.</li>
+<li>When a full RBAC map is generated, the header checkbox should also be checked for the roles.</li>
+<li>Project activities entity type fix.</li>
+<li>Add invalid scenario in ABAC fix.</li>
+<li>Redirect from playbook to payload window in project activities fix.</li>
+<li>Playbook edit window size fix.</li>
+<li>Snackbar message improved in Scanner Deployment.</li>
+<li>Playbook name in activity wirelog window fix.</li>
+<li>Toggle button in playbooks page fix.</li>
+<li>Project activities page sync event user missing issue fix.</li>
+<li>Closing playbook window quickly after propagating button click.</li>
+<li>Added special character restriction to API project name under project details page.</li>
+<li>Request license url link in new project fixed.</li>
+<li>Upgrade dialog fix, if the user type is basic.</li>
+</ul>
+</div>
+<h2 id="apisec-feb-23rd-2022">APIsec - Feb 23<sup>rd</sup>, 2022<a class="headerlink" href="#apisec-feb-23rd-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Playbook sync issue with inactive user fixed.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Auto-Onboarding feature launched: The APIsec automatic onboarding was designed to detect weekly specs to onboard their projects. This initial version now supports detection of the open api specs to register in multiple projects in the same account through API gateways.<img alt="AutoOnboarding" src="https://user-images.githubusercontent.com/87167426/158768718-232fe3f3-e5b6-434d-bce7-2fd6aed641cb.png" /></li>
+<li>Help text of Jira issue tracker introduced.<img alt="JiraelpText" src="https://user-images.githubusercontent.com/87167471/158938463-f48ece03-907c-4ea6-ac94-68159621d3eb.png" /></li>
+<li>Faster Playbook Generation - 15% performance improvement</li>
+<li>Propagate headers in activity list format are in badge style now.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Playbook sync issue with inactive user fixed.</li>
+<li>Propagate assertion message fixed.</li>
+<li>Duplicate project name issue fixed.</li>
+<li>Default profile selection improved on issuetracker and CI/CD pages.</li>
+<li>Vulnerability excel download issue fixed.</li>
+<li>Display message if notification list is empty.</li>
+<li>Message added for password protected url on project registration page.</li>
+<li>Token field set to blank for auth type certificate on environment settings.</li>
+<li>Password field made optional for certificate type auth in environment page.</li>
+<li>Jquery dependency removed from CI/CD copy to clipboard.</li>
+<li>Scan detail page cancel window showing duplicate buttons fixed.</li>
+<li>Horizontal scroll removed from vulnerability actions dropdown.</li>
+<li>License numbers issue fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-feb-7th-2022">APIsec - Feb 7<sup>th</sup>, 2022<a class="headerlink" href="#apisec-feb-7th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>
+<p>Apigee SPEC type feature launched: Apigee Edge supports OpenAPI Specification 3.0, though a subset of features are not yet supported.<img alt="Spec type" src="https://user-images.githubusercontent.com/87167471/158939153-73d816b3-e4ea-4e40-ab9e-27ca9a001fbb.png" /></p>
+</li>
+<li>
+<p>Pentest report re-launched (1.3 version): A new version of pentest report launched, which gives altogether a new UX look and feel which will be easy to read.<img alt="pentest" src="https://user-images.githubusercontent.com/87167471/158940142-7d546950-972c-482d-8443-7f5a48a93612.png" /></p>
+</li>
+<li>
+<p>APIsec converter will now register the password protected spec urls.<img alt="Password PROETEX" src="https://user-images.githubusercontent.com/87167471/158940232-1b554809-8d67-4435-afb5-5899551cef90.png" /></p>
+</li>
+</ul>
+<p>e.g. https://<Username>:<Password>@<URL></p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Scan details page refresh button improved</li>
+<li>Available license validation improved on UI</li>
+<li>Notification icon hidden for non-admin users</li>
+</ul>
+</div>
+<h2 id="apisec-jan-20th-2022">APIsec - Jan 20<sup>th</sup>, 2022<a class="headerlink" href="#apisec-jan-20th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Basic test auth issue fixed.</li>
+<li>CVSS score null issue and test creds validation issue fixed.</li>
+<li>Sensitive data exposure L2 variable injection fix</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>
+<p>Log4j category introduced: The Log4j vulnerability allows malicious attackers to execute code remotely on any targeted computer. <img alt="log4j" src="https://user-images.githubusercontent.com/87167471/158940325-39b84534-396e-4dc0-811d-1c44e8b4814e.png" /></p>
+</li>
+<li>
+<p>Skip Filing Vulnerability feature launched: This feature will allow you to skip the vulnerabilities for selected categories.<img alt="SkipFilingVuln" src="https://user-images.githubusercontent.com/87167471/158940390-b43c6df0-8626-4d33-b1ac-c66edc9fc4f9.png" /></p>
+</li>
+<li>
+<p>Filter added for managed playbooks: This will allow users to filter the playbooks by bot or user. <img alt="PBfilter" src="https://user-images.githubusercontent.com/87167471/158940455-1a539b28-19c0-49fb-b4b3-f9f4623d6b84.png" /></p>
+</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Page break 404 error on payloads tab fixed.</li>
+<li>Page break 404 error on invite guest user fixed.</li>
+<li>Test and save all auth bugs fixed.</li>
+<li>Delete env button hidden for master environment, this is an improvement.</li>
+<li>Default values (status and active) removed for the new auth before saving.</li>
+<li>The High severity color changed to orange.</li>
+<li>Snack bar messages remodified for bulk auth and test all auth.</li>
+</ul>
+</div>
+<h2 id="apisec-jan-12th-2022">APIsec - Jan 12<sup>th</sup>, 2022<a class="headerlink" href="#apisec-jan-12th-2022" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Jira bug logging issue fixed.</li>
+<li>Reset password issue fix.</li>
+<li>Injection strings in post playbooks are fixed.</li>
+<li>Invalid Auth SQL Injection fix.</li>
+<li>Injections are fixed for Windows, Linux and XSS.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>
+<p>Notification feature launched: Track all the required product information (e.g. project credentials not working etc).
+<img alt="notification" src="https://user-images.githubusercontent.com/87167471/158940604-51ea4f52-e057-4946-b262-4552dbecc064.png" /></p>
+</li>
+<li>
+<p>Forgot password feature enhanced.</p>
+</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Autocomplete off for environment auth fields.</li>
+<li>Issuetracker issue fix, the creds disappear when a new environment is selected.</li>
+<li>Jira bug logging issue fixed.</li>
+<li>Reset password issue fix.</li>
+<li>Injection strings in post playbooks are fixed.</li>
+<li>File upload on project edit for api gateway fix.</li>
+<li>Status improvements in the environment page.</li>
+<li>Pagination issue fixed in header page.</li>
+<li>Invalid Auth SQL Injection fix.</li>
+<li>Injections are fixed for Windows, Linux and XSS.</li>
+<li>Reports: Email Subject Update</li>
+</ul>
+</div>
+<h2 id="apisec-dec-15th-2021">APIsec - Dec 15<sup>th</sup>, 2021<a class="headerlink" href="#apisec-dec-15th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Support for SAML Authentication in Apigee API gateway integration.</li>
+<li>Error playbook count added to org dashboard.</li>
+<li><a class="magiclink magiclink-github magiclink-mention" href="https://github.com/EmptyValue" title="GitHub User: EmptyValue">@EmptyValue</a> added</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Error playbooks percentage upto 2 decimal values</li>
+<li>Jira IssueTracker null Issue ID in logs/wirelogs fix</li>
+<li>Request License contact url updated on project register page</li>
+<li>Label added to apigee gateway authentication on APIgateway page</li>
+<li>Add/Edit Vault page shimmer effect added</li>
+<li>Handling ComposedModel recursive infinite loop</li>
+<li>Rename Fxlabs to APIsec in injections</li>
+<li>Updated Env page link in Actions</li>
+<li>Notification list UI change</li>
+<li>Alerts not displaying properly fixed</li>
+<li>Delete confirmation msg corrected on vul details page</li>
+<li>Dashboard page perf issue fix</li>
+<li>Run details table pagination fix</li>
+<li>Snackbar msg corrected on vul detail page</li>
+<li>Snackbar msg typos fix</li>
+<li>Perf Metrics: Config Details module</li>
+<li>Skip Path check in Injection categories</li>
+<li>Dashboard Performance Improvement: count tests/Runs query updated</li>
+<li>Dashboard page perf improvements  added pagination and total endpoints count fix</li>
+<li>Project list page tiles alignment for non admin users</li>
+<li>New/Edit Account pages- radio buttons added</li>
+<li>API Gateway name was not set while fetching specs. and error response was not returned fix</li>
+<li>Replaced Coverage with Playbooks Count</li>
+</ul>
+</div>
+<h2 id="apisec-nov-30th-2021">APIsec - Nov 30<sup>th</sup>, 2021<a class="headerlink" href="#apisec-nov-30th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>RBAC map error fix.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Payloads tab enhancement : Search by endpoint filter added on Default, injection and stored injection tab.</li>
+<li>Propagate payload : Propagating payload within the playbook will make changes in injection and stored injection categories and playbooks of respective categories will be regenerated automatically.</li>
+<li>Org-dashboard enhancement: Open vulnerabilities bar graph now showing monthly data.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Corrected Log statement.</li>
+<li>Renamed org-name FXLabs to APIsec.</li>
+<li>Upgrade to standard tier link corrected.</li>
+<li>Payload search exception fix.</li>
+<li>404 page not found  improvements.</li>
+<li>CICD-Jenkins  documentation  and email value updated.</li>
+<li>Password reset error message updated.</li>
+<li>SQL Injection playbooks delete fix.</li>
+<li>ABAC3 inactive scenarios issue fix.</li>
+<li>Payloads filter issue fixed.</li>
+<li>Payloads pagination issue fixed.</li>
+<li>Project list page search option invisible issue fixed.</li>
+<li>Alignment on myprofile page fix.</li>
+<li>ABAC resource proper shimmer effect added.</li>
+<li>Composed Model handling in Spec parsing.</li>
+<li>Org Dashboard Month-Year Graph fix.</li>
+<li>Propagate payload message improved.</li>
+<li>Perf Metrics: Config Categories Module.</li>
+<li>Scan history New/Closed/Total Vulnerabilities count issue fix.</li>
+<li>Added Non working playbooks count to Project.</li>
+<li>Error playbook percentage added on dashboard.</li>
+</ul>
+</div>
+<h2 id="apisec-nov-16th-2021">APIsec - Nov 16<sup>th</sup>, 2021<a class="headerlink" href="#apisec-nov-16th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Disabled new user feature for okta enabled org.</li>
+<li>Disabled the password reset for OKTA from the org-user page.</li>
+<li>Disabled the password reset for OKTA.</li>
+<li>Deactivating the playbook functionality is deleting the playbook fix.</li>
+<li>Password reset fix</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>CI/CD Jenkins :Added support for Email report after scan completion.</li>
+<li>Added custom angular modal window on Alerts.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Details tab dialog window fix.</li>
+<li>Do not allow PWD authentication for OKTA enabled org users fix.</li>
+<li>After propagating headers, the activities log is displaying incorrect info fix.</li>
+<li>Project registration issue fix.</li>
+<li>ABAC 3 resource refresh fix.</li>
+<li>Bulk add Authentications input area is not displaying fix.</li>
+<li>Playbooks are not generating fix.</li>
+<li>Error in Propagate Severity in new SQL categories fix.</li>
+<li>Page not found error on scan history page fix.</li>
+<li>Page not found error on profile create page fix.</li>
+<li>Page not found error on scan history analytics page fixed.</li>
+<li>Inactive Playbooks count - fix</li>
+<li>Build failed fix</li>
+<li>Dialog windows typos fixed</li>
+<li>Missing module imported</li>
+<li>Updated the error message.</li>
+<li>Snackbar msg improvement</li>
+<li>Search field is hidden on the payloads tab.</li>
+<li>Project dashboard page - don't show search field until page loads</li>
+<li>Added null checks.</li>
+<li>Raw file token ,file remain changes</li>
+<li>Cronjob weekly once for new project</li>
+<li>Vulnerabilities details no longer accessible fix</li>
+<li>Updated readme</li>
+</ul>
+</div>
+<h2 id="apisec-nov-8th-2021">APIsec - Nov 8<sup>th</sup>, 2021<a class="headerlink" href="#apisec-nov-8th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">security</p>
+<ul>
+<li>Stored SQL injection type fix.</li>
+<li>SQL Injection category fix.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>AI module integration : Implemented APIsec AI bot , It Intelligently detects severity and sorts type of vulnerability accordingly.</li>
+<li>IdeaBiz API Gateway integration: A next generation integration platform as a service for cloud native engineering.</li>
+<li>Pagination added in the payloads tab.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Loader added on signup page.</li>
+<li>Updated the title for RBAC vulnerabilities.</li>
+<li>Changed reportFileType to optional.</li>
+<li>Wirelogs and remediation columns removed from download all projects vulnerabilities report.</li>
+<li>Activity API - EventStatus is null &rarr;fix.</li>
+<li>The snack bar message is displaying the category name as undefined fix.</li>
+<li>Retaining scanner name on cloning a profile fix.</li>
+<li>Severity propagation snackbar msg fix.</li>
+<li>Missing tag fixed.</li>
+<li>Typos fix.</li>
+<li>After propagating assertion &amp; severity, we need to manually refresh  fix.</li>
+<li>Flag comparison corrected scan details page.</li>
+<li>Playbook author fix for logging &amp; monitoring cate.</li>
+<li>XSS is shown as an assertion for propagate severity.</li>
+<li>Assertion window is showing a blank fix.</li>
+<li>Custom Playbook case-sensitive names persist&rarr; fix.</li>
+<li>Footer alignment issue fixed across the product.</li>
+<li>Tooltip corrected.</li>
+<li>Payloads pagination fix.</li>
+<li>After propagating assertion &amp; severity, we need to manually refresh the playbooks fix.</li>
+<li>Performance: Orgs-Users Module.</li>
+<li>Removed redundant object reference.</li>
+<li>ABAC3 Resource lock.</li>
+<li>Field added to run-detail page calls.</li>
+<li>SQL Injection Categories - Remove DB selection.</li>
+<li>Added logs in Cert Auth.</li>
+<li>Playbook generates payload optimization.</li>
+<li>Extracted Utility method.</li>
+<li>Handling * in spec.</li>
+<li>Handling * in path for playbook.</li>
+<li>Removed * from path.</li>
+<li>Corrected alignment.</li>
+<li>CVSS score -- Fix.</li>
+</ul>
+</div>
+<h2 id="apisec-oct-26th-2021">APIsec - Oct 26<sup>th</sup>, 2021<a class="headerlink" href="#apisec-oct-26th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Page size decreased to 10 on the project dashboard.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Dialog enhancements: Browser dialog confirmation changed to custom angular material dialog.</li>
+<li>Propagate headers feature launched in the playbooks action items. Users should be able to propagate headers across the all the playbooks for the specific endpoint.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Search security model accuracy fix.</li>
+<li>Serif converter updated in Github actions.</li>
+<li>Master env data on the dashboard remains after non-master env deleted fix.</li>
+<li>Shimmer effect added on default payloads page.</li>
+<li>Project search feature on project list page fix.</li>
+<li>Showing profile of selected env on issue tracker and ci/cd page fix.</li>
+<li>Stored Injection component separated from default payloads.</li>
+<li>Scan timeout increases from 2hrs to 3hrs.</li>
+<li>Reports: Text export fix and export functionality for multiple formats.</li>
+</ul>
+</div>
+<h2 id="apisec-oct-20th-2021">APIsec - Oct 20<sup>th</sup>, 2021<a class="headerlink" href="#apisec-oct-20th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Okta Integration launched: Okta is one trusted platform to secure every identity, from customers to your workforce with Single Sign-On and more.</li>
+<li>New SQL &amp; Stored SQL categories launched.</li>
+<li>Project search functionality added on the landing page.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Search activities by users are fixed.</li>
+<li>Playbook's deactivation issue fixed.</li>
+<li>In project activities, search by entity and tag fixed.</li>
+<li>Wirelogs added in get all vulnerabilities API.</li>
+<li>Error popup on project deletion fixed.</li>
+<li>Custom stored injection category payload fixed.</li>
+<li>EST time and bounty value fields added to the security category page.</li>
+<li>Remediation section removed from vulnerability details page.</li>
+<li>Scanner name fix for new profile creation.</li>
+<li>APIGateways fix - unable to register the endpoints and playbooks.</li>
+<li>Reports design refactor to support multiple file types.</li>
+</ul>
+</div>
+<h2 id="apisec-oct-13th-2021">APIsec - Oct 13<sup>th</sup>, 2021<a class="headerlink" href="#apisec-oct-13th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Invalid AuthSQL: get injection strings from security marketplace.</li>
+<li>Mark as unsecured error fix.</li>
+<li>Issue tracker pagination improvements.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>WSO2 feature launched in API Gateway module - A next generation integration platform as a service for cloud native engineering.</li>
+<li>Vulnerability details page - vulnerability description and suggested fix time enhanced.</li>
+<li>Playbook generation flow design refactor using RabbitMQ - This change made the playbooks to generate faster than before, 30% performance improvement.</li>
+<li>GitHub Actions feature introduced: Automate, customize, and execute your software development workflows right in your repository with GitHub Actions. You can discover, create, and share actions to perform any job you'd like, including CI/CD, and combine actions in a completely customized workflow.</li>
+<li>Scan details action menu now gives a new look and easy access.</li>
+<li>Scanner and date tile rearranged, moved it to the top.</li>
+<li>Expand collapse feature added in swagger editor page.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Propagate severity and assertion issue fixed.</li>
+<li>False positives column removed from vulnerability table.</li>
+<li>Issue tracker message improvements.</li>
+<li>ABAC 2 &amp; 3 resources fixed.</li>
+<li>Non-Master environment losing its value, fixed across the product.</li>
+<li>Scanner improvements.</li>
+<li>Gitbackup console error fix.</li>
+<li>Next-prev improvements in log details under activities page.</li>
+<li>Jira formatting fix.</li>
+<li>Category list and tiles view fixed.</li>
+<li>Vulnerability list based on profile fix.</li>
+<li>Time Out for scan shown on project recommendation with badge warning</li>
+<li>Summary email reports buttons disable while scanning.</li>
+<li>GitHub actions improvements.</li>
+<li>Retaining closed/open vulnerability status from vulnerability details page.</li>
+<li>Environment authentication hyphen fix.</li>
+<li>Gitback is set active by default.</li>
+<li>Compliance categories resources missing fixed.</li>
+<li>Inconsistent numbers in closed vulnerabilities fixed.</li>
+<li>Sort improvements on org users list.</li>
+<li>Next previous button improvements.</li>
+<li>Tabs routing to its default pages fixed.</li>
+<li>Added logs in activities to show specs parse error.</li>
+<li>RBAC multi new line fix.</li>
+<li>Payloads search improvements.</li>
+<li>Converter URLs moved to system settings.</li>
+<li>Edit action removed from activity log.</li>
+<li>Console error fix for system settings.</li>
+<li>Trends page performance improvements.</li>
+<li>Trends page download excel improvements.</li>
+<li>Improvements in test all authentication environment pages.</li>
+<li>Injections string fix for Linux, Windows and XSS.</li>
+<li>Snack bar message corrected.</li>
+<li>Owner name disappearing in vault fixed.</li>
+<li>Search improvement in security list.</li>
+<li>Added optional parameter tag in Scan API via script.</li>
+<li>Added project based search in activities.</li>
+<li>Post execution delay added in the playbooks.</li>
+<li>Duplicate report names fix.</li>
+<li>Postman and RAML moved to new IP fix.</li>
+<li>Comments and reasons for closed vulnerabilities improvements.</li>
+<li>Headers authentication type certificate fix.</li>
+<li>Timeout flag added on scan timeout dashboard.</li>
+<li>Sorting improvements for vulnerability table.</li>
+<li>Redirection issue fix after reset password.</li>
+<li>Anonymous authentication in init call fixed.</li>
+<li>Removed authentication section from environment edit page.</li>
+<li>Sub tab rearrangements under reports tab.</li>
+<li>Table alignments in summary report.</li>
+<li>Security category fix on click events.</li>
+<li>Jira sync all issues fixed.</li>
+<li>Not a vulnerability not reflecting in global dashboard fix.</li>
+<li>Coverage page project name blinking issue fixed</li>
+<li>Authentication delete issue fixed.</li>
+<li>OAS editor endpoints validations.</li>
+<li>Sync all API issues fixed.</li>
+<li>Severity in reports fixed.</li>
+<li>Typos fixed in project dashboard.</li>
+<li>Profile edit bug fixed.</li>
+<li>Init header injection fixed.</li>
+<li>Cancel button added on profile edit and profile new</li>
+</ul>
+</div>
+<h2 id="apisec-sep-7th-2021">APIsec - Sep 7<sup>th</sup>, 2021<a class="headerlink" href="#apisec-sep-7th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Auth type certificate save action fix.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>New feature "Download all project vulnerabilities" will now capture all open/closed vulnerabilities of the specific tenant.</li>
+<li>On click expand/collapse functionality introduced in the playbook editor.</li>
+<li>Summary report in the reports tab, Initial version released (V1).</li>
+<li>Adding a new environment will now create all the default authentications automatically.</li>
+<li>View XML response as pretty print.</li>
+<li>Versions upgraded for postgres, node js, intellij plugins</li>
+<li>Register the API project without supplying the API, create your custom spec in OAS editor. API Documentation URL</li>
+<li>Delete/Cancel button added to bulk authentication.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Scanner name changed from region to scanner name.</li>
+<li>The new environment stays on the same page instead of redirecting to master.</li>
+<li>Improvement fixes in RBAC and env auth test.</li>
+<li>Scan details page alignments fix.</li>
+<li>Bulk/Close archive vulnerabilities will now be redirected to the home page (fix).</li>
+<li>Check status model window fix.</li>
+<li>Custom category injection fix.</li>
+<li>Trim project name in global dashboard.</li>
+<li>Active by default fix in security categories.</li>
+<li>Red cross mark removed from RBAC map.</li>
+<li>Validate authentication issue fix.</li>
+<li>Set random regions for master profiles.</li>
+<li>Enhancements and fixes in Environments and Auths.</li>
+<li>Test all auth will pop up only invalid auths.</li>
+<li>Sync logs fixed in project activities.</li>
+<li>View OAS file in editor - enhancements.</li>
+<li>Project activity sortings fixed.</li>
+<li>XSS playbooks generate fixes.</li>
+<li>Propagate assertions bug fix.</li>
+<li>Null fuzz category name fixed.</li>
+<li>Anonymous auth init fix.</li>
+<li>Env name disappearing while deleting fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-aug-23rd-2021">APIsec - Aug 23<sup>rd</sup>, 2021<a class="headerlink" href="#apisec-aug-23rd-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Edit/Delete auth fix.</li>
+<li>Oracle stored sql injections fix.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Consolidated action items in environment page.</li>
+<li>Categories in scan model window will show the auth status if invalid.</li>
+<li>Select environment options</li>
+<li>GitHub actions launched in CI/CD integrations.</li>
+<li>Severity can be changed for single playbook or category, propagate severity feature launched in playbook action items.</li>
+<li>Scanner names enhanced for more readability.
+Scanners name
+OAS V1 editor launched in endpoints page.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Add bulk auth enhancements.</li>
+<li>Sorting improvements in auth table.</li>
+<li>Request and Response logs added for XML support.</li>
+<li>False positive tile color changed to green in scan run details page.</li>
+<li>Status column removed from global dashboard.</li>
+</ul>
+</div>
+<h2 id="apisec-aug-16th-2021">APIsec - Aug 16<sup>th</sup>, 2021<a class="headerlink" href="#apisec-aug-16th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Private injection category fix.</li>
+<li>Env Auths fixes.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>APIs (Public, Mobile, IoT, Web) now changed to Secured APIs SecureAPIs</li>
+<li>Renamed API operation to API composition in reports page.</li>
+<li>Action items enhanced in env page, consolidated menu for Add, Edit, Delete Env &amp; Auth.</li>
+<li>Colors and icons changed for a few tiles on the dashboard.</li>
+<li>Renamed categories to Security Categories on dashboard.</li>
+<li>Vulnerability severity graph position changed on dashboard.</li>
+<li>Project Name and Since column added to vulnerability excel download.</li>
+<li>Last scan badge removed and text muted in the project tiles. Last Scan</li>
+<li>Severity high &amp; score color is now set to orange for ABAC categories in the vulnerabilities dashboard.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Cosmetic column name changes in global scanner table.</li>
+<li>Uppercase applied for AWS in the scanners page.</li>
+<li>Columns rearranged in the project dashboard vuln table.</li>
+<li>Bundle collection for API Gateways &amp; Activities module.</li>
+<li>Snack bar messages fixed in issue trackers.</li>
+<li>Environments are editable now, edit option in the action menu.</li>
+<li>Ace color editor changed to single color in vulnerabilities details wirelog.</li>
+<li>Sorting added on env auth table.</li>
+</ul>
+</div>
+<h2 id="apisec-aug-9th-2021">APIsec - Aug 9<sup>th</sup>, 2021<a class="headerlink" href="#apisec-aug-9th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>XML Support: APIsec now supports the XML version which validates and registers the project</li>
+<li>Vulnerability Report Download Enhancement: Vulns can be downloaded associated with the filters (Category &amp; Severity).</li>
+<li>User Variable: User variable is now set to case sensitive</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Configuration tabs: Breadcrumb position sticky to make it visible while scrolling down.</li>
+<li>Category name alignment in scan history table.</li>
+<li>Footer alignments fix.</li>
+<li>Typos fixed.</li>
+<li>Performance enhancements: Modules shipment for scanner, Vault, Security Model, Signin/Signup.</li>
+<li>Playbook window resized for bigger screen.</li>
+<li>RBAC map search placeholders fix.</li>
+<li>Sorting columns in download as excel.</li>
+<li>APIGateway: Multiple project registration fix.</li>
+<li>Clone playbook from vulnerabilities and scan history fix.</li>
+<li>UAT login issue fix.</li>
+</ul>
+</div>
+<h2 id="apisec-aug-2nd-2021">APIsec - Aug 2<sup>nd</sup>, 2021<a class="headerlink" href="#apisec-aug-2nd-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Propagate Assertions: Changing assertions in a Playbook auto triggers the suggestion to apply the changes across the entire category playbooks.</li>
+<li>Vulnerability Report Download: Added six new columns like (Method, Playbook Name, Bug Bounty savings, CVSS, OWASP Rank, Since, etc.)</li>
+<li>Environment: Defaulted to a detailed view. Instantly see all the credentials in an environment</li>
+<li>Test Credentials: Instantly check your Jira and GitHub accounts are working.</li>
+<li>RBAC: Separate columns to view method and endpoint (break out in RBAC map) and sorting applied.</li>
+<li>Scan history reports: Enhanced both summary and detail report to the new version.</li>
+<li>Project Dashboard: Project name trimmed and tooltip applied for a big text.</li>
+<li>Wirelogs: Color coding disabled to avoid confusion with red/green texts</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>GitBack sync: Individual and custom playbooks deletion fix.</li>
+<li>Close vulnerability count fix on dashboard.</li>
+<li>Dashboard tabs &amp; Pagination: Extra spaces removed.</li>
+<li>Assertions are fixed in AUTH categories, it has its own assertions now.</li>
+<li>Free licenses removed from the product.</li>
+</ul>
+</div>
+<h2 id="apisec-july-19th-2021">APIsec - July 19<sup>th</sup>, 2021<a class="headerlink" href="#apisec-july-19th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Vault account fix.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>New style for project tabs: Project tabs moved to breadcrumb position. White background added &amp; table size aligned.</li>
+<li>Dashboard enhancement: Dashboard changed to the project name with bold view.</li>
+<li>Org list: Created by column added into the org table and email notification.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Column alignments in ABAC categories.</li>
+<li>Clear the fields on change of account type - vault.</li>
+<li>User variable copy to clipboard fix.</li>
+<li>ABAC3 payload fix.</li>
+<li>Org tag update fix.</li>
+<li>Duplicate org name fix.</li>
+<li>Dismiss snackbar when error popups.</li>
+<li>Sorting fixed in the global scanner.</li>
+<li>CLI link updated.</li>
+<li>Pagination fix from the project list, landing to the home page.</li>
+<li>Console error fix for scanner check connection.</li>
+<li>Extra spaces removed from collaborators page.</li>
+<li>Enterprise license removed from details page.</li>
+</ul>
+</div>
+<h2 id="apisec-july-5th-2021">APIsec - July 5<sup>th</sup>, 2021<a class="headerlink" href="#apisec-july-5th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Propagate assertions: A new feature is added into playbooks actions which instantly propagates the assertion throughout the category.</li>
+<li>Issue tracker enhancements: Enhancements applied for the Jira and Github.</li>
+<li>Report storage: The default storage feature allows to save all the generated reports.</li>
+<li>Test Credentials: Test credentials feature introduced for issue trackers.</li>
+<li>Non-OAS Spec: Introduced a page to view the original file loaded as OAS.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Show less added in the advance section of project registration.</li>
+<li>Github data sync issue fixed.</li>
+<li>Profile menu width increased.</li>
+<li>Free licenses removed from org.</li>
+<li>Typos fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-june-21st-2021">APIsec - June 21<sup>st</sup>, 2021<a class="headerlink" href="#apisec-june-21st-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Manage skip paths fix in Unsecured and AUTH categories.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Categories pie chart: Categories pie chart made clickable, which takes you to the vuln management.</li>
+<li>Spinner introduced on the playbooks tile: Playbooks creation will now show the spinner (in progress) on the tile until it completes.</li>
+<li>Trigger scan: Trigger scan will now redirect to the scan history page.</li>
+<li>Payloads: Payloads tabs enhanced for easy access.</li>
+<li>Snack bar: Playbook creation will now show the status on the snack bar.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Multiple headers are now supported for Auth.</li>
+<li>New playbooks and activities page direction fixed.</li>
+<li>Global dashboard sorting fix.</li>
+<li>URL names changed to sync the page names across the product.</li>
+<li>Side menu added in env, variables, and profile pages.</li>
+<li>Copy-paste removed from confirm password field.</li>
+<li>Page size minimize in web browser fixed.</li>
+<li>Removed save &amp; close action from playbooks.</li>
+<li>Private scanner rows made clickable in the security marketplace.</li>
+<li>Shimmer validation issue fixed under the details tab.</li>
+<li>Date and owner name fix on project tile.</li>
+<li>RBAC map open from dashboard fix.</li>
+</ul>
+</div>
+<h2 id="apisec-june-15th-2021">APIsec - June 15<sup>th</sup>, 2021<a class="headerlink" href="#apisec-june-15th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Injection fix in AuthNoSql category.</li>
+<li>Added content for a basic role in all the pages.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Activate/deactivate playbook: New action item introduced.</li>
+<li>Browser enhancements: Now APIsec product is supporting the MS edge and apple safari browsers.</li>
+<li>License enhancements: License numbers enhanced for both free and paid.</li>
+<li>Angular version upgrade: Upgraded to version 12.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>VC-Git consumer count increase to 10.</li>
+<li>Added basic role in the org user pages.</li>
+<li>Azure key encryption in the backend.</li>
+<li>URL page name changes.</li>
+<li>Duplicate header content fix in the details tab.</li>
+</ul>
+</div>
+<h2 id="apisec-june-7th-2021">APIsec - June 7<sup>th</sup>, 2021<a class="headerlink" href="#apisec-june-7th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>XSS Injection query param fix: Injection to be injected in query param strings.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Password validation: Confirm password field and strong password validation introduced on the free signup page.</li>
+<li>Configuration tab enhancements: Variables and profiles tabs moved under environments.</li>
+<li>Org enhancements: Added filter for org tags and removed legal name column.</li>
+<li>Org notification: Custom email group field added for new org creation.</li>
+<li>Beta tags: Beta tags removed from security marketplace and muted in issue trackers, ci/cd integrations, and categories.</li>
+<li>Bot: Large response truncated to 1 MB with notification text in wire logs.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Duplicate outbound email footer fixed.</li>
+<li>Alignment fixes in the free signup page.</li>
+<li>Callout removed in payload and categories.</li>
+<li>Orgs with billing fxlabs.io are deactivated.</li>
+</ul>
+</div>
+<h2 id="apisec-june-1st-2021">APIsec - June 1<sup>st</sup>, 2021<a class="headerlink" href="#apisec-june-1st-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>RBAC map fix: fixed form-data type.</li>
+<li>Access key expiration added for the playbook generation failure fix.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Free account introduced: The free user will be able to signup and run the security testing, but restricted to access the Integrations and - Reports tab.</li>
+<li>Dashboard enhancements: Renamed settings tab to configurations and sub-tab details to the API project.</li>
+<li>Org enhancements: Added few org tags like PARTNER, CHURN, OPPORTUNITY.</li>
+<li>Org table enhancements: Columns renamed and, used license numbers added.</li>
+<li>Email notification: Trigger notifications to super admins for new tenant creation.</li>
+<li>Beta tags: Beta tags removed from API gateways and reports.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Report fixes.</li>
+<li>Advance project section error fixed.</li>
+<li>Request Headers: Processing request headers in the body</li>
+<li>Jira: Wire logs are now showing in Jira.</li>
+<li>Null value injection: Inject null when value not found to avoid resource not entitled error.</li>
+<li>Propagate assertions from playbooks to categories.</li>
+</ul>
+</div>
+<h2 id="apisec-may-24th-2021">APIsec - May 24<sup>th</sup>, 2021<a class="headerlink" href="#apisec-may-24th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Url validations applied in environment pages.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Integrations tab: Introduced the new Integrations tab to accommodate Report storage, Issue tracker, Notifications, Git Backup, CI/CD in one place.</li>
+<li>Pentest &amp; Developer Report: Graph modified for better vision and few other enhancements.</li>
+<li>Org page: Org tag added to identify customer or prospect.</li>
+<li>Huge Payloads Blocker: Blocker introduced for huge payloads or files.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Jira issue tracker fixes.</li>
+<li>Jira issue tracker severity mapped to the APIsec severity.</li>
+<li>Redirect access page to login page.</li>
+<li>Modified FX to APIsec in the system settings page.</li>
+<li>Text help improvements in Integration inner tabs.</li>
+</ul>
+</div>
+<h2 id="apisec-may-3rd-2021">APIsec - May 3<sup>rd</sup>, 2021<a class="headerlink" href="#apisec-may-3rd-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Injections removed from date types from all the injection categories.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>GCP storage integration: Connect your GCP storage account and receive API Penetration Testing reports automatically monthly.</li>
+<li>Certificate Auth: New feature certificate added to authentication type in the environments.</li>
+<li>Error playbooks: New feature error playbooks introduced on dashboard and playbooks page.</li>
+<li>Curl command support: Curl commands can be verified through test authentication in environments.</li>
+<li>Monthly job schedules: Triggers developer &amp; compliance report every month.</li>
+<li>Manage skip paths: Manage coverage is now manage skip paths in unsecured and auth categories.</li>
+<li>Jira issue tracker: Default issue type set to Bug and applied validations for the mandatory input fields.</li>
+<li>Action tile: In the vulnerability details page, the action tile is sticky now.</li>
+<li>Developer report: Category name added to the endpoints of the table content.</li>
+<li>Login page: Privacy policy page link added to the MSA.</li>
+<li>Remove user: Added remove user functionality for the guest users. Can be removed only by Admins.</li>
+<li>Category list view: "Last Modified By" column added to the table.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Validations included for add authentication forms.</li>
+<li>Font-size adjustments in Gateways, Vault, Dashboard, Security Marketplace, Register API.</li>
+<li>Endpoint sorting fixes on vulnerability table on dashboard.</li>
+<li>Select All fix for the scan dialog window.</li>
+<li>Inconsistent count of overlapping roles in RBAC map fix.</li>
+<li>Close compliance categories fix.</li>
+<li>Removed skipped vulnerability count from close vulnerabilities tile on the dashboard.</li>
+<li>Removed get query param playbooks from Stored NoSQL category.</li>
+<li>Payloads injections fix.</li>
+<li>Cosmetic fixes in the reports.</li>
+<li>Project health status fixes for invalid and not reachable values.</li>
+<li>Removed the last page from all the reports.</li>
+<li>Set SC 500 as false positive in all the categories.</li>
+<li>Set SC 400 as false negative in all the categories.</li>
+<li>Active flag added to the header customization category.</li>
+<li>Page navigation fix in developers report.</li>
+<li>Heading added in the variable bulk page.</li>
+<li>Invalid endpoints fix in postman collection converter.</li>
+</ul>
+</div>
+<h2 id="apisec-april-19th-2021">APIsec - April 19<sup>th</sup>, 2021<a class="headerlink" href="#apisec-april-19th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Compliance Report: Compliance report launched.</li>
+<li>Vulnerability details (Excel download): Wirelogs and Remediation columns added to the sheet.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Space adjustments in tabs (scanner page).</li>
+<li>Left &amp; right padding added globally.</li>
+<li>Show tutorial steps removed.</li>
+<li>Header text updated to call out standard.</li>
+<li>ABAC severity fix.</li>
+<li>Categories in the scan window improved, OWASP ranks sorting applied.</li>
+<li>Save icons removed from the graphs.</li>
+<li>Changed FX to APIsec in the vuln issue tracker details.</li>
+<li>Filter applied to remediations in the reports.</li>
+<li>Project registration tile fix.</li>
+<li>Console error fixes.</li>
+<li>Aligned logo, page items and activity tile.</li>
+<li>Forgot password made to lower case.</li>
+<li>Renamed the custom tab to default in payloads.</li>
+<li>Changed FX to APIsec in UI pages.</li>
+<li>Additional text removed from all the create buttons.</li>
+<li>Shimmer effect fix.</li>
+<li>Environment test authentication token issue fixed.</li>
+<li>Postman collection (API Gateway) fixed.</li>
+</ul>
+</div>
+<h2 id="apisec-april-5th-2021">APIsec - April 5<sup>th</sup>, 2021<a class="headerlink" href="#apisec-april-5th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Query parameter fix for stored injections</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Security improvements: Java-runtime upgrade from version 8 to version 13 across all APIsec micro services for improved security and performance</li>
+<li>Filter projects: Admins can now see only their registered and managed projects by default. Admins can also see all other projects using the toggle control "My projects/All" on the main page.</li>
+<li>API Security Developer Reports: launched (Beta).</li>
+<li>AWS S3 Integration: Connect your AWS S3 storage account and receive API Penetration Testing reports automatically monthly.</li>
+<li>Azure Storage Integration: Connect your Azure storage account and receive API Penetration Testing reports automatically monthly.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>MuleSoft RAML fix</li>
+<li>Moved "Bulk Add" authentications link next to "Add Authentication" on environment page.</li>
+<li>Renamed "FX Issue Tracker" to "APIsec Issue Tracker"</li>
+<li>Removed options "Delete" and "Bulk Close/Archive" from Closed vulnerabilities action items</li>
+<li>Kubernetes deployed scanner status is now showing Running in the Scan window</li>
+<li>Skip path check-in - Injection categories</li>
+<li>Query and body parameter fix</li>
+<li>Kubernetes scripts corrections</li>
+<li>Error playbook column added to the reporting table</li>
+<li>Handling escape characters text added in the playbook documentation</li>
+<li>Activities tile aligned on the dashboard</li>
+<li>Search vulnerability by endpoint enhanced added.</li>
+<li>The EULA page agreement button is always visible.</li>
+</ul>
+</div>
+<h2 id="apisec-april-13th-2021">APIsec - April 13<sup>th</sup>, 2021<a class="headerlink" href="#apisec-april-13th-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">Security</p>
+<ul>
+<li>Scan not found error fixed.</li>
+<li>Severity changes fix in the ABAC category.</li>
+<li>Org edit error fix.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Features</p>
+<ul>
+<li>Playbook Management: Playbook management name changed to (Bulk Create/Delete Playbooks).</li>
+<li>Vulnerability: details page structure changed from tabs to scrollable.</li>
+<li>Variable codes: added to the variables under the variable tab.</li>
+<li>Release Notes: The release notes link added to the footer.</li>
+<li>Forgot password: Forgot password functionality added to the login page.</li>
+</ul>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Fixes</p>
+<ul>
+<li>Header text added to the setting tabs.</li>
+<li>Filter applied for developers report omitting remediation's for non-critical categories.</li>
+<li>RBAC map view from the vulnerabilities detail page.</li>
+<li>Default scanner selection through advance section fixed.</li>
+<li>Stopped status on dashboard fix after canceling the scan.</li>
+<li>"My projects/All projects" selection is sticky.</li>
+<li>Update/Delete validation added to Azure &amp; AWS storages.</li>
+<li>Tag added to SLA category in the scan window.</li>
+<li>Different screen size fix.</li>
+<li>Activities tile aligned on the dashboard.</li>
+</ul>
+</div>
+<h2 id="apisec-jan-2018-april-2021">APIsec - Jan 2018 - April 2021<a class="headerlink" href="#apisec-jan-2018-april-2021" title="Permanent link">&para;</a></h2>
+<div class="admonition example">
+<ul>
+<li>Archived Releases</li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; APIsec Inc.
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://apisec.ai" target="_blank" rel="noopener" title="apisec.ai" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.8l167.6-182.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["tabs"], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="javascripts/feedback.js"></script>
+      
+    
+  </body>
+</html>
