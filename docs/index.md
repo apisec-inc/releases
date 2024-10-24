@@ -2,6 +2,18 @@
 
 ###### APIsec - API Security Platform - https://apisec.ai
 
+## APIsec - October 24th, 2024
+
+!!! abstract "Improvements"
+
+	- BU-Level Reporting Enabled, allowing for the filtering of data by API groups in the Security Center.
+ 	- Enhanced search and pagination across all tabs.
+	 	
+!!! success "Fixes"
+
+ 	- Hiding Sensitive Parameters in SSO Configuration.
+  	- Resolved Vulnerability Logging Issues.
+
 ## APIsec - September 11th, 2024
 
 !!! abstract "Improvements"
